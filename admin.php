@@ -61,11 +61,10 @@
     function old_parse(){
         $out = file_get_contents('http://lesya.org/cutenews/gymnaziumnews.php');
         $result = "";
-        preg_match('#<div style="width:90%; margin-bottom:30px; margin-left:20px;">(.*)</div>#', $out, $oldp);
+        $count = preg_match('/<div style="width:90%; margin-bottom:30px; margin-left:20px;">(.*?)<\/div><div style/s', $out, $oldp);
         for($i = 1; $i < count($oldp); $i++){
             $result = $result.'<div class=post>'.$oldp[$i].'</div>';
         }
-        var_dump($result);
         if(!file_put_contents('./post/temp.php', $result)){
             echo 'ERROR';
         }
