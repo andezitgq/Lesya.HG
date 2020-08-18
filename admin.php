@@ -57,6 +57,22 @@
             echo 'ERROR';
         }
     }
+    
+    function old_parse(){
+        $out = file_get_contents('http://lesya.org/News.html');
+        preg_match('#<div style="width:90%; margin-bottom:30px; margin-left:20px;">(.*)</div>#', $out, $oldp);
+        $result = "";
+        for($i = 1; $i < count($oldp); $i++){
+            $result = $result.'<div class=post>'.
+            $oldp[$i].
+            '</div>';
+        }
+        if(!file_put_contents('./post/temp.php', $result)){
+            echo 'ERROR';
+        }
+    }
+    
+    old_parse();
 
 ?>
 
@@ -91,7 +107,7 @@
                 <input placeholder="Назва посту" class=post-title>
             </div>
         </div>
-        <textarea name="post-editor" id="post-editor" class=post-editor><?php echo $data['post-editor']; ?></textarea>
+        <textarea name="post-editor" id="post-editor" class=post-editor><?php if(isset($preview)) echo $data['post-editor']; ?></textarea>
         <div class=control-buttons>
             <button type="submit" name=send id=send class=icon-ok-circled>ОК</button>
             <button type="submit" name=do-preview>Перегляд</button>
@@ -103,7 +119,7 @@
         <div class=post-preview>
             <div class=post>
                 <i class=post-date><?php echo date('m.d.Y G:i', time()); ?></i>
-                <?php echo $preview; ?>
+                <?php if(isset($preview)) echo $preview; ?>
             </div>
         </div>
     </form>
