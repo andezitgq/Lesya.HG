@@ -3,9 +3,19 @@
     <h1 align=center>Наша галерея</h1>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
+            <?php
+        
+            $gallery = json_decode(file_get_contents('./gallery.json'), true);
+            
+            var_dump($gallery);
+            
+            for($i = 0; $i < count($gallery); $i++){
+                echo '<div class="swiper-slide">'.
+                array_keys($gallery)[$i].
+                '<img src="'.$gallery[array_keys($gallery)[$i]]['poster'].'">'.'</div>';
+            }
+            
+            ?>
         </div>
         <div class="swiper-pagination"></div>
     

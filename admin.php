@@ -113,8 +113,10 @@
     <form method=POST action="admin" class=media-engine>
         <?php
         
-        $gallery = json_decode(file_get_contents('./gallery.json'));
-        var_dump($gallery);
+        $gallery = json_decode(file_get_contents('./gallery.json'), true);
+        for($i = 0; $i < count($gallery); $i++){
+            echo array_keys($gallery)[$i].'<br>';
+        }
         
         ?>
     </form>
