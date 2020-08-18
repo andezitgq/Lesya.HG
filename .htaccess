@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+Options -Indexes
+	
+<Files ~ "\.ini$">
+Order allow,deny
+Deny from all
+</Files>
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+<Files post.php>
+Order allow,deny
+Deny from all
+</Files>
+
+ErrorDocument 403 /errors/403.php
+ErrorDocument 404 /errors/404.php
+ErrorDocument 500 /errors/500.php
+ErrorDocument 501 /errors/501.php
+ErrorDocument 502 /errors/502.php

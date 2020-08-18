@@ -1,0 +1,10 @@
+{
+    "Описание": {
+        "poster":"path",
+        "images":[
+            "image1-path",
+            "image2-path",
+            "imageN-path"
+        ]
+    }
+}
