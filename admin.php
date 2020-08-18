@@ -59,7 +59,7 @@
     }
     
     function old_parse(){
-        $out = file_get_contents('http://lesya.org/cutenews/gymnaziumnews.php');
+        $out = file_get_contents('./post/temp.php');
         $result = "";
         $count = preg_match('/<div style="width:90%; margin-bottom:30px; margin-left:20px;">(.*?)<\/div><div style/s', $out, $oldp);
         for($i = 1; $i < count($oldp); $i++){
