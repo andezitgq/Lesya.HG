@@ -48,11 +48,9 @@
     }
     
     if(isset($data['send'])){
-        $postfile = file_get_contents('post/post.php');
+        $postfile = file_get_contents('./post/post.php');
         $parse = $parsedown->text(custom_parse($data['post-editor']));
-        $post = '<div class=post>
-                     <i class=post-date>'.date('m.d.Y G:i', time()).'</i>'.$parse.'
-                 </div>';
+        $post = '<div class=post><i class=post-date>'.date('d.m.Y G:i', time()).'</i>'.$parse.'</div>';
         if(!file_put_contents('./post/post.php', $post.$postfile)){
             echo 'ERROR';
         }
