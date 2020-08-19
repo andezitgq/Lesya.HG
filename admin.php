@@ -2,16 +2,9 @@
 <?php
     $data = $_POST;
 
-    if(isset($_SESSION['logged-user'])){
-        if($_SESSION['logged-user']->login != 'root')
+    if(!isset($_SESSION['logged-user']) ||
+       $_SESSION['logged-user']->login != 'root')
             echo '<script>window.location.href = "login";</script>';
-    } else
-        echo '<script>window.location.href = "login";</script>';
-    
-    if(isset($_GET['unset-session'])){
-        session_unset();
-        echo '<script>window.location.href = "/";</script>';
-    }
 
     require 'tml/Parsedown.php';
     $parsedown = new Parsedown();

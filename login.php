@@ -1,9 +1,8 @@
 <?php include 'tml/top.php'; ?>
 <?php
 
-    if(isset($_SESSION['login'])){
+    if(isset($_SESSION['logged-user']))
         echo '<script>window.location.href = "/";</script>';
-    }
 
     $data = $_POST;
     if(isset($data['do_login'])){

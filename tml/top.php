@@ -20,7 +20,7 @@
     }
     
     if(isset($_POST['m-confirm-admin'])){
-        if(isset($_SESSION['login'])){
+        if(isset($_SESSION['logged-user']) && $_SESSION['logged-user']->login == 'root'){
             header("Location: admin");
         } else {
             header("Location: login");

@@ -355,6 +355,18 @@ a.anchor {
     background: #13324f;
 }
 
+.error {
+    color: white;
+    background: #13324f;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 400px;
+    border-radius: 15px;
+}
+
 .swiper-container {
     height: calc(auto - 500px);
 }
