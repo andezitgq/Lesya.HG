@@ -54,8 +54,10 @@
                 <button onclick="window.location.href='distance'" type="button" class=nav-button>Дистанційні завдання</button>
                 <button onclick="window.location.href='media'" type="button" class=nav-button>Медіа</button>
                 <button onclick="window.location.href='victory'" type="button" class=nav-button>ДО "VICTORY"</button>
-                <button name="confirm-admin" type="submit" class=nav-button>Для адмінів</button>
                 <button onclick="window.location.href='contact'" type="button" class=nav-button>Зв'язок</button>
+                <button name="confirm-admin" type="submit" class=nav-button>
+                    <?php if(isset($_SESSION['login'])) echo $_SESSION['login']; else echo 'Увійти'; ?>
+                </button>
             </form>
             <i class="icon-menu nav-mob"></i>
         </div>
@@ -66,8 +68,10 @@
             <button onclick="window.location.href='distance'" type="button" class=m-nav-button>Дистанційні завдання</button>
             <button onclick="window.location.href='media'" type="button" class=m-nav-button>Медіа</button>
             <button onclick="window.location.href='victory'" type="button" class=m-nav-button>ДО "VICTORY"</button>
-            <button name="m-confirm-admin" type="submit" class=m-nav-button>Для адмінів</button>
             <button onclick="window.location.href='contact'" type="button" class=m-nav-button>Зв'язок</button>
+            <button name="m-confirm-admin" type="submit" class=m-nav-button>
+                <?php if(isset($_SESSION['login'])) echo $_SESSION['login']; else echo 'Увійти'; ?>
+            </button>
             <div class=m-social>
                 <a title="Ми в Facebook" target="_blank" href="https://www.facebook.com/lesya.org" class="icon-facebook-squared"></a>
                 <a title="Канал YouTube" target="_blank" href="https://www.youtube.com/gimnaziyazhv" class="icon-youtube-squared"></a>

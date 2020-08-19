@@ -35,4 +35,6 @@
         <input name=pswd type="password" >
         <button name=do_login type="submit">Увійти</button>
     </form>
+    <br>
+    <center><p>Ще не маєте аккаунту? <a href=register>Зареєструйтесь</a></p></center>
 <?php include 'tml/bottom.php'; ?>
