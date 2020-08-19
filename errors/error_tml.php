@@ -7,6 +7,9 @@
                 font-family: 'Montserrat', sans-serif;
                 font-weight: lighter;
                 font-size: 40px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
             }
             
             .error-box {
