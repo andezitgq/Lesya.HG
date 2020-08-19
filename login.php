@@ -6,20 +6,16 @@
     }
 
     $data = $_POST;
-    $parse_pswd = parse_ini_file('pswd.ini');
     if(isset($data['do_login'])){
         $errors = array();
-        if($data['login'] == $parse_pswd['login']){
-            if($data['pswd'] == $parse_pswd['pswd']){
-                $_SESSION['login'] = $data['login'];
-                $_SESSION['pswd']  = $data['pswd'];
-                echo '<script>window.location.href = "admin";</script>';
-            } else {
-                $errors[] = "Логін чи пароль введені неправильно!";
-            }
-        } else {
-            $errors[] = "Логін чи пароль введені неправильно!";
-        }
+        $user = R::findOne('users', 'login = ?', array($data['login']));
+        if($user){
+            if(password_verify($data['pswd'], $user->pswd)){
+                $_SESSION['logged-user'] = $user;
+            } else
+                $errors[] = 'Пароль невірний!';
+        } else
+            $errors[] = 'Користувач с таким логіном не знайдений';
     }
     
     if(!empty($errors)){
@@ -27,7 +23,7 @@
     }
 
 ?>
-    <form action="login.php" method="POST" class="login-form">
+    <form action="login" method="POST" class="login-form">
         <label>Логін</label>
         <input name=login type="text" required>
         <br>

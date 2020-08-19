@@ -1,6 +1,6 @@
 <?php include 'tml/top.php'; ?>
 
-<form action="login.php" method="POST" class="login-form">
+<form action="register" method="POST" class="login-form">
     <label>Логін</label>
     <input name=login type="text" required>
     <br>
