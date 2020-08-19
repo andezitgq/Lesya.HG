@@ -5,7 +5,6 @@
         echo '<script>window.location.href = "/";</script>';
 
     $code_field  = false;
-    $confirm_int = 0;
     $login       = "";
     $sname       = "";
     $email       = "";
@@ -20,7 +19,7 @@
         if(strlen($data['pswd']) < 8)
             $errors[] = 'Пароль занадто короткий';
         if(empty($errors)){
-            $confirm_int = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
+            $_SESSION['confirm_int'] = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
             $conf_subject = 'Website Change Request';
             
             $headers = "From: "."Lesya Ukrainka Gymnasium <no-reply@lesya.org>\r\n";
@@ -54,7 +53,7 @@
                         }
                     </style>
                     <div class=main><p>Гуманітарна гімназія ім. Лесі Українки</p></div>
-                    <center><h1 class=code>'.$confirm_int.'</h1></center>
+                    <center><h1 class=code>'.$_SESSION['confirm_int'].'</h1></center>
                     Привіт, '.$data['sname'].'. Ви майже зареєструвалися на сайті Гуманітарної гімназії ім. Лесі Українки. Для завершення реєстрації введіть цей код в полі для коду на сторінці реєстрації.
             ';
                     
@@ -71,9 +70,10 @@
     
     if(isset($data['do_submit'])){
         $errors = array();
-        if($data['code'] == $confirm_int){
+        if($data['code'] == $_SESSION['confirm_int']){
             echo 'ALL IS GOOD :D';
         } else
+            $code_field = true;
             $errors[] = 'Код введений невірно';
     }
     
@@ -86,6 +86,7 @@
 <center><form action="register" method="POST" class="login-form">
     <input name=code type="number" required value="<?php if(isset($data['code'])) echo $data['code']; ?>">
     <button name=do_submit type="submit">Підтвердити</button>
+    <?php echo $_SESSION['confirm_int']; ?>
 </form></center>
 <?php else: ?>
 <center><form action="register" method="POST" class="login-form">
