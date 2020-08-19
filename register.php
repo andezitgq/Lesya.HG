@@ -5,12 +5,7 @@
         echo '<script>window.location.href = "/";</script>';
 
     $code_field  = false;
-    $login       = "";
-    $sname       = "";
-    $email       = "";
-    $pswd        = "";
     
-        
     $data = $_POST;
     if(isset($data['do_reg'])){
         $errors = array();
@@ -57,10 +52,10 @@
                     Привіт, '.$data['sname'].'. Ви майже зареєструвалися на сайті Гуманітарної гімназії ім. Лесі Українки. Для завершення реєстрації введіть цей код в полі для коду на сторінці реєстрації.
             ';
                     
-            $login  = $data['login'];
-            $sname  = $data['sname'];
-            $email  = $data['email'];
-            $pswd   = $data['pswd'];
+            $_SESSION['q-login'] = $data['login'];
+            $_SESSION['q-sname'] = $data['sname'];
+            $_SESSION['q-email'] = $data['email'];
+            $_SESSION['q-pswd']  = $data['pswd'];
             
             $code_field = true;
             
@@ -71,7 +66,13 @@
     if(isset($data['do_submit'])){
         $errors = array();
         if($data['code'] == $_SESSION['confirm_int']){
-            echo 'ALL IS GOOD :D';
+            $user = R::dispense('users');
+            $user->login    = $_SESSION['q-login'];
+            $user->fullname = $_SESSION['q-sname'];
+            $user->email    = $_SESSION['q-email'];
+            $user->password = $_SESSION['q-pswd'];
+            R::store($user);
+            echo '<script>window.location.href = "/";</script>';
         } else
             $code_field = true;
             $errors[] = 'Код введений невірно';
