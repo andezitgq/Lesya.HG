@@ -69,22 +69,26 @@
         }
     }
     
-    if(!empty($errors)){
-        echo '<center><div class=error>'.array_shift($errors).'</div><center>';
+    if(isset($data['do_submit'])){
+        $errors = array();
+        if($data['code'] == $confirm_int){
+            echo 'ALL IS GOOD :D';
+        } else
+            $errors[] = 'Код введений невірно';
     }
     
-    if(isset($data['do_submit'])){
-    
+    if(!empty($errors)){
+        echo '<center><div class=error>'.array_shift($errors).'</div><center>';
     }
 
 ?>
 <?php if($code_field == true): ?>
-<form action="register" method="POST" class="code-field">
+<center><form action="register" method="POST" class="login-form">
     <input name=code type="number" required value="<?php if(isset($data['code'])) echo $data['code']; ?>">
     <button name=do_submit type="submit">Підтвердити</button>
-</form>
+</form></center>
 <?php else: ?>
-<form action="register" method="POST" class="login-form">
+<center><form action="register" method="POST" class="login-form">
     <label>Логін</label>
     <input name=login type="text" required value="<?php if(isset($data['login'])) echo $data['login']; ?>">
     <br>
@@ -97,7 +101,7 @@
     <label>Пароль</label>
     <input name=pswd type="password" required value="<?php if(isset($data['pswd'])) echo $data['pswd']; ?>">
     <button name=do_reg type="submit">Реєстрація</button>
-</form>
+</form></center>
 <br>
 <center><p>Вже маєте аккаунт? <a href=login>Увійдіть</a></p></center>
 <?php endif; ?>

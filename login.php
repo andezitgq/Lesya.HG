@@ -22,14 +22,14 @@
     }
 
 ?>
-    <form action="login" method="POST" class="login-form">
+    <center><form action="login" method="POST" class="login-form">
         <label>Логін</label>
         <input name=login type="text" required>
         <br>
         <label>Пароль</label>
         <input name=pswd type="password" required>
         <button name=do_login type="submit">Увійти</button>
-    </form>
+    </form></center>
     <br>
     <center><p>Ще не маєте аккаунту? <a href=register>Зареєструйтесь</a></p></center>
 <?php include 'tml/bottom.php'; ?>
