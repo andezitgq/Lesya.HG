@@ -32,6 +32,9 @@ p, a, i {
     font-size: 18px;
 }
 
+a         {color: #1b466f;}
+a:visited {color: #1b466f}
+
 .header {
     margin-top: -130px;
     width: 100%;

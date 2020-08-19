@@ -29,10 +29,10 @@
 ?>
     <form action="login.php" method="POST" class="login-form">
         <label>Логін</label>
-        <input name=login type="text">
+        <input name=login type="text" required>
         <br>
         <label>Пароль</label>
-        <input name=pswd type="password" >
+        <input name=pswd type="password" required>
         <button name=do_login type="submit">Увійти</button>
     </form>
     <br>
