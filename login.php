@@ -12,6 +12,7 @@
             echo $user->pswd;
             if(password_verify($data['pswd'], $user->password)){
                 $_SESSION['logged-user'] = $user;
+                echo '<script>window.location.href = "/";</script>';
             } else
                 $errors[] = 'Пароль невірний!';
         } else
