@@ -19,7 +19,7 @@
             $errors[] = 'Пароль занадто короткий';
         if(empty($errors)){
             $_SESSION['confirm_int'] = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
-            $conf_subject = 'Website Change Request';
+            $conf_subject = 'Підтвердження e-mail';
             
             $headers = "From: "."Lesya Ukrainka Gymnasium <no-reply@lesya.org>\r\n";
             $headers .= "MIME-Version: 1.0\r\n";
