@@ -45,12 +45,27 @@
     }
     
     if(isset($data['send'])){
-        $postfile = file_get_contents('./post/post.php');
         $parse = $parsedown->text(custom_parse($data['post-editor']));
-        $post = '<div class=post><i class=post-date>'.date('d.m.Y G:i', time()).'</i>'.$parse.'</div>';
-        if(!file_put_contents('./post/post.php', $post.$postfile)){
-            echo 'ERROR';
-        }
+        $post = '<div class=post><i class=post-date>'.date('d.m.Y G:i', time()).'📝 '.$data['p-author'].'</i><h1>'.$data['p-title'].'</h1><hr><br>'.$parse.'</div>';
+        
+        $postdb = R::dispense('post');
+        $postdb->content = $post;
+        $tid = R::store($postdb);
+        
+        $postdate         = R::dispense('postdate');
+        $postdate->date   = date('d.m.Y G:i', time());
+        $postdate->postid = $tid;
+        R::store($postdate);
+        
+        $posttitle         = R::dispense('posttitle');
+        $posttitle->title  = $data['p-title'];
+        $posttitle->postid = $tid;
+        R::store($posttitle);
+        
+        $postauthor         = R::dispense('postauthor');
+        $postauthor->author = $data['p-author'];
+        $postauthor->postid = $tid;
+        R::store($postauthor);
     }
     
     function old_parse(){
@@ -110,14 +125,14 @@
                     <option>Заголовок 5</option>
                     <option>Заголовок 6</option>
                 </select>
-                <input placeholder="Назва посту" class=post-title id=p-title name=p-title value="<?php if(isset($data['p-title'])) echo $data['p-title']; ?>">
+                <input placeholder="Назва посту" class=post-title id=p-title name=p-title required value="<?php if(isset($data['p-title'])) echo $data['p-title']; ?>">
             </div>
         </div>
         <textarea name="post-editor" id="post-editor" class=post-editor><?php if(isset($data['post-editor'])) echo $data['post-editor']; ?></textarea>
         <div class=control-buttons>
             <div class=control-buttons>
                 <div class=title-box>
-                    <input placeholder="Автор посту" class='post-title author' id=p-author name=p-author value="<?php if(isset($data['p-author'])) echo $data['p-author']; ?>">
+                    <input placeholder="Автор посту" class='post-title author' id=p-author name=p-author required value="<?php if(isset($data['p-author'])) echo $data['p-author']; ?>">
                 </div>
                 <button type="submit" name=send id=send class=icon-ok-circled>ОК</button>
                 <button type="submit" name=do-preview>Перегляд</button>
