@@ -92,7 +92,6 @@
 <center><form action="register" method="POST" class="login-form">
     <input name=code type="number" required value="<?php if(isset($data['code'])) echo $data['code']; ?>">
     <button name=do_submit type="submit">Підтвердити</button>
-    <?php echo $_SESSION['confirm_int']; ?>
 </form></center>
 <?php else: ?>
 <center><form action="register" method="POST" class="login-form">

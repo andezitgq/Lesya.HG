@@ -12,8 +12,10 @@
     session_start();
     
     if(isset($_POST['confirm-admin'])){
-        if(isset($_SESSION['login'])){
+        if(isset($_SESSION['logged-user']) && $_SESSION['logged-user']->login == 'root'){
             header("Location: admin");
+        } elseif(isset($_SESSION['logged-user'])){
+            header("Location: profile");
         } else {
             header("Location: login");
         }
@@ -22,6 +24,8 @@
     if(isset($_POST['m-confirm-admin'])){
         if(isset($_SESSION['logged-user']) && $_SESSION['logged-user']->login == 'root'){
             header("Location: admin");
+        } elseif(isset($_SESSION['logged-user'])){
+            header("Location: profile");
         } else {
             header("Location: login");
         }
@@ -55,9 +59,11 @@
                 <button onclick="window.location.href='media'" type="button" class=nav-button>Медіа</button>
                 <button onclick="window.location.href='victory'" type="button" class=nav-button>ДО "VICTORY"</button>
                 <button onclick="window.location.href='contact'" type="button" class=nav-button>Зв'язок</button>
-                <button name="confirm-admin" type="submit" class=nav-button>
-                    <?php if(isset($_SESSION['login'])) echo $_SESSION['login']; else echo 'Увійти'; ?>
-                </button>
+                <?php if(isset($_SESSION['logged-user'])): ?>
+                <button name="confirm-admin" type="submit" class=nav-button><?php echo $_SESSION['logged-user']->login; ?></button>
+                <?php else: ?>
+                <button name="confirm-admin" type="submit" class=nav-button>Увійти</button>
+                <?php endif; ?>
             </form>
             <i class="icon-menu nav-mob"></i>
         </div>
