@@ -113,7 +113,7 @@
                 <input placeholder="Назва посту" class=post-title id=p-title name=p-title value="<?php if(isset($data['p-title'])) echo $data['p-title']; ?>">
             </div>
         </div>
-        <textarea name="post-editor" id="post-editor" class=post-editor><?php if(isset($preview)) echo $data['post-editor']; ?></textarea>
+        <textarea name="post-editor" id="post-editor" class=post-editor><?php if(isset($data['post-editor'])) echo $data['post-editor']; ?></textarea>
         <div class=control-buttons>
             <div class=control-buttons>
                 <div class=title-box>
@@ -129,7 +129,7 @@
         <h2>Швидкий перегляд</h2>
         <div class=post-preview>
             <div class=post>
-                <i class=post-date><?php echo date('m.d.Y G:i', time()); ?> | <?php if(isset($data['p-author'])) echo $data['p-author']; ?></i>
+                <i class=post-date><?php echo date('m.d.Y G:i', time()); ?> 📝 <?php if(isset($data['p-author'])) echo $data['p-author']; ?></i>
                 <?php if(isset($data['p-title'])) echo '<h1>'.$data['p-title'].'</h1><hr><br>'; ?>
                 <?php if(isset($preview)) echo $preview; ?>
             </div>
@@ -140,7 +140,7 @@
     <h2>Медіа</h2>
     <form method=POST action="admin" class=media-engine>
         <?php
-        
+            
         ?>
     </form>
 </center>
