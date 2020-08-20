@@ -63,7 +63,10 @@
         }
     }
     
-    old_parse();
+    if(isset($_GET['unset-session'])){
+        unset($_SESSION['logged-user']);
+        echo '<script>window.location.href = "/";</script>';
+    }
 
 ?>
 

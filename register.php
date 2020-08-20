@@ -9,6 +9,10 @@
     $data = $_POST;
     if(isset($data['do_reg'])){
         $errors = array();
+        if(R::count('users', "login = ?", array($data['login'])))
+            $errors[] = 'Користувач з таким логіном вже існує';
+        if(R::count('users', "email = ?", array($data['email'])))
+            $errors[] = 'Користувач з таким Email вже існує';
         if(strlen($data['login']) < 4)
             $errors[] = 'Логін занадто короткий';
         if(strlen($data['pswd']) < 8)
@@ -55,7 +59,7 @@
             $_SESSION['q-login'] = $data['login'];
             $_SESSION['q-sname'] = $data['sname'];
             $_SESSION['q-email'] = $data['email'];
-            $_SESSION['q-pswd']  = $data['pswd'];
+            $_SESSION['q-pswd']  = password_hash($data['pswd'], PASSWORD_DEFAULT);
             
             $code_field = true;
             
@@ -72,6 +76,7 @@
             $user->email    = $_SESSION['q-email'];
             $user->password = $_SESSION['q-pswd'];
             R::store($user);
+            $_SESSION['logged-user'] = $user;
             echo '<script>window.location.href = "/";</script>';
         } else
             $code_field = true;
