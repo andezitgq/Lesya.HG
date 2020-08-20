@@ -215,6 +215,7 @@ a.anchor {
     padding: 7px;
     font-size: 16px;
     transition: all .05s;
+    width: 125px;
 }
 
 .control-buttons button:hover {

@@ -102,17 +102,22 @@
             <div class=title-box>
                 <select class=post-headers>
                     <option disabled selected value>Тип заголовка</option>
+                    <option disabled></option>
                     <option>Заголовок 1</option>
                     <option>Заголовок 2</option>
+                    <option>Заголовок 3</option>
+                    <option>Заголовок 4</option>
+                    <option>Заголовок 5</option>
+                    <option>Заголовок 6</option>
                 </select>
-                <input placeholder="Назва посту" class=post-title id=p-title name=p-title>
+                <input placeholder="Назва посту" class=post-title id=p-title name=p-title value="<?php if(isset($data['p-title'])) echo $data['p-title']; ?>">
             </div>
         </div>
         <textarea name="post-editor" id="post-editor" class=post-editor><?php if(isset($preview)) echo $data['post-editor']; ?></textarea>
         <div class=control-buttons>
             <div class=control-buttons>
                 <div class=title-box>
-                    <input placeholder="Автор посту" class='post-title author' id=p-author name=p-author>
+                    <input placeholder="Автор посту" class='post-title author' id=p-author name=p-author value="<?php if(isset($data['p-author'])) echo $data['p-author']; ?>">
                 </div>
                 <button type="submit" name=send id=send class=icon-ok-circled>ОК</button>
                 <button type="submit" name=do-preview>Перегляд</button>
@@ -124,7 +129,8 @@
         <h2>Швидкий перегляд</h2>
         <div class=post-preview>
             <div class=post>
-                <i class=post-date><?php echo date('m.d.Y G:i', time()); ?></i>
+                <i class=post-date><?php echo date('m.d.Y G:i', time()); ?> | <?php if(isset($data['p-author'])) echo $data['p-author']; ?></i>
+                <?php if(isset($data['p-title'])) echo '<h1>'.$data['p-title'].'</h1><hr><br>'; ?>
                 <?php if(isset($preview)) echo $preview; ?>
             </div>
         </div>

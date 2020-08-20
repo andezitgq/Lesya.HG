@@ -75,9 +75,18 @@ $('document').ready(function(){
             setSel("# ", "");
         } else if($(this).val() == 'Заголовок 2') {
             setSel("## ", "");
+        } else if($(this).val() == 'Заголовок 3') {
+            setSel("### ", "");
+        } else if($(this).val() == 'Заголовок 4') {
+            setSel("#### ", "");
+        } else if($(this).val() == 'Заголовок 5') {
+            setSel("##### ", "");
+        } else if($(this).val() == 'Заголовок 6') {
+            setSel("###### ", "");
         } else {
             setSel("", "");
         }
+        $(this).val(0);
     });
     
     function removeLocationHash(){
