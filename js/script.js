@@ -34,7 +34,6 @@ $('document').ready(function(){
     }
     
     function setList(){
-        console.log('test');
         var txtarea = document.getElementById("post-editor");
         
         var start = txtarea.selectionStart;
@@ -69,6 +68,16 @@ $('document').ready(function(){
     
     $('.icon-cancel-circled').on('click', function(){
         document.getElementById("post-editor").value = null;
+    });
+    
+    $( ".post-headers" ).change(function(){
+        if($(this).val() == 'Заголовок 1') {
+            setSel("# ", "");
+        } else if($(this).val() == 'Заголовок 2') {
+            setSel("## ", "");
+        } else {
+            setSel("", "");
+        }
     });
     
     function removeLocationHash(){

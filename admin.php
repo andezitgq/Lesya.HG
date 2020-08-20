@@ -81,7 +81,7 @@
         <a href="#comments">Коментарі</a>
         <a href="#media">Медіа</a>
         <a href="#create-post">Дистанційні завдання</a>
-        <a href="?unset-session" id=unset-session>Вийти з аккаунту</a>
+        <a href="?unset-session">Вийти з аккаунту</a>
     </div><br><br><br>
     <a class="anchor" id="create-post"></a>
     <h2>Створити пост</h2>
@@ -100,14 +100,24 @@
                 <button type="button" class="icon-list-bullet edit-btn" id="list-btn" title=Список></button>
             </div>
             <div class=title-box>
-                <input placeholder="Назва посту" class=post-title>
+                <select class=post-headers>
+                    <option disabled selected value>Тип заголовка</option>
+                    <option>Заголовок 1</option>
+                    <option>Заголовок 2</option>
+                </select>
+                <input placeholder="Назва посту" class=post-title id=p-title name=p-title>
             </div>
         </div>
         <textarea name="post-editor" id="post-editor" class=post-editor><?php if(isset($preview)) echo $data['post-editor']; ?></textarea>
         <div class=control-buttons>
-            <button type="submit" name=send id=send class=icon-ok-circled>ОК</button>
-            <button type="submit" name=do-preview>Перегляд</button>
-            <button type="button" class=icon-cancel-circled>Стерти</button>
+            <div class=control-buttons>
+                <div class=title-box>
+                    <input placeholder="Автор посту" class='post-title author' id=p-author name=p-author>
+                </div>
+                <button type="submit" name=send id=send class=icon-ok-circled>ОК</button>
+                <button type="submit" name=do-preview>Перегляд</button>
+                <button type="button" class=icon-cancel-circled>Стерти</button>
+            </div>
         </div>
         <br>
         <a class="anchor" id="preview"></a>

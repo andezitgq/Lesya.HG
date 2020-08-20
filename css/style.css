@@ -239,6 +239,19 @@ a.anchor {
     border-bottom: 3px solid #1b466f;
 }
 
+.post-headers {
+    padding: 3px;
+    width: 25%;
+    font-size: 18px;
+    border: 3px solid #1b466f;
+}
+
+.author {
+    border: none !important;
+    text-align: right !important;
+    padding-right: 10px;
+}
+
 .title-box {
     width: 100%;
     display: flex;
