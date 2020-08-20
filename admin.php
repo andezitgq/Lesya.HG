@@ -18,8 +18,10 @@
         $replacements[1] = '"></video>'."\r\n\r\n";
         
         $s_pattern = '#<yt>(.*)</yt>#';
-        $s_replacement = '<div class="plyr__video-embed jplayer"><iframe src="'.$link[1].'"allowfulls0creen allowtransparency allow="autoplay"></iframe></div>'."\r\n\r\n";
-        
+        if(count($link) > 0)
+            $s_replacement = '<div class="plyr__video-embed jplayer"><iframe src="'.$link[1].'"allowfulls0creen allowtransparency allow="autoplay"></iframe></div>'."\r\n\r\n";
+        else
+            $s_replacement = '';
         $a_patterns[0] = '/<mus>/';
         $a_patterns[1] = '/<\/mus>/';
         $a_replacements[0] = '<audio class=jplayer src="';
@@ -122,11 +124,6 @@
     <h2>Медіа</h2>
     <form method=POST action="admin" class=media-engine>
         <?php
-        
-        $gallery = json_decode(file_get_contents('./gallery.json'), true);
-        for($i = 0; $i < count($gallery); $i++){
-            echo array_keys($gallery)[$i].'<br>';
-        }
         
         ?>
     </form>
