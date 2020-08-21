@@ -48,24 +48,24 @@
         $parse = $parsedown->text(custom_parse($data['post-editor']));
         $post = '<div class=post><i class=post-date>'.date('d.m.Y G:i', time()).'📝 '.$data['p-author'].'</i><h1>'.$data['p-title'].'</h1><hr><br>'.$parse.'</div>';
         
-        $postdb = R::dispense('post');
-        $postdb->content = $post;
-        $tid = R::store($postdb);
-        
         $postdate         = R::dispense('postdate');
         $postdate->date   = date('d.m.Y G:i', time());
-        $postdate->postid = $tid;
-        R::store($postdate);
+        $date_id          = R::store($postdate);
         
         $posttitle         = R::dispense('posttitle');
         $posttitle->title  = $data['p-title'];
-        $posttitle->postid = $tid;
-        R::store($posttitle);
+        $title_id          = R::store($posttitle);
         
         $postauthor         = R::dispense('postauthor');
         $postauthor->author = $data['p-author'];
-        $postauthor->postid = $tid;
-        R::store($postauthor);
+        $author_id          = R::store($postauthor);
+        
+        $postdb = R::dispense('post');
+        $postdb->content   = $post;
+        $postdb->date_id   = $date_id;
+        $postdb->title_id  = $title_id;
+        $postdb->author_id = $author_id;
+        R::store($postdb);
     }
     
     function old_parse(){
@@ -134,9 +134,9 @@
                 <div class=title-box>
                     <input placeholder="Автор посту" class='post-title author' id=p-author name=p-author required value="<?php if(isset($data['p-author'])) echo $data['p-author']; ?>">
                 </div>
-                <button type="submit" name=send id=send class=icon-ok-circled>ОК</button>
+                <button type="submit" name=send id=send class=icon-ok>ОК</button>
                 <button type="submit" name=do-preview>Перегляд</button>
-                <button type="button" class=icon-cancel-circled>Стерти</button>
+                <button type="button" class=icon-cancel>Стерти</button>
             </div>
         </div>
         <br>
@@ -144,7 +144,7 @@
         <h2>Швидкий перегляд</h2>
         <div class=post-preview>
             <div class=post>
-                <i class=post-date><?php echo date('m.d.Y G:i', time()); ?> 📝 <?php if(isset($data['p-author'])) echo $data['p-author']; ?></i>
+                <i class=post-date><?php echo date('m.d.Y G:i', time()); ?> 📝 <?php if(isset($data['p-author'])) echo $data['p-author']; else echo 'Автор посту'; ?></i>
                 <?php if(isset($data['p-title'])) echo '<h1>'.$data['p-title'].'</h1><hr><br>'; ?>
                 <?php if(isset($preview)) echo $preview; ?>
             </div>
@@ -154,9 +154,7 @@
     <a class="anchor" id="media"></a>
     <h2>Медіа</h2>
     <form method=POST action="admin" class=media-engine>
-        <?php
-            
-        ?>
+        
     </form>
 </center>
 <?php include 'tml/bottom.php'; ?>
