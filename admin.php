@@ -45,11 +45,11 @@
     }
     
     if(isset($data['send'])){
-        $parse = $parsedown->text(custom_parse($data['post-editor']));
-        $post = '<div class=post><i class=post-date>'.date('d.m.Y G:i', time()).'📝 '.$data['p-author'].'</i><h1>'.$data['p-title'].'</h1><hr><br>'.$parse.'</div>';
+        //$post = '<div class=post><i class=post-date>'.'📝 '.$data['p-author'].'</i><h1>'.$data['p-title'].'</h1><hr><br>'.$parse.'</div>';
+        $post = $parsedown->text(custom_parse($data['post-editor']));
         
         $postdate         = R::dispense('postdate');
-        $postdate->date   = date('d.m.Y G:i', time());
+        $postdate->date   = date('Y-m-d G:i:s', time());
         $date_id          = R::store($postdate);
         
         $posttitle         = R::dispense('posttitle');
