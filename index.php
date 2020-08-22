@@ -1,8 +1,7 @@
 <?php include 'tml/top.php'; ?>
     <?php
     
-        //$all = R::findAll('postdate',' ORDER BY date DESC LIMIT 125 ');
-        $all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 125' );
+        $all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 10' );
         for($i = -1; $i <= count($all); $i++){
             if(isset($all[$i])){
                 $date = date_create($all[$i]['date']);
