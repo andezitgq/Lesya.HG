@@ -45,7 +45,6 @@
     }
     
     if(isset($data['send'])){
-        //$post = '<div class=post><i class=post-date>'.'📝 '.$data['p-author'].'</i><h1>'.$data['p-title'].'</h1><hr><br>'.$parse.'</div>';
         $post = $parsedown->text(custom_parse($data['post-editor']));
         
         $postdate         = R::dispense('postdate');
@@ -70,19 +69,18 @@
     
     function old_parse(){
         $out = file_get_contents('./post/temp.php');
-        $result = "";
-        $count = preg_match('/<div style="width:90%; margin-bottom:30px; margin-left:20px;">(.*?)<\/div><div style/s', $out, $oldp);
-        for($i = 1; $i < count($oldp); $i++){
-            $result = $result.'<div class=post>'.$oldp[$i].'</div>';
-        }
-        if(!file_put_contents('./post/temp.php', $result)){
-            echo 'ERROR';
-        }
+        
+        $count = preg_match("'<div class=\"post\">(.*?)<\/div>'si", $out, $match);
+        if($match) echo $match[1];
     }
     
     if(isset($_GET['unset-session'])){
         unset($_SESSION['logged-user']);
         echo '<script>window.location.href = "/";</script>';
+    }
+    
+    if(isset($_GET['old-parse'])){
+        old_parse(); //Y-m-d G:i:s
     }
 
 ?>
@@ -97,6 +95,7 @@
         <a href="#media">Медіа</a>
         <a href="#create-post">Дистанційні завдання</a>
         <a href="?unset-session">Вийти з аккаунту</a>
+        <a href="?old-parse">Старий парс</a>
     </div><br><br><br>
     <a class="anchor" id="create-post"></a>
     <h2>Створити пост</h2>

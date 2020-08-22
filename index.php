@@ -1,4 +1,5 @@
 <?php include 'tml/top.php'; ?>
+    <div class=wrap-content-box>
     <?php
     
         $all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 10' );
@@ -17,4 +18,5 @@
         }
     
     ?>
+    </div>
 <?php include 'tml/bottom.php'; ?>
