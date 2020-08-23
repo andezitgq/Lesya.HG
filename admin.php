@@ -71,11 +71,10 @@
         $html = file_get_contents('./post/temp.php');
         
         $dom = new DOMDocument;
-        $dom->loadHTML($html);
+        $dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'utf-8'));
         $xpath = new DOMXpath($dom);
-        $count = $xpath->query('//div[contains(@class, "post")]');
-        for($i = 0; $i <= $count; $i++){
-            
+        foreach($xpath->query('//div[contains(@class, "post")]') as $node){
+            echo $node->textContent;
         }
     }
     
