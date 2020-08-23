@@ -390,6 +390,17 @@ a.anchor {
 .lesya-pdf {
     background: url('../img/noise.png');
     padding:20px;
+    padding-top:0;
+}
+
+#pager {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pager {
+    
 }
 
 #viewport-container {

@@ -7,11 +7,11 @@
 
 <div class="lesya-pdf">
     <div role="toolbar" id="toolbar">
-        <div id="pager">
+        <center><div id="pager">
             <button class=icon-left-open data-pager="prev"></button>
             <button class=icon-right-open data-pager="next"></button>
-            <button class=icon-download></button>
-        </div>
+            <button class=icon-download onclick="download('img/Вступ.pdf', 'Вступ до гімназії.pdf')"></button>
+        </div></center>
         <div id="page-mode" style="display:none">
             <label>Page Mode <input type="number" value="1" min="1"/></label>
         </div>
