@@ -35,7 +35,7 @@
     
 <html>
     <head>
-        <title>Гуманітарна гімназія ім. Лесі Українки</title>
+        <title><?php if(isset($page_title)) echo $page_title.' | '; ?>Гуманітарна гімназія ім. Лесі Українки</title>
         <link href="css/style.css?version=51" type="text/css" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
