@@ -74,6 +74,7 @@
         $dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'utf-8'));
         $xpath = new DOMXpath($dom);
         $sql_data = array();
+        
         foreach($xpath->query('//div[contains(@class, "inner-post")]') as $node){
             preg_match('/опублікував (.*)/', $node->textContent, $author);
             
@@ -90,15 +91,40 @@
                        preg_replace('#<div style="float: right;">.*?</div>#si', '',
                        preg_replace('#<div><em>.*?</em></div>#si', '', $htmlString))));
             
+            /*
             echo 'Content: '.$content.'<br>';
             echo 'Date   : '. $newdate .'<br>';
             echo 'Author : '.$author[1].'<br>';
             echo 'Title  : '.$title[1].'<br><br>';
+            */
             
-            $sql_data[]['content'] = $content;
-            $sql_data[]['date']    = $newdate;
-            $sql_data[]['author']  = $author[1];
-            $sql_data[]['title']   = $title[1];
+            $sql_data['content'][] = $content;
+            $sql_data['date'][]    = $newdate;
+            $sql_data['author'][]  = $author[1];
+            $sql_data['title'][]   = $title[1];
+        }
+        for($i = count($sql_data['content']) - 1; $i >=0; $i--){
+            $post = $sql_data['content'][$i];
+        
+            $postdate         = R::dispense('postdate');
+            $postdate->date   = $sql_data['date'][$i];
+            $date_id          = R::store($postdate);
+            
+            $posttitle         = R::dispense('posttitle');
+            $posttitle->title  = $sql_data['title'][$i];
+            $title_id          = R::store($posttitle);
+            
+            $postauthor         = R::dispense('postauthor');
+            $postauthor->author = $sql_data['author'][$i];
+            $author_id          = R::store($postauthor);
+            
+            $postdb = R::dispense('post');
+            $postdb->content   = $post;
+            $postdb->date_id   = $date_id;
+            $postdb->title_id  = $title_id;
+            $postdb->author_id = $author_id;
+            
+            R::store($postdb);
         }
     }
     
