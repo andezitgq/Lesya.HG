@@ -1,4 +1,9 @@
-<?php include 'tml/top.php'; ?>
+<?php
+
+    $page_title = 'Медіа';
+    include 'tml/top.php';
+    
+?>
 
     <h1 align=center>Наша галерея</h1>
     <div class="swiper-container">

@@ -1,4 +1,9 @@
-<?php include 'tml/top.php'; ?>
+<?php
+
+    $page_title = 'Головна';
+    include 'tml/top.php';
+
+?>
     <div class=wrap-content-box>
     <?php
     
@@ -10,11 +15,23 @@
                 $author = R::findOne('postauthor', 'id = ?', array($post->author_id));
                 $title = R::findOne('posttitle', 'id = ?', array($post->title_id));
                 if($post->id != 88)
-                    echo '<div class=post>
-                              <i class=post-date>'.date_format($date, 'd.m.Y G:i').' 📝 '.$author->author.'</i>
-                              <h1>'.$title->title.'</h1><hr><br>'.
-                              $post->content.
-                          '</div>';
+                {
+                    echo '<div class=post><i class=post-date>';
+                    
+                            if(isset($date))
+                                echo date_format($date, 'd.m.Y G:i');
+                            if(isset($author->author))
+                                echo ' 📝 '.$author->author;
+                                
+                            echo '</i>';
+                            
+                            if(isset($title->title))
+                                echo '<h1>'.$title->title.'</h1><hr><br>';
+                            if(isset($post->content))
+                                echo $post->content;
+                                
+                    echo '</div>';
+                }
             }
         }
     

@@ -1,5 +1,8 @@
-<?php include 'tml/top.php'; ?>
 <?php
+
+    $page_title = 'Панель адміністрування';
+    include 'tml/top.php';
+
     $data = $_POST;
 
     if(!isset($_SESSION['logged-user']) ||

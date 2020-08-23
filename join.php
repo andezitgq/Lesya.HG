@@ -1,4 +1,9 @@
-<?php include 'tml/top.php'; ?>
+<?php
+
+    $page_title = 'Вступ';
+    include 'tml/top.php';
+
+?>
 
 <!--<object data="img/Вступ.pdf" type="application/pdf">
         <embed src="img/Вступ.pdf" type="application/pdf" />

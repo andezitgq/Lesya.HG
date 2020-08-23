@@ -1,5 +1,7 @@
-<?php include 'tml/top.php'; ?>
 <?php
+
+    $page_title = 'Увійти';
+    include 'tml/top.php';
 
     if(isset($_SESSION['logged-user']))
         echo '<script>window.location.href = "/";</script>';
