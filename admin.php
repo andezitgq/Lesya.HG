@@ -73,17 +73,32 @@
         $dom = new DOMDocument;
         $dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'utf-8'));
         $xpath = new DOMXpath($dom);
+        $sql_data = array();
         foreach($xpath->query('//div[contains(@class, "post")]') as $node){
-            //<div><em> Новина від 18.08.2020 о 01:03 pm опублікував Administrator</em></div>
             preg_match('/опублікував (.*)/', $node->textContent, $author);
+            
             preg_match('/Новина від (.*) о/', $node->textContent, $date);
             $date     = preg_replace('/о/', '', $date);
             $datetime = date_create($date[1]);
             $newdate  = date_format($datetime, 'Y-m-d G:i:s');
-            echo 'Content: '.'<br>';
+            
+            $htmlString = $dom->saveHTML($node);
+            preg_match('#<h1>(.*?)</h1>#si', $htmlString, $title);
+            
+            $temp    = preg_replace('#<div><em>.*?</em></div>#si', '', $htmlString);
+            $temp2   = preg_replace('#<div style="float: right;">.*?</div>#si', '', $temp);
+            $temp3   = preg_replace('#<hr>#', '', $temp2);
+            $content = preg_replace('#<h1>.*?</h1>#si', '', $temp3);
+            
+            echo 'Content: '.$content.'<br>';
             echo 'Date   : '. $newdate .'<br>';
             echo 'Author : '.$author[1].'<br>';
-            echo 'Title  : '.'<br>';
+            echo 'Title  : '.$title[1].'<br><br>';
+            
+            $sql_data[]['content'] = $content;
+            $sql_data[]['date']    = $newdate;
+            $sql_data[]['author']  = $author[1];
+            $sql_data[]['title']   = $title[1];
         }
     }
     
