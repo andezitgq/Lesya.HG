@@ -74,7 +74,7 @@
         $dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'utf-8'));
         $xpath = new DOMXpath($dom);
         $sql_data = array();
-        foreach($xpath->query('//div[contains(@class, "post")]') as $node){
+        foreach($xpath->query('//div[contains(@class, "inner-post")]') as $node){
             preg_match('/опублікував (.*)/', $node->textContent, $author);
             
             preg_match('/Новина від (.*) о/', $node->textContent, $date);
@@ -85,10 +85,10 @@
             $htmlString = $dom->saveHTML($node);
             preg_match('#<h1>(.*?)</h1>#si', $htmlString, $title);
             
-            $temp    = preg_replace('#<div><em>.*?</em></div>#si', '', $htmlString);
-            $temp2   = preg_replace('#<div style="float: right;">.*?</div>#si', '', $temp);
-            $temp3   = preg_replace('#<hr>#', '', $temp2);
-            $content = preg_replace('#<h1>.*?</h1>#si', '', $temp3);
+            $content = preg_replace('#<h1>.*?</h1>#si', '',
+                       preg_replace('/<div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">/', '<div>',
+                       preg_replace('#<div style="float: right;">.*?</div>#si', '',
+                       preg_replace('#<div><em>.*?</em></div>#si', '', $htmlString))));
             
             echo 'Content: '.$content.'<br>';
             echo 'Date   : '. $newdate .'<br>';

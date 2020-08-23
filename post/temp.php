@@ -1,4 +1,4 @@
-<div class="post">
+<div class="inner-post">
    <h1>До уваги батьків учнів гімназії!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -13,7 +13,7 @@
    </div>
    <div><em> Новина від 18.08.2020 о 03:55 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ОГОЛОШЕННЯ ! ШАНОВНІ БАТЬКИ, ДОРОГІ ДІТИ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -37,7 +37,7 @@
    </div>
    <div><em> Новина від 18.08.2020 о 01:03 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО З ПРИЗНАЧЕННЯМ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -52,7 +52,7 @@
    </div>
    <div><em> Новина від 18.08.2020 о 12:49 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ПРЕДСТАВЛЕННЯ НОВОГО ДИРЕКТОРА ГІМНАЗІЇ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -70,7 +70,7 @@
    </div>
    <div><em> Новина від 18.08.2020 о 12:45 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЛІТНІ ПРОФІЛЬНІ ШКОЛИ МАН</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -88,7 +88,7 @@
    </div>
    <div><em> Новина від 13.08.2020 о 06:34 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Протокол №1 засідання конкурсної комісії на заміщення вакантної посади директора гімназії</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -103,7 +103,7 @@
    </div>
    <div><em> Новина від 05.08.2020 о 01:37 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>УРОЧИСТА ЛІНІЙКА З НАГОДИ ВРУЧЕННЯ СВІДОЦТВ ПРО ПОВНУ СЕРЕДНЮ ОСВІТУ ВИПУСКНИКАМ 11-Х КЛАСІВ ГІМНАЗІЇ 2020 РОКУ.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -130,7 +130,7 @@
    </div>
    <div><em> Новина від 04.08.2020 о 09:54 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ІНФОРМАЦІЯ ДЛЯ УЧНІВ, ЯКІ БАЖАЮТЬ ПРИЙНЯТИ УЧАСТЬ У ПРОГРАМІ МАЙБУТНІХ ЛІДЕРІВ (FLEX)</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -151,7 +151,7 @@
    </div>
    <div><em> Новина від 31.07.2020 о 02:09 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Перелік питань на перевірку знань законодавства кандидатури на заміщення вакантної посади директора закладу загальної середньої освіти</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="line-height: normal;">
@@ -166,7 +166,7 @@
    </div>
    <div><em> Новина від 29.07.2020 о 11:01 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ПАМ’ЯТКА ДЛЯ УЧНІВ ТА БАТЬКІВ НА ЛІТНІ КАНІКУЛИ ПРО ПОПЕРЕДЖЕННЯ ДИТЯЧОГО ТРАВМАТИЗМУ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p align="center" class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
@@ -312,7 +312,7 @@
    </div>
    <div><em> Новина від 28.07.2020 о 10:34 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>СПИСОК ДЛЯ ЧИТАННЯ ПРОГРАМОВИХ ТВОРІВ НА ЛІТО З УКРАІНСЬКОЇ ТА ЗАРУБІЖНОЇ ЛІТЕРАТУРИ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -330,7 +330,7 @@
    </div>
    <div><em> Новина від 28.07.2020 о 10:08 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Розпорядження міського голови про склад конкурсної комісії</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -358,7 +358,7 @@
    </div>
    <div><em> Новина від 13.07.2020 о 02:42 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Увага, конкурс</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -388,7 +388,7 @@
    </div>
    <div><em> Новина від 23.06.2020 о 03:22 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ ВЧИТЕЛІВ! КУРСИ ПІДВИЩЕННЯ КВАЛІФІКАЦІЇ У 2021 РОЦІ.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -412,7 +412,7 @@
    </div>
    <div><em> Новина від 27.05.2020 о 09:18 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЗАПРОШУЄМО НА НАВЧАННЯ ДО ГІМНАЗІЇ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -424,7 +424,7 @@
    </div>
    <div><em> Новина від 13.05.2020 о 07:41 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>НА 11 КАНАЛІ ПРОЙДЕ ЦИКЛ УРОКІВ З ПРЕДМЕТУ "ЗАХИСТ УКРАЇНИ"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -436,7 +436,7 @@
    </div>
    <div><em> Новина від 08.05.2020 о 02:55 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ІНФОРМАЦІЯ ДЛЯ ВИПУСКНИКІВ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -448,7 +448,7 @@
    </div>
    <div><em> Новина від 08.05.2020 о 02:53 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Наказ по гімназії №47 к/тр від 06.05.2020 про продовження стану простою до 22.05.2020</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -463,7 +463,7 @@
    </div>
    <div><em> Новина від 07.05.2020 о 02:16 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Запрошення до дистанційного проходження курсів підвищення кваліфікації на базі Українського відкритого університету післядипломної освіти (УВУПО)</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
@@ -483,7 +483,7 @@
    </div>
    <div><em> Новина від 07.05.2020 о 02:04 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Правова допомога</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -498,7 +498,7 @@
    </div>
    <div><em> Новина від 06.05.2020 о 11:23 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ІНФОРМАЦІЯ ДЛЯ ВЧИТЕЛІВ, ЗАЛУЧЕНИХ НА ЗНО-2020</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm">
@@ -564,7 +564,7 @@
    </div>
    <div><em> Новина від 05.05.2020 о 02:24 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Наказ директора гімназії про організоване закінчення 2019-2020 н.р.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -579,7 +579,7 @@
    </div>
    <div><em> Новина від 29.04.2020 о 02:12 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Наказ директора гімназії №46 к/тр від 23.04.2020 року "Про продовження стану простою, організацію навчання учнів та оплату праці працівників гімназії у зв'язку з карантином"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -594,7 +594,7 @@
    </div>
    <div><em> Новина від 24.04.2020 о 03:39 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Загальнонаціональний карантин продовжено до 11 травня</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="margin: 0cm 0cm 4.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
@@ -609,7 +609,7 @@
    </div>
    <div><em> Новина від 23.04.2020 о 10:01 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>МОН ЗАПУСТИЛО САЙТ ПРО КЛЮЧОВІ ЗМІНИ В ОСВІТІ, ВПРОВАДЖЕНІ ЧЕРЕЗ КАРАНТИН</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; vertical-align: baseline;">
@@ -635,7 +635,7 @@
    </div>
    <div><em> Новина від 16.04.2020 о 08:57 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Одеський державний університет внутрішніх справ розпочав відбір кандидатів для вступу за державним замовленням</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="text-align:justify;text-indent:35.4pt">
@@ -684,7 +684,7 @@
    </div>
    <div><em> Новина від 27.04.2020 о 12:08 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ ВИПУСКНИКІВ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="margin-bottom:0cm;margin-bottom:.0001pt;mso-line-height-alt:12.0pt">
@@ -723,7 +723,7 @@
    </div>
    <div><em> Новина від 09.04.2020 о 01:59 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ УЧНІВ,ВЧИТЕЛІВ ТА БАТЬКІВ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -738,7 +738,7 @@
    </div>
    <div><em> Новина від 03.04.2020 о 10:03 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ УЧНІВ ТА ВЧИТЕЛІВ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -750,7 +750,7 @@
    </div>
    <div><em> Новина від 01.04.2020 о 06:24 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До уваги вчителів та батьків!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -782,7 +782,7 @@
    </div>
    <div><em> Новина від 01.04.2020 о 02:31 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ ВЧИТЕЛІВ ТА КЛАСНИХ КЕРІВНИКІВ ГІМНАЗІІ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -797,7 +797,7 @@
    </div>
    <div><em> Новина від 31.03.2020 о 06:10 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Як вберегтися від хвороби</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -812,7 +812,7 @@
    </div>
    <div><em> Новина від 23.03.2020 о 04:30 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Усе, що відомо про коронавірус: шляхи передачі, симптоми, лікування, профілактика</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal">
@@ -861,7 +861,7 @@
    </div>
    <div><em> Новина від 23.03.2020 о 09:39 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>НА САЙТІ РОЗМІЩЕНІ ДИСТАНЦІЙНІ ЗАВДАННЯ ДЛЯ УЧНІВ НА ЧАС КАРАНТИНУ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -879,7 +879,7 @@
    </div>
    <div><em> Новина від 18.03.2020 о 03:32 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ УЧНІВ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -897,7 +897,7 @@
    </div>
    <div><em> Новина від 18.03.2020 о 03:28 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ УЧНІВ 9 КЛАСІВ.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -915,7 +915,7 @@
    </div>
    <div><em> Новина від 12.03.2020 о 02:51 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>21 лютого представники всіх націй і народностей світу відзначають Міжнародний день рідної мови.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="text-indent:21.3pt">
@@ -955,7 +955,7 @@
    </div>
    <div><em> Новина від 02.03.2020 о 03:51 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо переможців ІІІ (обласного) етапу Всеукраїнської олімпіади з російської мови і літератури!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="text-indent:21.3pt">
@@ -987,7 +987,7 @@
    </div>
    <div><em> Новина від 02.03.2020 о 03:42 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ УЧНІВ, З 17.02.2020 РОКУ ПОНОВЛЮЄТЬСЯ НАВЧАЛЬНИЙ ПРОЦЕС.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -999,7 +999,7 @@
    </div>
    <div><em> Новина від 14.02.2020 о 11:08 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЗАВДАННЯ ДЛЯ ДИСТАНЦІЙНОГО НАВЧАННЯ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1017,7 +1017,7 @@
    </div>
    <div><em> Новина від 10.02.2020 о 01:28 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЗАВДАННЯ ДЛЯ ДИСТАНЦІЙНОГО НАВЧАННЯ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1038,7 +1038,7 @@
    </div>
    <div><em> Новина від 03.02.2020 о 11:41 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ УЧНІВ ГІМНАЗІІ ТА БАТЬКІВСЬКОЇ ГРОМАДИ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1050,7 +1050,7 @@
    </div>
    <div><em> Новина від 03.02.2020 о 01:27 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ ОБЛАСНОЇ ОЛІМПІАДИ З ПРАВОЗНАВСТВА!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1126,7 +1126,7 @@
    </div>
    <div><em> Новина від 23.01.2020 о 09:52 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ ОБЛАСНОЇ ОЛІМПІАДИ З ІСТОРІЇ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1233,7 +1233,7 @@
    </div>
    <div><em> Новина від 23.01.2020 о 09:50 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ ОБЛАСНОЇ ОЛІМПІАДИ З АНГЛІЙСЬКОЇ МОВИ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1251,7 +1251,7 @@
    </div>
    <div><em> Новина від 23.01.2020 о 09:40 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ ОЛІМПІАД !</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1263,7 +1263,7 @@
    </div>
    <div><em> Новина від 23.01.2020 о 09:32 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Щиросердно вітаємо з прийдешнім Новим роком!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="xzvds" style="margin: 0cm 0cm 0.0001pt; text-indent: 21.3pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; vertical-align: baseline;">
@@ -1276,7 +1276,7 @@
    </div>
    <div><em> Новина від 09.01.2020 о 12:27 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>НАЦІОНАЛЬНИЙ УРОК "МОЄ МАЙБУТНЄ В УКРАЇНІ"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1291,7 +1291,7 @@
    </div>
    <div><em> Новина від 09.01.2020 о 12:18 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>НАПЕРЕДОДНІ РІЗДВА</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1309,7 +1309,7 @@
    </div>
    <div><em> Новина від 09.01.2020 о 12:05 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ КОНКУРСУ ІМЕНІ ПЕТРА ЯЦИКА!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1346,7 +1346,7 @@
    </div>
    <div><em> Новина від 24.12.2019 о 02:45 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЗАПРОШУЄМО 14 ГРУДНЯ НА ДЕНЬ ВІДКРИТИХ ДВЕРЕЙ В ГІМНАЗІЇ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1358,7 +1358,7 @@
    </div>
    <div><em> Новина від 10.12.2019 о 10:42 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ПРАВОЗНАВЧИЙ БРЕЙН-РИНГ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1376,7 +1376,7 @@
    </div>
    <div><em> Новина від 13.12.2019 о 01:55 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВИВЧАЙТЕ ІНФОРМАТИКУ! ЗМІНЮЙТЕ СВІТ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal">
@@ -1405,7 +1405,7 @@
    </div>
    <div><em> Новина від 10.12.2019 о 10:34 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>МІСЬКА НАУКОВО-ПРАКТИЧНА КОНФЕРЕНЦІЯ З ІСТОРІЇ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1423,7 +1423,7 @@
    </div>
    <div><em> Новина від 10.12.2019 о 10:17 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>6 ГРУДНЯ - ДЕНЬ ЗСУ УКРАЇНИ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1441,7 +1441,7 @@
    </div>
    <div><em> Новина від 09.12.2019 о 11:35 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>1 ГРУДНЯ - ВСЕСВІТНІЙ ДЕНЬ БОРОТЬБИ ЗІ СНІДОМ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1465,7 +1465,7 @@
    </div>
    <div><em> Новина від 29.11.2019 о 03:57 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ МІСЬКОГО КОНКУРСУ "ЗІРКА ТАНЦПОЛУ 2019"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1487,7 +1487,7 @@
    </div>
    <div><em> Новина від 29.11.2019 о 12:20 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ІІ ЕТАП Х МІЖНАРОДНОГО МОВНО-ЛІТЕРАТУРНОГО КОНКУРСУ ІМЕНІ ШЕВЧЕНКА</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1505,7 +1505,7 @@
    </div>
    <div><em> Новина від 27.11.2019 о 12:44 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>УЧАСТЬ В ПРОЕКТІ "ПРОФЕСІЯ ПОРЯД"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1526,7 +1526,7 @@
    </div>
    <div><em> Новина від 28.11.2019 о 12:38 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>БЛАГОДІЙНИЙ ЯРМАРОК "ВІД СЕРЦЯ ДО СЕРЦЯ"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
@@ -1640,7 +1640,7 @@
    </div>
    <div><em> Новина від 21.11.2019 о 09:59 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>20 ЛИСТОПАДА ПРОЙШОВ ІІ ЕТАП КОНКУРСУ ІМЕНІ ПЕТРА ЯЦИКА</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1655,7 +1655,7 @@
    </div>
    <div><em> Новина від 21.11.2019 о 09:51 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>МІСЬКА ОЛІМПІАДА З УКРАЇНСЬКОЇ МОВИ І ЛІТЕРАТУРИ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1676,7 +1676,7 @@
    </div>
    <div><em> Новина від 21.11.2019 о 09:44 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ГІМНАЗІЯ ПРИЙМАЄ СВОЇХ ВИПУСКНИКІВ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1697,7 +1697,7 @@
    </div>
    <div><em> Новина від 18.11.2019 о 11:34 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>АКЦІЯ "МИЛОСЕРДЯ"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -1715,7 +1715,7 @@
    </div>
    <div><em> Новина від 15.11.2019 о 02:39 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ МІСЬКИХ ОЛІМПІАД!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p align="center" class="MsoNormal" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" style="text-align: center; background: white; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:#181a1b;">
@@ -2166,7 +2166,7 @@
    </div>
    <div><em> Новина від 14.11.2019 о 03:25 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>МІЖНАРОДНИЙ КОНКУРС З ІНФОРМАТИКИ ТА КОМП'ЮТЕРНОЇ ВПРАВНОСТІ "BEBRAS-2019"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2184,7 +2184,7 @@
    </div>
    <div><em> Новина від 14.11.2019 о 11:11 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>8 ЛИСТОПАДА - ДЕНЬ УКРАЇНСЬКОЇ ПИСЕМНОСТІ ТА МОВИ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal">
@@ -2200,7 +2200,7 @@
    </div>
    <div><em> Новина від 08.11.2019 о 12:44 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>СПОРТИВНО-ОЗДОРОВЧЕ СВЯТО "МОЯ СПОРТИВНА РОДИНА"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2221,7 +2221,7 @@
    </div>
    <div><em> Новина від 08.11.2019 о 12:38 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>МІСЬКИЙ КОНКУРС ПАТРІОТИЧНОЇ ПІСНІ "ЦЕ ПОТРІБНО ЖИВИМ" </h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="text-indent:14.2pt">
@@ -2250,7 +2250,7 @@
    </div>
    <div><em> Новина від 13.11.2019 о 11:36 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>НАШОГО ЦВІТУ ПО ВСЬОМУ СВІТУ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2265,7 +2265,7 @@
    </div>
    <div><em> Новина від 07.11.2019 о 10:09 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО З ПЕРЕМОГОЮ !</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2277,7 +2277,7 @@
    </div>
    <div><em> Новина від 07.11.2019 о 10:08 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО З ПЕРЕМОГОЮ В КОНКУРСІ !</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2292,7 +2292,7 @@
    </div>
    <div><em> Новина від 05.11.2019 о 03:18 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>СВЯТО "HALLOWEEN" В ГІМНАЗІЇ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal">
@@ -2314,7 +2314,7 @@
    </div>
    <div><em> Новина від 04.11.2019 о 01:34 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Проведення тактико-спеціальних навчань пожежно-рятувальних сил та спеціалізованих служб цивільного захисту у будівлі Жовтоводської гімназії</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2335,7 +2335,7 @@
    </div>
    <div><em> Новина від 25.10.2019 о 11:56 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАННЯ З ДНЕМ ВЧИТЕЛЯ ВІД УЧНІВ ГІМНАЗІЇ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2353,7 +2353,7 @@
    </div>
    <div><em> Новина від 07.10.2019 о 01:38 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ОСІННІЙ ВЕРНІСАЖ 2019</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2374,7 +2374,7 @@
    </div>
    <div><em> Новина від 26.09.2019 о 08:40 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ТУРИСТИЧНИЙ ПОХІД 06.09.2019 РОКУ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2395,7 +2395,7 @@
    </div>
    <div><em> Новина від 11.09.2019 о 08:59 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>НОВИЙ 2019-2020 НАВЧАЛЬНИЙ РІК РОЗПОЧАТО!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2416,7 +2416,7 @@
    </div>
    <div><em> Новина від 11.09.2019 о 08:55 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>29 СЕРПНЯ В ГІМНАЗІЇ ВІДБУЛИСЬ ЗАГАЛЬНОГІМНАЗІЙНІ БАТЬКІВСЬКІ ЗБОРИ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2437,7 +2437,7 @@
    </div>
    <div><em> Новина від 11.09.2019 о 08:50 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Запрошуємо на навчання до гімназії!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2449,7 +2449,7 @@
    </div>
    <div><em> Новина від 17.05.2019 о 04:00 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>15 ТРАВНЯ - ДЕНЬ ЄВРОПИ В ГІМНАЗІЇ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;Open Sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68);">
@@ -2473,7 +2473,7 @@
    </div>
    <div><em> Новина від 24.05.2019 о 11:57 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЗАХОДИ ДО ДНЯ ПАМ'ЯТІ ТА ПРИМИРЕННЯ 8 ТРАВНЯ В ГІМНАЗІЇ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <h2 style="font-family: &quot;source sans pro&quot;; color: rgb(0, 0, 0);">
@@ -2488,7 +2488,7 @@
    </div>
    <div><em> Новина від 24.05.2019 о 11:39 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>3 БЕРЕЗНЯ В ГІМНАЗІЇ ВІДБУЛИСЬ МАЛІ ОЛІМПІЙСЬКІ ІГРИ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2500,7 +2500,7 @@
    </div>
    <div><em> Новина від 24.05.2019 о 11:46 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>14 БЕРЕЗНЯ - МІЖНАРОДНИЙ ДЕНЬ ЧИСЛА ПІ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2535,7 +2535,7 @@
    </div>
    <div><em> Новина від 15.03.2019 о 01:40 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2550,7 +2550,7 @@
    </div>
    <div><em> Новина від 05.03.2019 о 09:48 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Переможці обласних олімпіад і конкурсів</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2568,7 +2568,7 @@
    </div>
    <div><em> Новина від 05.03.2019 о 08:54 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ГІМНАЗІЯ ЗАПРОШУЄ НА НАВЧАННЯ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2580,7 +2580,7 @@
    </div>
    <div><em> Новина від 02.03.2019 о 10:10 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДЕНЬ БЕЗПЕЧНОГО ІНТЕРНЕТУ 2019</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="margin: 0cm 0cm 0.0001pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
@@ -2613,7 +2613,7 @@
    </div>
    <div><em> Новина від 02.03.2019 о 10:05 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>З 21 СІЧНЯ РОЗПОЧИНАЄТЬСЯ ІІ СЕМЕСТР!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2625,7 +2625,7 @@
    </div>
    <div><em> Новина від 18.01.2019 о 03:21 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>5 ГРУДНЯ В ГІМНАЗІЇ БУЛА ПРОВЕДЕНА "ГОДИНА КОДУ"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2640,7 +2640,7 @@
    </div>
    <div><em> Новина від 10.12.2018 о 03:36 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Благодійний ярмарок - 2018</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <div>
@@ -2769,7 +2769,7 @@
    </div>
    <div><em> Новина від 28.11.2018 о 11:29 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Всеукраїнський диктант національної єдності</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2787,7 +2787,7 @@
    </div>
    <div><em> Новина від 12.11.2018 о 11:44 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Психолого-педагогічний консиліум</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2799,7 +2799,7 @@
    </div>
    <div><em> Новина від 12.11.2018 о 11:37 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2811,7 +2811,7 @@
    </div>
    <div><em> Новина від 01.11.2018 о 09:38 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>17 ЖОВТНЯ ВІДБУЛАСЬ ЗАГАЛЬНОГІМНАЗІЙНА КОНФЕРЕНЦІЯ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2826,7 +2826,7 @@
    </div>
    <div><em> Новина від 22.10.2018 о 03:02 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Осінній вернісаж - 2018</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2841,7 +2841,7 @@
    </div>
    <div><em> Новина від 11.10.2018 о 03:44 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Заходи до Дня українського козацтва та Дня захисника України.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2856,7 +2856,7 @@
    </div>
    <div><em> Новина від 17.10.2018 о 01:42 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>З Днем вчителя!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2871,7 +2871,7 @@
    </div>
    <div><em> Новина від 08.10.2018 о 11:56 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо вчителя історії і правознавства Шевченко Тетяну Миколаївну!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2889,7 +2889,7 @@
    </div>
    <div><em> Новина від 08.10.2018 о 11:37 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Звіт про використання бюджетних та позабюджетних коштів гімназії по підготовці до нового 2018/2019 навчального року в липні-серпні 2018 р.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="text-align: center;">
@@ -2905,7 +2905,7 @@
    </div>
    <div><em> Новина від 24.09.2018 о 03:30 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Гімназія імені Лесі Українки -  гордість міста!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2956,7 +2956,7 @@
    </div>
    <div><em> Новина від 24.09.2018 о 03:24 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>НОВИЙ НАВЧАЛЬНИЙ РІК РОЗПОЧАВСЯ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2983,7 +2983,7 @@
    </div>
    <div><em> Новина від 21.09.2018 о 01:46 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>МРІЙ ПРО DREAMLAND!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -2998,7 +2998,7 @@
    </div>
    <div><em> Новина від 12.06.2018 о 11:43 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>25 РОКІВ ГІМНАЗІЇ , 65 РОКІВ ШКОЛІ №2 !</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3022,7 +3022,7 @@
    </div>
    <div><em> Новина від 12.06.2018 о 11:59 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЗАПРОШУЄМО 26 ТРАВНЯ НА 25-РІЧНИЙ ЮВІЛЕЙ ГІМНАЗІЇ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3034,7 +3034,7 @@
    </div>
    <div><em> Новина від 10.05.2018 о 12:08 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>22 травня основна сесія ЗНО розпочинається проведенням тестування з математики</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3055,7 +3055,7 @@
    </div>
    <div><em> Новина від 22.05.2018 о 12:47 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ УЧНІВ 4-Х КЛАСІВ ШКІЛ МІСТА! КОНКУРСНІ ВИПРОБУВАННЯ БУДУТЬ ПРОХОДИТИ 19 ТРАВНЯ О 10.00</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3067,7 +3067,7 @@
    </div>
    <div><em> Новина від 17.05.2018 о 01:59 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До уваги батьківської громади!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3082,7 +3082,7 @@
    </div>
    <div><em> Новина від 11.05.2018 о 10:26 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Урочиста лінійка до Дня пам’яті та примирення і Дня Перемоги над нацизмом у Європі.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3110,7 +3110,7 @@
    </div>
    <div><em> Новина від 10.05.2018 о 10:53 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Учасники ЗНО отримали запрошення на тестування!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3131,7 +3131,7 @@
    </div>
    <div><em> Новина від 02.05.2018 о 12:50 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ МІСЬКОГО КОНКУРСУ ХУДОЖНЬОЇ ТВОРЧОСТІ !</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3143,7 +3143,7 @@
    </div>
    <div><em> Новина від 18.04.2018 о 01:30 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Гімназія приєдналась до Національної волонтерської мережі клубів кодування для дітей 9-11 років Code Club UA</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3162,7 +3162,7 @@
    </div>
    <div><em> Новина від 16.04.2018 о 08:46 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО УВАГИ УЧНІВ 11 КЛАСІВ - Онлайн-тест пробного ЗНО-2018 з української мови</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3177,7 +3177,7 @@
    </div>
    <div><em> Новина від 27.03.2018 о 10:20 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЗАПРОШУЄМО НА ДЕНЬ ВІДКРИТИХ ДВЕРЕЙ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3189,7 +3189,7 @@
    </div>
    <div><em> Новина від 20.03.2018 о 09:56 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО З ПЕРЕМОГОЮ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3204,7 +3204,7 @@
    </div>
    <div><em> Новина від 20.03.2018 о 09:53 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДЕНЬ ЧИСЛА ПІ: 14 БЕРЕЗНЯ СВЯТКУЄМО МАТЕМАТИЧНЕ СВЯТО СВІТУ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <div style="position: absolute; left: -99999px;">
@@ -3249,7 +3249,7 @@
    </div>
    <div><em> Новина від 16.03.2018 о 09:40 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ГІМНАЗІЯ - ХРАМ НАУКИ !</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3264,7 +3264,7 @@
    </div>
    <div><em> Новина від 13.03.2018 о 03:30 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ПЕРЕМОЖЦІ МІСЬКИХ ТА ОБЛАСНИХ ОЛІМПІАД І КОНКУРСІВ 2017-18 НАВЧАЛЬНОГО РОКУ !</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3285,7 +3285,7 @@
    </div>
    <div><em> Новина від 27.02.2018 о 03:06 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ ІІ (ОБЛАСНОГО) ЕТАПУ ВСЕУКРАЇНСЬКОГО КОНКУРСУ-ЗАХИСТУ НАУКОВО-ДОСЛІДНИЦЬКИХ РОБІТ УЧНІВ-ЧЛЕНІВ МАЛОЇ АКАДЕМІЇ НАУК УКРАЇНИ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3312,7 +3312,7 @@
    </div>
    <div><em> Новина від 27.02.2018 о 01:51 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦЯ МІЖНАРОДНОГО КОНКУРСУ З УКРАЇНСЬКОЇ МОВИ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3330,7 +3330,7 @@
    </div>
    <div><em> Новина від 28.02.2018 о 12:51 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО КОМАНДУ ІНТЕЛЕКТУАЛІВ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3351,7 +3351,7 @@
    </div>
    <div><em> Новина від 26.02.2018 о 08:51 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО З ПЕРЕМОГОЮ В КОНКУРСІ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3366,7 +3366,7 @@
    </div>
    <div><em> Новина від 25.01.2018 о 01:24 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо Бордінських Софію з перемогою на Чемпіонаті України з дзюдо серед кадетів!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3384,7 +3384,7 @@
    </div>
    <div><em> Новина від 21.02.2018 о 01:52 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>21 лютого відзначаємо Міжнародний день рідної мови!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3405,7 +3405,7 @@
    </div>
    <div><em> Новина від 21.02.2018 о 01:29 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПЕРЕМОЖЦІВ ОБЛАСНИХ ОЛІМПІАД!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3435,7 +3435,7 @@
    </div>
    <div><em> Новина від 15.02.2018 о 12:31 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До уваги випускників! Підготовка до ЗНО-2018 онлайн.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <h1 class="color-yellow">
@@ -3456,7 +3456,7 @@
    </div>
    <div><em> Новина від 13.02.2018 о 10:44 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>З понеділка 12 лютого поновлюється освітній процес.</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3468,7 +3468,7 @@
    </div>
    <div><em> Новина від 09.02.2018 о 01:30 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Як відбуватимуться шкільні іспити у 2018 році</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="margin: 0px 0px 14px; padding: 0px; border: 0px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 14px;">
@@ -3507,7 +3507,7 @@
    </div>
    <div><em> Новина від 05.02.2018 о 02:08 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Увага! З 31 січня до 06 лютого 2018 року призупинено  освітній процес в Жовтоводській гуманітарній гімназії імені Лесі Українки</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3519,7 +3519,7 @@
    </div>
    <div><em> Новина від 30.01.2018 о 03:08 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Лідер року - 2018</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3549,7 +3549,7 @@
    </div>
    <div><em> Новина від 30.01.2018 о 11:20 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Міський етап конкурсу-захисту наукових робіт учнів МАН</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3639,7 +3639,7 @@
    </div>
    <div><em> Новина від 22.01.2018 о 09:24 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Стартувала реєстрація на пробне ЗНО</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3663,7 +3663,7 @@
    </div>
    <div><em> Новина від 16.01.2018 о 12:32 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Міжнародний конкурс з інформатики та комп’ютерної вправності «Бобер-2017»</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3690,7 +3690,7 @@
    </div>
    <div><em> Новина від 16.01.2018 о 12:13 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ПЛАН ЗАХОДІВ ДО ТИЖНЯ ПРАВА</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3703,7 +3703,7 @@
    </div>
    <div><em> Новина від 27.11.2017 о 02:23 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Gymnasium News #7</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px; solid #D3D3D3;">
       <p>
@@ -3716,7 +3716,7 @@
    </div>
    <div><em> Новина від 17.10.2017 о 09:38 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Gymnasium News #6</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3729,7 +3729,7 @@
    </div>
    <div><em> Новина від 17.10.2017 о 09:37 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Gymnasium News #5</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3742,7 +3742,7 @@
    </div>
    <div><em> Новина від 17.10.2017 о 09:35 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Gymnasium News #4</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3755,7 +3755,7 @@
    </div>
    <div><em> Новина від 17.10.2017 о 09:34 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Gymnasium News #3</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3768,7 +3768,7 @@
    </div>
    <div><em> Новина від 17.10.2017 о 09:32 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Gymnasium News #2</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3781,7 +3781,7 @@
    </div>
    <div><em> Новина від 17.10.2017 о 09:25 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо з Днем учителя!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Шановні педагоги!
       Щиро вітаємо вас з професійним святом - Днем учителя!
@@ -3792,7 +3792,7 @@
    </div>
    <div><em> Новина від 29.09.2017 о 08:47 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Свято першого дзоника</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Після тривалих літніх канікул настає пора навчання, яка традиційно ознаменована святом – Днем знань. Цьогоріч свято у гімназії видалося хвилююче, адже до гімназії завітали почесні гості: народний депутат України Крішен Олег Юрійович, міський голова Жовтих Вод Абрамов Володимир Васильович, начальник відділу освіти Левіна Любов Василівна, батьки, випускники та, звичайно ж, учні гімназії.
       У вітальному слові директор гімназії, Віктор Олександрович Ткаченко, розповів про здобутки, які гімназисти мали у минулому навчальному році, а це - олімпіади, результати ЗНО, спортивні досягнення учнів та інші конкурси. Наостанок директор гімназії привітав усіх присутніх з початком нового навчального року.
@@ -3805,7 +3805,7 @@
    </div>
    <div><em> Новина від 05.09.2017 о 10:42 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ЗВІТ БАТЬКІВСЬКОГО КОМІТЕТУ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3817,7 +3817,7 @@
    </div>
    <div><em> Новина від 15.06.2017 о 11:04 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Лист від випускників 2007 року</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3840,7 +3840,7 @@
    </div>
    <div><em> Новина від 06.06.2017 о 09:38 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Обласний семінар</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3858,7 +3858,7 @@
    </div>
    <div><em> Новина від 18.04.2017 о 08:53 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3870,7 +3870,7 @@
    </div>
    <div><em> Новина від 03.04.2017 о 02:12 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>День числа "Пі"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="text-align: center;">
@@ -3889,7 +3889,7 @@
    </div>
    <div><em> Новина від 10.03.2017 о 03:31 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3901,7 +3901,7 @@
    </div>
    <div><em> Новина від 04.03.2017 о 12:49 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Лист випускника</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3916,7 +3916,7 @@
    </div>
    <div><em> Новина від  опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До уваги учнів гімназії!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3931,7 +3931,7 @@
    </div>
    <div><em> Новина від 22.01.2016 о 02:49 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До уваги учнів 5-8 класів</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3943,7 +3943,7 @@
    </div>
    <div><em> Новина від 20.01.2016 о 02:28 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Розклад на 21 січня 2016 року для учнів 9-11 класів</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3955,7 +3955,7 @@
    </div>
    <div><em> Новина від 20.01.2016 о 02:23 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До уваги учнів гімназії!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3967,7 +3967,7 @@
    </div>
    <div><em> Новина від 18.01.2016 о 01:12 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Із стін гімназії в широкий світ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -3982,7 +3982,7 @@
    </div>
    <div><em> Новина від 26.11.2015 о 02:25 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Диктант національної єдності</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Свято української писемності – це спогад про тих хто «пішов», наказ тим, хто іде, проекція патріотизму тим, хто йтиме…
       9 листопада вся українська громада світу відзначала День української писемності. Одним з атрибутів цього свята ось уже 15 років є написання диктанту.
@@ -3999,7 +3999,7 @@
    </div>
    <div><em> Новина від 16.11.2015 о 10:23 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Благодійний ярмарок</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4020,7 +4020,7 @@
    </div>
    <div><em> Новина від 13.11.2015 о 12:55 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо переможців!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">5-8 листопада в місті Раквере Естонія на базі спортивного комплексу  Вінні проходив чемпіонат Європи з боротьби сумо серед юнаків та дівчат. В ньому прийняли участь команди з Азербайджану, Грузії , Литви, Латвії, Польщі, Німеччини, України, Угорщини, Білорусі, Росії та Естонії. Чемпіонами Європи в своїх вагових категоріях стали і учні гімназії.
       Срібні медалі вибороли: 
@@ -4035,7 +4035,7 @@
    </div>
    <div><em> Новина від 13.11.2015 о 11:54 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Екскурсія на 1+1</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Осінні канікули неодмінно потрібно проводити цікаво та корисно. У цьому переконані учні Жовтоводської гуманітарної гімназії, які 28 жовтня вирушили з екскурсією на телеканал «1+1 Медіа» у Києві.
       Екскурсія розпочалася з відвідування студії програми «Сніданок з 1+1» де на дітей після прямого ефіру, чекали ведучі Руслан Сенічкін та Людмила Барбір. Зірки ранкового шоу розповіли про специфіку роботи у прямому ефірі, про те, як готуються програма і ведучі до неї. 
@@ -4047,7 +4047,7 @@
    </div>
    <div><em> Новина від 13.11.2015 о 11:31 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Поїздка учнів 9-Б та 10-А до міста Кременчук</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4062,7 +4062,7 @@
    </div>
    <div><em> Новина від 11.11.2015 о 03:35 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4074,7 +4074,7 @@
    </div>
    <div><em> Новина від 05.10.2015 о 03:41 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Урочиста лінійка</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">В рамках відзначення Всесвітнього Дня миру (21 вересня) та з нагоди демобілізації з зони АТО вчителя гімназії Стукала Миколи Григоровича 18 вересня в гімназії пройшла урочиста лінійка, присвячена воїнам АТО. На свято завітали: Кукла Анатолій Валентинович,капітан, заступник військового комісару м. Жовті Води, начальник відділу призову, учасник АТО; Богонський Сергій Анатолійович,лейтенант, начальник відділу обліку офіцерів і кадрів жовтоводського військомату, учасник АТО, випускник гімназії 2002 року; Стукало Микола Григорович, лейтенант, учасник АТО, вчитель  з захисту вітчизни гімназії; Арсеменко Сергій Анатаолійович, учасник АТО, батько учня 5-Б класу гімназії; Маляхін Олександр Анатолійович, сержант, учасник АТО, випускник СШ № 2; Іщенко Сергій Миколайович, волонтер, голова міської спілки «Афган». Гості виступили перед гімназистами, дякували за листи, малюнки, поезії. Пам’ять загиблих вшанували хвилиною мовчання. Діти дарували воїнам квіти. Лінійка пройшла на високому патріотичному рівні.</div>
    <div style="float: right;">
@@ -4082,7 +4082,7 @@
    </div>
    <div><em> Новина від 21.09.2015 о 11:19 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Випускниця гімназії Косенко Олександра  перемогла в чеському конкурсі</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="text-align: center;">
@@ -4103,7 +4103,7 @@
    <div style="float: right;"> <a href='/cutenews/gymnaziumnews.php?subaction=showfull&amp;id=1440495251&amp;'>Читати більше</a> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1440495251&amp;template=Default">0 Коментарів</a></div>
    <div><em> Новина від 25.08.2015 о 10:34 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Зустріч випускників</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4115,7 +4115,7 @@
    </div>
    <div><em> Новина від 18.08.2015 о 10:29 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>МОВНА ШКОЛА – СВІТ ПІЗНАНЬ ТА РОЗВАГ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4128,7 +4128,7 @@
    <div style="float: right;"> <a href='/cutenews/gymnaziumnews.php?subaction=showfull&amp;id=1434615486&amp;'>Читати більше</a> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1434615486">0 Коментарів</a></div>
    <div><em> Новина від 18.06.2015 о 09:18 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>БАЛ КОРОЛЯ НАУК</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="text-align: center;">
@@ -4140,7 +4140,7 @@
    </div>
    <div><em> Новина від 04.06.2015 о 03:41 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Фотографії турпоходу</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4152,7 +4152,7 @@
    </div>
    <div><em> Новина від 20.05.2015 о 09:30 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вибори Президента гімназії</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4167,7 +4167,7 @@
    </div>
    <div><em> Новина від 13.05.2015 о 08:50 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>УВАГА!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4179,7 +4179,7 @@
    </div>
    <div><em> Новина від 02.04.2015 о 01:42 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Вітаємо учасників та переможців міського огляду-конкурсу дитячої художньої творчості середніх загальноосвітніх шкіл та позашкільних навчальних закладів «Сузір’я дитячих талантів»: Шептицьку Оксану, 5-А клас – диплом учасника в номінації «Вокал» (соло); Сахнюка Олександра, 7-А клас – ІІ місце в номінації «Вокал» (соло); Дробот Ірину, 10-Б кл; Брюшенко Владу, 8-Б кл.– І місце в номінації «Вокально-музична композиція» 
       Бажаємо всім учасникам подальших творчих здобутків!
@@ -4189,7 +4189,7 @@
    </div>
    <div><em> Новина від 02.04.2015 о 01:38 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Вітаємо переможців міського літературного конкурсу читців «Шевченківська скарбниця»:
       Брюшенко Владу, 8-Б клас – ІІ місце у номінації «Читання віршів Т.Г. Шевченка» вікова категорія 12-16 років
@@ -4201,7 +4201,7 @@
    </div>
    <div><em> Новина від 02.04.2015 о 01:36 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>УВАГА!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4213,7 +4213,7 @@
    </div>
    <div><em> Новина від 01.04.2015 о 09:18 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДЕНЬ ВІДКРИТИХ ДВЕРЕЙ</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4245,7 +4245,7 @@
    </div>
    <div><em> Новина від 05.03.2015 о 09:14 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Всуп до гімназії</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4257,7 +4257,7 @@
    </div>
    <div><em> Новина від 05.03.2015 о 09:05 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Святковий захід до 144-ї річниці Лесі Українки</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4269,7 +4269,7 @@
    </div>
    <div><em> Новина від 25.02.2015 о 03:31 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4287,7 +4287,7 @@
    </div>
    <div><em> Новина від 23.02.2015 о 12:10 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>В І Т А Є М О!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4299,7 +4299,7 @@
    </div>
    <div><em> Новина від 23.02.2015 о 12:07 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо переможців міської олімпіади з інформатики!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4341,7 +4341,7 @@
    </div>
    <div><em> Новина від 16.02.2015 о 03:13 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Благодійний концерт хору "Горлиці"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4353,7 +4353,7 @@
    </div>
    <div><em> Новина від 12.02.2015 о 10:03 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До Дня народження Лесі Українки</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="text-align: center;">
@@ -4365,7 +4365,7 @@
    </div>
    <div><em> Новина від 05.02.2015 о 12:44 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Освячення та передача маскувальної сітки бійцям АТО</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4377,7 +4377,7 @@
    </div>
    <div><em> Новина від 04.02.2015 о 05:15 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Підсумки конкурсу "Учитель року-2015" у номінації "Правознавство"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4389,7 +4389,7 @@
    </div>
    <div><em> Новина від 30.01.2015 о 12:59 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Конкурс "Учитель року" в номінації "Правознавство"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4401,7 +4401,7 @@
    </div>
    <div><em> Новина від 26.01.2015 о 08:39 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Увага! Конкурс!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4413,7 +4413,7 @@
    </div>
    <div><em> Новина від 15.01.2015 о 11:24 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Початок нового семестру</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4425,7 +4425,7 @@
    </div>
    <div><em> Новина від 09.01.2015 о 11:09 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Міська учнівська історична конференція</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">13 листопада 2014 року в гімназії відбулася міська науково-практична конференція «Україна в огні» присвячена 70-ій річниці вигнання нацистських окупантів з України.  У конференції прийняли участь учні старших класів шкіл міста, а також гімназії та ліцею.</div>
    <div style="float: right;">
@@ -4433,7 +4433,7 @@
    </div>
    <div><em> Новина від 27.11.2014 о 11:16 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Прийом у міського голови</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4445,7 +4445,7 @@
    </div>
    <div><em> Новина від 27.11.2014 о 11:15 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Екскурсія на Перший національний</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Під час осінніх канікул гімназисти  здійснили екскурсію до Національної телекомпанії України, де відвідали єдиний в Україні музей телевізійної техніки, познайомилися з історією створення та розвитку українського телебачення, першими дикторами, побачили телевізійні студії, ефірні апаратні, декорації знімальних майданчиків та багато іншого, що зазвичай залишається за кадром яскравої телевізійної картинки.</div>
    <div style="float: right;">
@@ -4453,7 +4453,7 @@
    </div>
    <div><em> Новина від 05.11.2014 о 08:32 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">26-28 вересня у Львові пройшов Всеукраїнський фестиваль-конкурс і фестиваль-батл інструментального, вокального та хореографічного мистецтва.
       На цьому фестивалі впевнено заявили про себе колективи художньої самодіяльності ЦНТКіД ДП «ЗхідГЗК» – народній цирк «Юність» и народний хор «Веселка».
@@ -4465,7 +4465,7 @@
    </div>
    <div><em> Новина від 03.11.2014 о 10:53 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До уваги учнів!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4477,7 +4477,7 @@
    </div>
    <div><em> Новина від 02.11.2014 о 10:10 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вітаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4489,7 +4489,7 @@
    </div>
    <div><em> Новина від 09.10.2014 о 04:20 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ВІТАЄМО ПРИЗЕРІВ!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4501,7 +4501,7 @@
    </div>
    <div><em> Новина від 07.10.2014 о 09:41 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Профорієнтаційна робота</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4513,7 +4513,7 @@
    </div>
    <div><em> Новина від 07.10.2014 о 09:33 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До уваги шестикласників!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4525,7 +4525,7 @@
    </div>
    <div><em> Новина від 18.09.2014 о 01:19 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Слово вчителя хореографії</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4548,7 +4548,7 @@
    </div>
    <div><em> Новина від 12.09.2014 о 08:34 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Зустріч випускників</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4560,7 +4560,7 @@
    </div>
    <div><em> Новина від 18.08.2014 о 01:02 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Хочеться поділитися досягненнями</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p style="text-align: center;">
@@ -4576,7 +4576,7 @@
    <div style="float: right;"> <a href='/cutenews/gymnaziumnews.php?subaction=showfull&amp;id=1399893349&amp;'>Читати більше</a> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1399893349">0 Коментарів</a></div>
    <div><em> Новина від 12.05.2014 о 12:15 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вибори президента ДО "Victory"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
@@ -4610,7 +4610,7 @@
    </div>
    <div><em> Новина від 05.05.2014 о 01:16 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Вибори президента ДО "Victory"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">28.04 Вiдбулися дебати кандидатів в президенти ДО "Victory". <br> 
       <iframe width="640" height="360" src="//www.youtube.com/embed/3XOfrTbPK1E?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -4620,7 +4620,7 @@
    </div>
    <div><em> Новина від 28.04.2014 о 08:27 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Всесвiтнiй День Землi</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">З нагоди Всесвітнього дня землі, який відзначається 22 квітня, в нашому місті на базі НВК «Дивосвіт» пройшов дитячий екологічний форум «Ми на захисті довкілля», де представники від кожної школи виступили з доповіддю про напрямки природоохоронної та просвітницької діяльності закладу. Гiмназію представляли Єлизавета Штепа, 8-б клас та Дар’я Рослякова, 10-А клас із проектом «Дослідження видового різноманіття птахів екосистем Дніпропетровської області».</div>
    <div style="float: right;">
@@ -4628,7 +4628,7 @@
    </div>
    <div><em> Новина від 25.04.2014 о 08:32 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BIТАЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Катерину Мартисевич, 6-А клас із зайнятим ІІ місцем та Ганну Самолюк, 10-Б клас із зайнятим ІІІ місцем у міському конкурсі читців «Зірка полину»! Бажаємо творчих успіхів!</div>
    <div style="float: right;">
@@ -4636,7 +4636,7 @@
    </div>
    <div><em> Новина від 25.04.2014 о 08:30 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BIТАЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Марію Риньдю, 7-Б клас  із зайнятим ІІІ місцем на Чемпіонаті України з боротьби дзюдо, що пройшов у м. Луганську.
       Бажаємо досягнення нових спортивних вершин!
@@ -4646,7 +4646,7 @@
    </div>
    <div><em> Новина від 10.04.2014 о 07:47 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BIТАЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Biтаємо Мірошниченка Германа,  учня 6-А класу, за зайняте ІІ місце у конкурсі зі стендового моделювання.<br>
       <img src="https://lh4.googleusercontent.com/-rBSggdmRBPk/U0OTTLN0hZI/AAAAAAAADWg/MduMoOzSFbI/s288/gramota_miroshnichenko.jpg" height="320"  />
@@ -4656,7 +4656,7 @@
    </div>
    <div><em> Новина від 08.04.2014 о 07:25 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BIТАЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Biтаємо Митрофанову Жанну Biталіївну, вчителя біології, курівника гуртка «Юні біологи» із перемогою в обласному конкурсі «Кращий керівник гуртка»! 
       Бажаємо нашим переможцям подальших успіхів!
@@ -4666,7 +4666,7 @@
    </div>
    <div><em> Новина від 07.04.2014 о 11:50 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BITAЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Biтаємо Тараненка Іллю, 5-Б клас із зайнятим І місцем в Чемпіонаті області з легкої атлетики.</div>
    <div style="float: right;">
@@ -4674,7 +4674,7 @@
    </div>
    <div><em> Новина від 07.04.2014 о 11:49 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BIТАЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Biтаємо Софію Бордінських, ученицю 5-А клас та її батьків із зайнятим І місцем у міських змаганнях «Тато, мама, я спортивна сім'я»!</div>
    <div style="float: right;">
@@ -4682,7 +4682,7 @@
    </div>
    <div><em> Новина від 07.04.2014 о 11:48 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BIТАЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">На весняних канікулах у місті Артемовську Донецької області пройшов Чемпіонат України з боротьби сумо. 
       У жовтоводській команді були і гімназисти:
@@ -4699,7 +4699,7 @@
    </div>
    <div><em> Новина від 01.04.2014 о 01:58 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BITAЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Biтаємо Аліну Третяк, 11-А клас із перемогою у міському конкурсі «Сузір’я дитячих талантів», який відбувся 25 березня у ЦДТ  і Сахнюка Олександра, 6-А клас  із отриманням диплому учасника цього ж конкурсі. Бажаємо нашим переможцям подальших творчих успіхів!</div>
    <div style="float: right;">
@@ -4707,7 +4707,7 @@
    </div>
    <div><em> Новина від 27.03.2014 о 07:53 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BIТАЄМО!!!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Biтаємо Аліну Третяк, 11-А клас із одержаним  Гран-прі  в обласному конкурсі «Музичний калейдоскоп» і  Сахнюка Олександра, 6-А клас  із зайнятим  І місцем у цьому ж конкурсі. Бажаємо нашим переможцям подальших творчих успіхів!</div>
    <div style="float: right;">
@@ -4715,7 +4715,7 @@
    </div>
    <div><em> Новина від 27.03.2014 о 07:51 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>День  вiдкритих дверей</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">15 березня в стінах гімназії пройшов День відкритих дверей для майбутніх п’ятикласників та їх батьків. В межах заходу діти відвідали декілька уроків, проведених педагогами гімназії. Для Батьків була організована екскурсія закладом. Фото заходу можна переглянути <a href="http://lesya.org/fotoalbom/index.htm" target="_top">ТУТ</a></div>
    <div style="float: right;">
@@ -4723,7 +4723,7 @@
    </div>
    <div><em> Новина від 19.03.2014 о 10:22 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Iнформує рада лідерів</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Рада лідерів дитячої організації «Victory» дякує всім небайдужим, хто виявив бажання допомогти двом немовлятам, що мешкають у дитячій лікарні нашого міста! Було зібрано дитячі речі, іграшки і 1050 грн. На ці кошти придбано дитяче харчування, памперси, засоби гігієни.  З радістю повідомляємо, що за той час поки тривала наша акція, одного з дітей – хлопчика, забрали на виховання в сім’ю.</div>
    <div style="float: right;">
@@ -4731,7 +4731,7 @@
    </div>
    <div><em> Новина від 17.03.2014 о 07:16 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Biтаємо переможців!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">В рамках заходів щодо відзначення 200-річчя від дня народження Т.Г. Шевченка в місті проводилась низка конкурсів, учні гімназії взяли активну участь в цих конкурсах. 
       Biтаємо наших переможців і бажаємо їм творчих успіхів!
@@ -4760,7 +4760,7 @@
    </div>
    <div><em> Новина від 17.03.2014 о 07:11 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Святковий захід до 143-річниці Лесі Українки</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">26 лютого 2014 року на базі Центру дитячої творчості відбулося урочисте свято з нагоди 143-ї річниці від Дня народження Лесі Українки. У програмі свята: учні 7-10-х класів поділилися відомостями про  життя та творчість поетеси. Учні 6-А класу  Мартисевич Катерина , Кузьменко Анастасія, Іволга Юлія , Горецький Герман, Федотов Олексій, Шабельнюк Данило  підготували інсценування з дитинства Лесі. Світлична Наталка, 8-А клас виконала музичний твір Й.С. Баха «Аллеманда». Уривок з драми-феєрії «Лісова пісня» виконали:  Ірина Ковалевич, 8-А клас, Сергій Федусов, 8-Б клас, Самолюк Ганна, 10-Б клас. Діалог Лесі з Сергієм Мержинським представляли учні 10-Б класу Юлія Руденко та Олександр Сухина.   Своїм співом глядачів порадували  Тетяна Третяк  СШ №5, Олександр Сахнюк, 6-А клас та Анастасія Сілицька, 11-Е клас. Перед глядачами виступили гості свята:  колективи Центру дитячої творчості – музичний гурт «РетРок». В другій частині свята  - відбулося привітання переможців міських олімпіад та творчих конкурсів.</div>
    <div style="float: right;">
@@ -4768,7 +4768,7 @@
    </div>
    <div><em> Новина від 28.02.2014 о 08:49 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>До 143 річниці Лесі Українки</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">До ювілею Лесі Українки учнями 9-А класу під керівництвом Ведути Н.Г. було підготовано та проведено позакласний захід 26.02.2014. Фото заходу можна переглянути <a href="http://lesya.org/fotoalbom/index.htm" target="_top">ТУТ</a></div>
    <div style="float: right;">
@@ -4776,7 +4776,7 @@
    </div>
    <div><em> Новина від 27.02.2014 о 02:58 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Виховна година 8-х класів</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">18 лютого в приміщенні бібліотеки Палацу культури відбулася виховна година для 8-х класів гімназії присвячена 143-річниці з дня народження Лесі Українки. Під час заходу учні мали можливість познайомитися більш детально про життя видатної українки.</div>
    <div style="float: right;">
@@ -4784,7 +4784,7 @@
    </div>
    <div><em> Новина від 19.02.2014 о 10:04 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>День усіх закоханих</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">В рамках відзначення Дня Святого Валентина 14.02 в гімназії були проведені інтерактивні перерви, де учні співали пісні та читали вірші про кохання. Активну участь взяли учні 5-А, 5-Б, 6-А, 6-Б, 7-А, 7-Б, 8-Б, 10-Б  та 11-А класу. <a href="http://lesya.org/fotoalbom/index.htm" target="_top">Фото заходу тут</a></div>
    <div style="float: right;">
@@ -4792,7 +4792,7 @@
    </div>
    <div><em> Новина від 17.02.2014 о 12:47 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Не будьте байдужими!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Минулого тижня за ініціативи Ради лідерів гімназії започатковану благодійну акцію на допомогу дітям, що мешкають у дитячий лікарні. Зібрано дитячі речі та 719,75 грн. Придбано дитяче харчування та засоби гігієни на суму 544,85 грн.  і передано в лікарню. Залишилось 174,90 грн. Акція триває до 19.02!</div>
    <div style="float: right;">
@@ -4800,7 +4800,7 @@
    </div>
    <div><em> Новина від 17.02.2014 о 12:45 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Biтаємо!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">14.02 в ЦДТ проходив міський вокальний конкурс «Зірковий дует». гiмназію гідно представили Сахнюк Олександр, 6-А клас та його мама Сахнюк Світлана Олександрівна, які перемогли у номінації «Вокальний дует», з чим ми їх і вітаємо та бажаємо творчих успіхів!</div>
    <div style="float: right;">
@@ -4808,7 +4808,7 @@
    </div>
    <div><em> Новина від 17.02.2014 о 12:43 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Єдиний урок мужності</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">14.02 пройшов єдиний урок мужності «У полум’ї  війни» до відзначення року учасників бойових дій на території інших держав.</div>
    <div style="float: right;">
@@ -4816,7 +4816,7 @@
    </div>
    <div><em> Новина від 17.02.2014 о 12:43 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Виховна година</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">12.02 прийшла година пам'яті з нагоди 25-ї річниці виводу військ з Афганістану, яку підготували та провели учні 9-х класів під керівництвом Ільченко С.В., заступника директора з виховної роботи. Виступили гості воїни-інтернаціоналісти Стукало М.Г. та Слєсар В.В.</div>
    <div style="float: right;">
@@ -4824,7 +4824,7 @@
    </div>
    <div><em> Новина від 17.02.2014 о 12:41 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Увага! Конкурс</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Шановні учні! У бібліотеці гімназії проводитися  черговий конкурс.
       13.02.2014 (під час перерв)  у бібліотеці гімназії проводиться конкурс  на  кращого
@@ -4839,7 +4839,7 @@
    </div>
    <div><em> Новина від 11.02.2014 о 07:56 am опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Гiмназійний Twitter</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Oстанні новини з життя гімназії відтепер можна дізнаватися з нашого мікроблогу у twitter за адресою: @gimnaziya_zhv</div>
    <div style="float: right;">
@@ -4847,7 +4847,7 @@
    </div>
    <div><em> Новина від 10.02.2014 о 01:52 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Увага всім небайдужим!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Рада лідерів дитячої організації «Victory»
       Просить відгукнутися та допомогти двом немовлятам, що мешкають у дитячій лікарні нашого міста! Цим дітям необхідно купувати дитяче харчування, памперси, одяг, іграшки.Коштів на це у лікарні немає.
@@ -4859,7 +4859,7 @@
    </div>
    <div><em> Новина від 10.02.2014 о 12:59 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Акція "Батарейка здавайся!"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Учні гімназії приєдналися до акції «Батарейка, здавайся!», започаткованої студентами Жовтоводського промислового коледжу, вже здано близько 3-х кг використаних батарейок. гiмназисти, не будьте байдужими, збережемо навколишнє середовище разом! Biдпрацьовані батарейки ви можете здати в кабінет біології № 29.</div>
    <div style="float: right;">
@@ -4867,7 +4867,7 @@
    </div>
    <div><em> Новина від 10.02.2014 о 12:56 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>7 лютого 2014 року відбувся міський конкурс «Лідер року - 2014»!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Bітаємо
       Єлизавету Супрун, 11-А клас
@@ -4885,7 +4885,7 @@
    </div>
    <div><em> Новина від 10.02.2014 о 12:40 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Увага! Увага! Увага!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">В зв'язку з переходом на нову сторінку новин всі попередні новини викладено від 07.02.2014. Справжня дата опублікування вказана в самій новині. Просимо вибачення за незручності.
       <br>
@@ -4896,13 +4896,13 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:49 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>ДО «Victory»</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Інтелектуальна еліта дитячої організації «Victory»::<br>У 2013-2014н.р. у міських олімпіадах взяло участь 190  гімназистів, які вибороли 95 призових місць, що становить   50 % якості.  Найбільш результативно виступили учні на олімпіадах з французької мови – 17 призових місць, історії – 16, української мови і літератури - 14, російської мови – 8 (хоча предмет не вивчається в гімназії). По  8 призових місць маємо  також на олімпіадах з правознавства та  біології, англійської  мови.</div>
    <div style="float: right;"> <a href='/cutenews/gymnaziumnews.php?subaction=showfull&amp;id=1391780793&amp;'>Читати більше</a> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1391780793">1 Коментарів</a></div>
    <div><em> Новина від 07.02.2014 о 01:46 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Збірка Ганни Смольської</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">5 січня 2014 року в актовій залі гімназії відбулася презентація збірки поезій Ганни Смольської "Я - твоя любовь". У збірці вміщені поезії та есе написані Ганною у різний час: починаючи від навчання у гімназії і до останніх днів життя. Також під час зустрічі звучали твори зі збірки, які читали Кароліна Куліш, Оксана Узлова, Алла &sup3;нніченко, Михайло Мурашкін та інші.  Переглянути відео з презентації можна у розділі "Наше відео" <br>Адміністрація::::06-01-2014</div>
    <div style="float: right;">
@@ -4910,7 +4910,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:45 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Новорічні свята</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Наприкінці грудня для учнів гімназії пройшли новорічні свята. Про те, як все це відбувалося дивіться в розділі "Наше відео"<br>Адміністрація::::02-01-2014</div>
    <div style="float: right;">
@@ -4918,7 +4918,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:44 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>"Biдкритий світ"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Увага! Наша гімназія стала переможницею Національного проекту "&#179;дкритий світ". Незабаром у навчальних кабінетах з'являться новітні мультимедійні дошки, цифрові лабораторії, комп'ютери для вчителів та доступ до єдиного освітнього порталу.::::26-12-2013</div>
    <div style="float: right;">
@@ -4926,7 +4926,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:43 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Шаховий клуб "Гамбіт"</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">З 15 вересня в Жовтоводській гуманітарній гімназії розпочав роботу шаховий гурток «ГАМБІТ». Його членами є вже 17 учнів та учениць гімназії. З 15 вересня в Жовтоводській гуманітарній гімназії розпочав роботу шаховий гурток «ГАМБІТ». Його членами є вже 17 учнів та учениць гімназії. &oacute;мназисти цікаво та з користю проводять свій вільний час. Юні шахісти вивчають правила цієї стародавньої гри, вчяться основам стратегії та тактики, беруть участь у матчах, конкурсах та змаганнях, отримують призи, а ще просто спілкуються один з одним і знаходять нових друзів. Шаховий клуб «Гамбіт» запрошує всіх хто цікавиться спортом, наукою та мистецтвом приєднатися до нас. Витрать свій час з користю! Заняття проводяться в кабінеті №20 кожного четверга з 14 до 16 години та кожної суботи з 9 до 12 години. МИ ЧЕКАЄМО НА ТЕБЕ!<br>Керівник гуртка: Пінчук Денис Ігорович::::3-10-2013</div>
    <div style="float: right;">
@@ -4934,7 +4934,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:42 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>BІТАЄМО</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">BІТАЄМО  Іллю Тараненка, учня 5-Б клас   із перемогою в обласних змаганнях з легкої атлетики та Владислава Рябенка, учня 5-Б клас із зайнятим ІІІ місцем на Всеукраїнських змаганнях з кікбоксингу. Бажаємо хлопцям високих спортивних досягнень та успіхів у навчанні!<br>Адміністрація::::27-09-2013</div>
    <div style="float: right;">
@@ -4942,7 +4942,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:41 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Увага! Увага! Увага!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Bітаємо команду гімназії у складі: Тараненка Іллі (5-Б), Бородінських Софії (5-А), Горбатової Анжеліки (6-А), Матвієнка Дмитра (6-Б), Євтушенка Євгена (7-А), Демчик Аліни (7-Б), Микитася Павла (8-А), Світличної Наталки (8-А), Кармаєвої Олександри  (8-Б), Федусова Сергія (8-Б), Мухи Кирила  (8-А), Руденко Юлії (10-Б), Микитася Данила  (7-А) із зайнятим ІІІ місцем у міських змаганнях «Козацький гарт» <br>Адміністрація::::24-10-2013</div>
    <div style="float: right;">
@@ -4950,7 +4950,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:40 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>День партизанської слави</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">25 вересня у стінах гімназії пройшли виховні години присвячені Дню партизанської слави. Усі учні мали можливість познайомитися з діяльність підпільників та вшанувати їх героїчний подвиг в ім’я миру. <br>Адміністрація::::26-09-2013</div>
    <div style="float: right;">
@@ -4958,7 +4958,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:39 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Міські змагання з легкої атлетики</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">Bітаємо  Команду гімназії за зайняте ІІІ місце з легкої атлетики у міських змаганнях присвячених Дню фізичної культури і спорту. <br>Адміністрація::::16-09-2013</div>
    <div style="float: right;">
@@ -4966,7 +4966,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:35 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
    <h1>Єдиний день зарядки:</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">13 вересня на подвір`ї гімназії усі учні та вчителі мали змогу зайнятися ранковою зарядкою, яка була приурочена до Дня фізичної культури і спорту. Як це було можна переглянути в розділі "Наше відео"<br>Адміністрація::::13-09-2013</div>
    <div style="float: right;">
@@ -4974,7 +4974,7 @@
    </div>
    <div><em> Новина від 07.02.2014 о 01:34 pm опублікував Administrator</em></div>
 </div>
-<div class="post">
+<div class="inner-post">
 <h1>Bітаємо з Днем знань!!!</h1>
 <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">День знань:: 2 вересня 2013 розпочався новий навчальний рік. Щиро вітаємо учнів гімназії та вчителів зі світом знань! Бажаємо прагнення нових знань, терплячості та успіхів!<br>Адміністрація::::02-09-2013</div>
 <div style="float: right;">
