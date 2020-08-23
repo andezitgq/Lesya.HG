@@ -387,6 +387,10 @@ a.anchor {
     height: calc(auto - 500px);
 }
 
+.lesya-pdf {
+    max-width: 50%;
+}
+
 @media screen and (max-device-width: 800px) and (orientation: landscape) {
     .title {
         font-size: 30px;

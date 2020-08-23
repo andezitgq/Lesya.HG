@@ -152,7 +152,7 @@
         <a href="#media">Медіа</a>
         <a href="#create-post">Дистанційні завдання</a>
         <a href="?unset-session">Вийти з аккаунту</a>
-        <a href="?old-parse">Старий парс</a>
+        <!--<a href="?old-parse">Старий парс</a>-->
     </div><br><br><br>
     <a class="anchor" id="create-post"></a>
     <h2>Створити пост</h2>

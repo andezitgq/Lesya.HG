@@ -5,22 +5,17 @@
 
 ?>
 
-<!--<object data="img/Вступ.pdf" type="application/pdf">
-        <embed src="img/Вступ.pdf" type="application/pdf" />
-</object>-->
-<div id="my_pdf_viewer">
-    <div id="zoom_controls">  
-        <button id="zoom_in">+</button>
-        <button id="zoom_out">-</button>
+<div class="lesya-pdf">
+    <div role="toolbar" id="toolbar">
+        <div id="pager">
+            <button data-pager="prev">prev</button>
+            <button data-pager="next">next</button>
+        </div>
+        <div id="page-mode" style="display:none">
+            <label>Page Mode <input type="number" value="1" min="1"/></label>
+        </div>
     </div>
-    <div id="canvas_container">
-        <canvas id="pdf_renderer"></canvas>
-    </div>
-    <div id="navigation_controls">
-        <button id="go_previous">Previous</button>
-        <input id="current_page" value=1 min=1 type="number"/>
-        <button id="go_next">Next</button>
-    </div>
+    <div id="viewport-container"><div role="main" id="viewport"></div></div>
 </div>
 
 <?php include 'tml/bottom.php'; ?>
