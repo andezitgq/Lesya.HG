@@ -173,7 +173,7 @@
          text-align:center;mso-line-height-alt:14.75pt;mso-outline-level:1">
          <b>
             <span mso-fareast-font-family:="" new="" style="font-size:16.0pt;font-family:" times="">
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -182,7 +182,7 @@
          <b>
             <span mso-fareast-font-family:="" new="" style="font-size:16.0pt;font-family:" times="">
                ПАМ&rsquo;ЯТКА ДЛЯ УЧНІВ ТА БАТЬКІВ НА ЛІТНІ КАНІКУЛИ
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -191,7 +191,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">1.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp; &nbsp; &nbsp;</span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Переходь дорогу тільки у місцях, позначених знаком &laquo;Пішохідний перехід&raquo;, на зелене світло світлофора, коли зупиняться всі транспортні засоби!!!
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -199,7 +199,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">2.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Обходи трамвай на зупинці спереду, а авто, автобуси &ndash; ззаду.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -207,7 +207,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">3.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp; &nbsp;&nbsp;</span></span><u><strong><span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">Правила протипожежної безпеки</span></strong></u>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             :<span id="cke_bm_111E" style="display: none;">&nbsp;</span> щоб уникнути отримання травм, не підпалюйте петарди, сірники, не грайся з небезпечними предметами та речовинами!!!
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -215,7 +215,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">4.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Обережно користуйся електроприладами вдома, не залишай їх без нагляду ввімкнутими.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -223,7 +223,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">5.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Під час турпоходів, подорожей до лісу: розпалюйте багаття тільки під наглядом дорослих, не вживай воду з природних джерел, не залишай сміття, не руйнуй пташині гнізда, будь обережним при зустрічі з свійськими та дикими тваринами. Не збирай І НЕ ВЖИВАЙ гриби, плоди, ягоди біля транспортних магістралей, високовольтних ліній електромережі. Не збирай І НЕ ВЖИВАЙ незнайомі гриби, плоди, ягоди.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -231,7 +231,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">6.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Під час грози, сильного вітру, шквалів знаходься у приміщеннях.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -239,7 +239,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">7.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Будь обережним під час літнього відпочинку на воді. Не купайся без дозволу та нагляду дорослих, не купайся в незнайомих та не облаштованих для купання водоймах.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -247,7 +247,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">8.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             У випадку знаходження маловідомих предметів терміново повідом дорослих або відповідній організації, не торкайся їх і не намагатися їх знешкоджувати самостійно!!!
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -263,7 +263,7 @@
          <b>
             <span mso-fareast-font-family:="" new="" style="font-size:16.0pt;font-family:" times="">
                ШАНОВНІ БАТЬКИ!
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -272,7 +272,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">1.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Не залишайте дітей без догляду. Знайте, де і з ким бувають Ваші діти, чим вони займаються.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -280,7 +280,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">2.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Випускаючи дитину на прогулянку, нагадуйте їй про правила дорожнього руху.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -288,7 +288,7 @@
          <!--[if !supportLists]--><span mso-fareast-font-family:="" style="font-size:12.0pt;font-family:">3.<span new="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: " times="">&nbsp;&nbsp;&nbsp; </span></span>
          <span mso-fareast-font-family:="" new="" style="font-size:12.0pt;font-family:" times="">
             Не залишайте колючі, ріжучі предмети та сірники у легкодоступному для дітей місці.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin:0cm;margin-bottom:.0001pt;text-indent:-18.0pt;
@@ -474,7 +474,7 @@
             " times="">http://uvu.org.ua/</span></a></span>
          <span lang="RU" mso-fareast-font-family:="" new="" style="font-size:16.0pt;font-family:" times="">
             ).
-            <o:p></o:p>
+            
          </span>
       </p>
    </div>
@@ -504,7 +504,7 @@
       <p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm">
          <span lang="UK" style="font-size:14.0pt;mso-ansi-language:UK">
             На виконання Календарного плану підготовки та проведення&nbsp; в 2020 році в закладах загальної середньої освіти м. Жовті Води зовнішнього незалежного оцінювання результатів навчання, здобутих на основі повної загальної середньої освіти&nbsp; відділ освіти виконавчого комітету Жовтоводської міської ради просить Вашого сприяння щодо проходження педагогами, які будуть залучені до роботи на пунктах проведення &nbsp;ЗНО: &nbsp;
-            <o:p></o:p>
+            
          </span>
       </p>
       <p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm">
@@ -512,7 +512,7 @@
             <span lang="UK" style="font-size:14.0pt;
                mso-ansi-language:UK">
                1) навчання:
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -522,7 +522,7 @@
             mso-bidi-font-weight:bold">06.05.2020 об 14:30</span></strong><span lang="RU" style="font-size:14.0pt;font-weight:normal"> відбудеться навчання персоналу пунктів ЗНО,</span><strong><span lang="RU" style="font-size:14.0pt"> </span></strong><strong><span lang="RU" style="font-size:14.0pt;font-weight:normal;mso-bidi-font-weight:bold">які у 2020 році вперше залучатимуться до проведення процедур ЗНО</span></strong><strong><span lang="RU" style="font-size:14.0pt"> </span></strong><span lang="RU" style="font-size:14.0pt;font-weight:normal">за посиланням: <a href="https://youtu.be/9UMdg1jFWhc" target="_blank">https://youtu.be/9UMdg1jFWhc </a></span>
          <span lang="UK" style="font-size:14.0pt;mso-ansi-language:UK;
             font-weight:normal;mso-bidi-font-weight:bold">
-            <o:p></o:p>
+            
          </span>
       </h3>
       <h3 style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:
@@ -531,7 +531,7 @@
             mso-bidi-font-weight:bold">07.05.2020 об 14:30</span></strong><span lang="RU" style="font-size:14.0pt;font-weight:normal"> відбудеться інструктаж сертифікованих старших інструкторів, інструкторів, чергових,</span><strong><span lang="RU" style="font-size:14.0pt"> </span></strong><strong><span lang="RU" style="font-size:14.0pt;font-weight:normal;mso-bidi-font-weight:bold">які будуть залучатися до проведення</span></strong><strong><span lang="RU" style="font-size:14.0pt"> </span></strong><strong><span lang="RU" style="font-size:14.0pt;font-weight:normal;mso-bidi-font-weight:bold">процедур ЗНО у 2020 році</span></strong><strong><span lang="RU" style="font-size:14.0pt"> </span></strong><span lang="RU" style="font-size:14.0pt;font-weight:normal">за посиланням: <a href="https://youtu.be/9XjuKS2dWX8" target="_blank">https://youtu.be/9XjuKS2dWX8 </a></span>
          <span lang="UK" style="font-size:14.0pt;mso-ansi-language:UK;
             font-weight:normal">
-            <o:p></o:p>
+            
          </span>
       </h3>
       <h3 style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:
@@ -540,7 +540,7 @@
             normal">2) &nbsp;&nbsp;&nbsp;веб-конференція в програмі </span><span style="font-size:14.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:normal">Zoom</span><span style="font-size:14.0pt;mso-ansi-language:UK;mso-bidi-font-weight:normal"> </span>
          <span lang="UK" style="font-size:14.0pt;mso-ansi-language:UK;font-weight:normal">
             (ідентифікатор входу на конференцію 7022509306, пароль 853667): 
-            <o:p></o:p>
+            
          </span>
       </h3>
       <h3 style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:
@@ -555,7 +555,7 @@
       </h3>
       <p class="MsoNormal">
          <span lang="UK" style="color:red;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
    </div>
@@ -620,7 +620,7 @@
          <span lang="RU" mso-fareast-font-family:="" new="" style="font-size:16.0pt;font-family:" times="">&nbsp; &nbsp; Інфоресурс містить ключову інформацію про зміни в роботі дитячих садків, шкіл, закладів ПТО, університетів та коледжів. Зокрема, тут розміщено актуальну інформацію про завершення навчального року в школах, цьогорічне ЗНО та вступну кампанію.</span><span mso-fareast-font-family:="" new="" style="font-size:16.0pt;font-family:" times="">&nbsp;</span>
          <span lang="RU" new="" style="font-size:
             16.0pt;font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p>
@@ -641,7 +641,7 @@
       <p class="MsoNormal" style="text-align:justify;text-indent:35.4pt">
          <span lang="UK" new="" style="font-size:14.0pt;line-height:115%;font-family:" times="">
             Для тих, хто хоче стати курсантом Одеського державного університету внутрішніх справ, заклад вищої освіти пропонує навчання за наступними спеціальностями:
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormalCxSpMiddle" style="margin-bottom:0cm;margin-bottom:.0001pt;
@@ -650,7 +650,7 @@
             font-family:" times="">081 &laquo;Право&raquo;</span></b>
          <span lang="UK" new="" style="font-size:14.0pt;font-family:" times="">
             (факультет підготовки фахівців для органів досудового розслідування; Херсонський факультет), термін навчання 4 роки.
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormalCxSpMiddle" style="margin-bottom:0cm;margin-bottom:.0001pt;
@@ -663,7 +663,7 @@
             font-family:" times="">262 &laquo;Правоохоронна діяльність&raquo;</span></b>
          <span lang="UK" new="" style="font-size:14.0pt;font-family:" times="">
             (факультет підготовки фахівців для підрозділів кримінальної поліції; факультет підготовки фахівців для підрозділів превентивної діяльності; Херсонський факультет).
-            <o:p></o:p>
+            
          </span>
       </p>
       <p>
@@ -675,7 +675,7 @@
       </p>
       <p class="MsoNormal" style="text-align:justify;text-indent:35.4pt">
          <span lang="UK" new="" style="font-size:14.0pt;line-height:115%;font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
    </div>
@@ -691,7 +691,7 @@
          <span lang="UK" style="font-size:13.5pt;color:black;mso-ansi-language:UK">Кафедра соціології Дніпровського національного університету імені Олеся Гончара Міністерства освіти і науки України запрошує учнів випускних класів до вступу на спеціальність &laquo;Соціологія&raquo;.</span>
          <span lang="UK" style="font-size:13.5pt;
             font-family:&quot;Arial&quot;,sans-serif;color:black;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p style="margin-bottom: 0.0001pt;">
@@ -699,7 +699,7 @@
             UK">Починаючи з&nbsp;<span data-ukrnet-code="2018">2018</span>/<span data-ukrnet-code="2019">2019</span>&nbsp;навчального року, змінено набір сертифікатів ЗНО на вступ на перший (бакалаврський) освітній рівень за спеціальністю &laquo;Соціологія&raquo;: українська мова та література; математика (профілюючий); історія або іноземна мова (конкурс на місця державного замовлення).</span>
          <span lang="UK" style="font-size:13.5pt;font-family:&quot;Arial&quot;,sans-serif;
             color:black;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p style="margin-bottom: 0.0001pt;">
@@ -707,7 +707,7 @@
             UK">На небюджетні місця пропонується інший набір сертифікатів ЗНО: українська мова та література; історія (профілюючий); іноземна мова або географія.</span>
          <span lang="UK" style="font-size:13.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black;
             mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p>
@@ -823,7 +823,7 @@
       <p class="MsoNormal">
          <span lang="RU" style="font-size: 14pt; line-height: 107%; font-family: Arial, sans-serif;">
             <span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
-               <o:p></o:p>
+               
             </span>
          </span>
       </p>
@@ -842,7 +842,7 @@
             <span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">- відмова від сирих чи недостатньо термічно оброблених продуктів тваринного походження. Вірус 2019-</span><span style="font-size: 14pt; line-height: 107%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">nCoV</span>
             <span lang="RU" style="font-size: 14pt; line-height: 107%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
                зоогенний. Це означає, що спершу він поширювався між тваринами, а в якийсь момент мутував і поширився від тварини до людини. Задля уникнення зараження рекомендується нівелювати контакти із тваринами та їхніми біоматеріалами &ndash; кров&rsquo;ю, сирим м&rsquo;ясом тощо&hellip;
-               <o:p></o:p>
+               
             </span>
          </span>
       </p>
@@ -932,7 +932,7 @@
          <span new="" style="font-size:18.0pt;line-height:107%;font-family:" times="">
             <span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
                <span class="textexposedshow">
-                  <o:p></o:p>
+                  
                </span>
             </span>
          </span>
@@ -944,7 +944,7 @@
          <span style="font-size:14.0pt;line-height:107%;font-family:">
             <span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
                <b>
-                  <o:p></o:p>
+                  
                </b>
             </span>
          </span>
@@ -970,7 +970,7 @@
          <span class="textexposedshow">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Бажаємо нових звершень!</span></span></span>
          <span class="textexposedshow">
             <span new="" style="font-size:14.0pt;line-height:107%;font-family:" times="">
-               <o:p></o:p>
+               
             </span>
          </span>
       </p>
@@ -978,7 +978,7 @@
          <span background-attachment:="" background-clip:="" background-image:="" background-origin:="" background-position:="" background-repeat:="" background-size:="" color:="" new="" style="font-size: 14pt; line-height: 107%; font-family: " times=""><span class="textexposedshow"><img alt="" src="http://lesya.org/cutenews//uploads/86501293_628632634373288_8092350364331802624_o.jpg" style="width: 520px; height: 693px;" /></span></span>
          <span new="" style="font-size:14.0pt;line-height:
             107%;font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
    </div>
@@ -1058,7 +1058,7 @@
          <span style="font-size:20px;"><span new="" times="">12 січня 2020 року Дніпровська академія неперервної освіти приймала учнів 9-11 класів, бо саме в цей день проходила обласна олімпіада з правознавства.</span></span>
          <span new="" style="font-size:12.0pt;
             font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1066,7 +1066,7 @@
          <span style="font-size:20px;"><span new="" times="">Належний науково-теоретичний рівень забезпечувало журі, до складу якого увійшов учитель гуманітарної гімназії імені Лесі Українки Гопак Надія Пантеліївна, учитель вищої категорії, учитель-методист, Відмінник освіти України, нагороджена Грамотою Верховної Ради України за особливі заслуги перед народом України.</span></span>
          <span new="" style="font-size:12.0pt;
             font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1074,7 +1074,7 @@
          <span style="font-size:20px;"><span new="" times="">Місто Жовті Води було представлено учнями гуманітарної гімназії імені Лесі Українки.</span></span>
          <span new="" style="font-size:12.0pt;
             font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1082,21 +1082,21 @@
          <span style="font-size:20px;"><span new="" times="">Команда гуманітарної гімназії імені Лесі Українки виборола два призових місця:</span></span>
          <span new="" style="font-size:12.0pt;
             font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
          justify;text-indent:35.45pt;line-height:normal">
          <span style="font-size:20px;"><span new="" times="">Діденко Матвій , учень 9 класу &ndash; ІІ місце, учитель </span><span new="" times="">Гопак Н.П.;</span></span>
          <span new="" style="font-size:12.0pt;font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="text-indent:35.4pt">
          <span style="font-size:20px;"><span mso-fareast-font-family:="" new="" style="line-height: 115%;" times="">Цапля Богдан, учень 10 класу &ndash; ІІІ місце, учитель Гопак Н.П.</span></span>
          <span mso-ansi-language:="" new="" style="font-size:
             12.0pt;line-height:115%;font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1104,7 +1104,7 @@
          <span style="font-size:20px;"><span new="" times="">Учні-призери показали глибокі знання з теорії держави і права та уміння аналізувати юридичні ситуації з різних галузей права, визначати структуру правовідносин, склад правопорушення та давати аргументовані відповіді на ті чи інші питання юридичного змісту, спираючись на законодавство України та міжнародно-правові акти імплементовані в вітчизняне законодавство.</span></span>
          <span new="" style="font-size:12.0pt;
             font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="text-indent:35.4pt">
@@ -1113,7 +1113,7 @@
       <p class="MsoNormal" style="text-indent:35.4pt">
          <span new="" style="font-size:12.0pt;
             line-height:115%;font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="text-indent:35.4pt">
@@ -1134,7 +1134,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">19 січня 2020 року Дніпровська академія неперервної освіти приймала учнів 8-11 класів, бо саме в цей день проходила обласна олімпіада з історії.</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1142,7 +1142,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Належний науково-теоретичний рівень забезпечувало журі, до складу якого увійшов учитель гуманітарної гімназії імені Лесі Українки Шевченко Тетяна Миколаївна, учитель вищої категорії, учитель-методист, Відмінник освіти України, нагороджена Грамотою Верховної Ради України за особливі заслуги перед народом України.</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1150,7 +1150,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Місто Жовті Води було представлено п&rsquo;ятьма учнями гуманітарної гімназії імені Лесі Українки.</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1158,7 +1158,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Журі, об&rsquo;єктивно оцінювало учнівські роботи та визначило кращих юних істориків області.</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1166,7 +1166,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Команда гуманітарної гімназії імені Лесі Українки виборола п&rsquo;ять призових місць тобто всі учні гімназії посіли призові місця.</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1174,7 +1174,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Долгополов Денис, учень 8 класу &ndash; ІІ місце, учитель Шевченко Т.М,;</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1182,7 +1182,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Нудна Діана, учениця 9 класу &ndash; ІІІ місце, учитель Гопак Н.П.;</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1190,7 +1190,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Бречка Богдан, учень 10 класу &ndash; ІІІ місце, учитель Шевченко Т.М.;</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1198,7 +1198,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Заворотній Гліб, учень 11 класу &ndash; ІІ місце, учитель Шевченко Т.М.;</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1206,7 +1206,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Щербаченко Олександр, учень 11 класу &ndash; ІІІ місце, учитель Шевченко Т.М.</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
@@ -1214,7 +1214,7 @@
          <span style="font-size:18px;"><span style="font-family: &quot;Times New Roman&quot;, serif;">Учні-призери показали глибокі знання з історії, як вітчизняної та Всесвітньої. Гімназисти добре справились з характеристикою особливостей розвитку тих чи інших історичних епох, показали вміння оцінювати діяльність історичних осіб та знання хронології.</span></span>
          <span style="font-size:12.0pt;
             font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="text-indent:35.4pt">
@@ -1224,7 +1224,7 @@
          <span style="font-size:18px;"><span style="line-height: 115%; font-family: &quot;Times New Roman&quot;, serif;"><img alt="" src="http://lesya.org/cutenews//uploads/IMG_20200121_101954.jpg" style="width: 508px; height: 381px;" /></span></span>
          <span style="font-size:12.0pt;
             line-height:115%;font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:UK">
-            <o:p></o:p>
+            
          </span>
       </p>
    </div>
@@ -1317,21 +1317,21 @@
          <span style="font-size:18px;"><span color:="" new="" style="font-family: " times="">14 грудня 2019 року на базі Дніпровської академії неперервної освіти було проведено обласний етап ХХ Міжнародного конкурсу з української мови імені Петра Яцика, який проводився на виконання Указу Президента України від 09.11.2007 № 1078 &laquo;Про Міжнародний конкурс з української мови імені Петра Яцика&raquo; та відповідно до &laquo;Положення про Міжнародний конкурс з української мови імені Петра Яцика&raquo;, затвердженого наказом Міністерства освіти і науки України від 13.03.2008 №168. Конкурс спрямований на утвердження в Україні державного статусу української мови і має на меті виявити не лише мовну грамотність учнів закладів загальної середньої, професійно-технічної та вищої освіти, а й їхні творчі здібності, на формування національного і громадянського світогляду.</span></span>
          <span new="" style="font-size:14.0pt;
             font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
          21.3pt;line-height:normal">
          <span style="font-size:18px;"><span color:="" new="" style="font-family: " times="">В обласному етапі Конкурсу взяли участь учні й студенти з різних міст і районів області. Найактивнішими цього року були учні та студенти з міста Павлограда, Дніпра, Кам&rsquo;янського, Новомосковська, Синельникового, Жовтих Вод, Тернівки, Нікополя, а також Солонянського, Новомосковського, Покровського, Петриківського, Царичанського, Софіївського, Томаківського, Павлоградського, та інших районів Дніпропетровської області.</span></span>
          <span mso-fareast-language:="" new="" style="font-size:14.0pt;font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom: 0.0001pt; text-indent: 21.3pt; line-height: normal;">
          <span style="font-size:18px;"><b><span color:="" new="" style="font-family: " times="">Вітаємо з перемогою учнів гуманітарної гімназії імені Лесі Українки:</span></b></span>
          <span new="" style="font-size:14.0pt;
             mso-ascii-font-family:Calibri;mso-fareast-font-family:" times="">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="margin-bottom: 0.0001pt; text-indent: 21.3pt; line-height: normal;">
@@ -1396,7 +1396,7 @@
       </p>
       <p class="MsoNormal">
          <span style="font-size:18.0pt;line-height:107%">
-            <o:p></o:p>
+            
          </span>
       </p>
    </div>
@@ -1535,7 +1535,7 @@
             <i>
                <span bookman="" color:="" old="" style="font-size: 18pt; font-family: ">
                   Підсумки проведення благодійного ярмарку &laquo;Від серця до серця&raquo; 15.11.2019 року
-                  <o:p></o:p>
+                  
                </span>
             </i>
          </b>
@@ -1544,14 +1544,14 @@
          <b><span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">У номінації &laquo;Майстер-шеф&raquo;</span></b>
          <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
             &nbsp; за наявність страв приготованих власноруч, різноманітний асортимент продукції, цікаві рішення в оформленні та подачі, дотримання санітарно-гігієнічних вимог, нагороджуються:
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="line-height:normal">
          <b>
             <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
                І місце &ndash; 5-Б, 6-Б, 7-А, 8-А, 9-Б класи
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -1559,7 +1559,7 @@
          <b>
             <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
                ІІ місце &ndash; 5-А, 6-А, 8-Б, 9-А, 10-Б класи
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -1567,7 +1567,7 @@
          <b>
             <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
                ІІІ місце &ndash; 7-Б, 10-А, 11-Б класи
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -1575,14 +1575,14 @@
          <b><span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">У номінації &laquo;Юний маркетолог&raquo;</span></b>
          <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
             &nbsp; за естетичне оформлення точки продажу, вміння якісно обслуговувати покупців, вдалу рекламу своєї торгової марки, нагороджуються:
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="line-height:normal">
          <b>
             <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
                І місце &ndash; 5-А, 7-А, 8-А, 8-Б класи
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -1590,7 +1590,7 @@
          <b>
             <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
                ІІ місце &ndash; 5-Б, 6-А, 9-А, 9-Б, 11-А &nbsp;класи
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -1598,7 +1598,7 @@
          <b>
             <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
                ІІІ місце &ndash; 6-Б, 10-А класи
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -1606,14 +1606,14 @@
          <b><span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">У номінації &laquo;Джек-пот&raquo;</span></b>
          <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
             &nbsp; за найбільшу зібрану виручку від продажу товару, нагороджуються:
-            <o:p></o:p>
+            
          </span>
       </p>
       <p class="MsoNormal" style="line-height:normal">
          <b>
             <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
                І місце &ndash; 7-А клас
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -1621,7 +1621,7 @@
          <b>
             <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
                ІІ місце &ndash; 8-Б клас
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -1631,7 +1631,7 @@
       <p class="MsoNormal" style="line-height:normal">
          <i><span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">Виносимо величезну подяку всім небайдужим: учням, батькам, вчителям, що взяли участь у підготовці та проведенні благодійного ярмарку. Кошти, зібрані на ярмарку будуть витрачені за рішенням Ради лідерів гімназії.</span></i>
          <span bookman="" color:="" old="" style="font-size: 14pt; font-family: ">
-            <o:p></o:p>
+            
          </span>
       </p>
    </div>
@@ -1726,7 +1726,7 @@
          <b>
             <i>
                <span style="font-size:26.0pt;mso-ansi-language:UK">
-                  <o:p></o:p>
+                  
                </span>
             </i>
          </b>
@@ -1755,7 +1755,7 @@
                            <i>
                               <span style="font-size:18.0pt;
                                  mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1767,7 +1767,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1780,7 +1780,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1793,7 +1793,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1807,7 +1807,7 @@
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:
                                  UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1823,7 +1823,7 @@
                            <i>
                               <span style="font-size:18.0pt;
                                  mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1835,7 +1835,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1847,7 +1847,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1863,7 +1863,7 @@
                            <i>
                               <span style="font-size:18.0pt;
                                  mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1875,7 +1875,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1888,7 +1888,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1901,7 +1901,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1915,7 +1915,7 @@
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:
                                  UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1930,7 +1930,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1942,7 +1942,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1955,7 +1955,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1971,7 +1971,7 @@
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:
                                  UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1983,7 +1983,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -1996,7 +1996,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2009,7 +2009,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2023,7 +2023,7 @@
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:
                                  UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2039,7 +2039,7 @@
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:
                                  UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2051,7 +2051,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2064,7 +2064,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2080,7 +2080,7 @@
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:
                                  UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2092,7 +2092,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2105,7 +2105,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2117,7 +2117,7 @@
                         <b>
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2130,7 +2130,7 @@
                            <i>
                               <span style="font-size:18.0pt;mso-ansi-language:
                                  UK">
-                                 <o:p></o:p>
+                                 
                               </span>
                            </i>
                         </b>
@@ -2143,7 +2143,7 @@
       <p class="MsoNormal">
          <span style="font-size:16px;">
             <span lang="RU">
-               <o:p>&nbsp;</o:p>
+               
             </span>
          </span>
          <span style="font-size:20px;"><b data-darkreader-inline-bgcolor="" style="font-size: 16px; background-color: white; text-align: center; --darkreader-inline-bgcolor:#181a1b;"><i>Бажаємо подальших успіхів!&nbsp;</i></b></span>
@@ -2155,7 +2155,7 @@
          <b>
             <i>
                <span style="font-size:26.0pt;mso-ansi-language:UK">
-                  <o:p></o:p>
+                  
                </span>
             </i>
          </b>
@@ -2192,7 +2192,7 @@
       </p>
       <p class="MsoNormal">
          <span style="font-size:20px;"><img alt="" src="http://lesya.org/cutenews//uploads/20191108_093621.jpg" style="height: 400px; width: 533px;" /></span>
-         <o:p></o:p>
+         
       </p>
    </div>
    <div style="float: right;">
@@ -2226,7 +2226,7 @@
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p class="MsoNormal" style="text-indent:14.2pt">
          <span style="font-size:20px;">25 жовтня гімназисти прийняли участь в <span style="--darkreader-inline-color:#ff3333;">міському Фестивалі патріотичної пісні <u><em>&laquo;Це потрібно живим...&raquo;</em></u></span>.</span>
-         <o:p></o:p>
+         
       </p>
       <p class="MsoNormal" style="text-indent:14.2pt">
          <span style="font-size:20px;">Перемогу отримали: </span>
@@ -2242,7 +2242,7 @@
       </p>
       <p class="MsoNormal" style="text-indent:14.2pt">
          <span style="font-size:20px;"><img alt="" src="http://lesya.org/cutenews//uploads/IMG-400aadaba441b9b38defac0bb2fb4bd1-V(1).jpg" style="width: 251px; height: 399px;" /></span>
-         <o:p></o:p>
+         
       </p>
    </div>
    <div style="float: right;">
@@ -2306,7 +2306,7 @@
       </p>
       <p class="MsoNormal">
          <span style="font-size:20px;"><img alt="" src="http://lesya.org/cutenews//uploads/P91025-122537[1].jpg" style="width: 560px; height: 315px;" /></span>
-         <o:p></o:p>
+         
       </p>
    </div>
    <div style="float: right;">
@@ -2525,7 +2525,7 @@
          <strong>
             <span lang="RU" style="font-size:14.0pt;
                line-height:115%;color:black;mso-ansi-language:RU">
-               <o:p></o:p>
+               
             </span>
          </strong>
       </p>
@@ -2589,7 +2589,7 @@
       <p style="margin: 0cm 0cm 0.0001pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
          <span style="font-size:20px;"><span style="color: black; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">День Безпечного Інтернету є унікальною можливістю для кращого розуміння проблем та можливостей в онлайновому світі, це час поділитися важливою інформацією</span><span style="color: black;"> разом з усім світом, приєднавшись до онлайн-уроку на YouTube каналі&nbsp;Спільноти Програми Академій Cisco в Україні&nbsp;.</span></span>
          <span style="font-size:18.0pt;color:black;mso-themecolor:text1">
-            <o:p></o:p>
+            
          </span>
       </p>
       <p style="margin: 0cm 0cm 0.0001pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
@@ -2603,7 +2603,7 @@
          <b>
             <span style="font-size:18.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;color:black;
                mso-themecolor:text1">
-               <o:p></o:p>
+               
             </span>
          </b>
       </p>
@@ -2909,7 +2909,7 @@
    <h1>Гімназія імені Лесі Українки -  гордість міста!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
-         <a href="http://piccy.info/view3/12642645/d1f66443adeb80e98330d5ec2b6cf3b6"><img .="" 10="" 12642645="" 600="" :="" a="" alt="" border="0" d1f66443adeb80e98330d5ec2b6cf3b6="" href="http://i.piccy.info/a3c/2018-09-24-12-19/i9-12642645/500x319-r" http:="" img="" p="" piccy.info="" src="http://i.piccy.info/a3/2018-09-24-12-19/i9-12642645/500x319-r/i.gif" target="_blank" view3="" /> </a>
+         <a href="http://piccy.info/view3/12642645/d1f66443adeb80e98330d5ec2b6cf3b6"><img alt="" border="0" href="http://i.piccy.info/a3c/2018-09-24-12-19/i9-12642645/500x319-r" src="http://i.piccy.info/a3/2018-09-24-12-19/i9-12642645/500x319-r/i.gif" target="_blank" /> </a>
       </p>
       <p>
          <a href="http://i.piccy.info/i9/cb471e9c7a0016ea64962b053329e9ce/1537791573/307180/1182530/1_0001.jpg"><img alt="" src="http://i.piccy.info/i9/cb471e9c7a0016ea64962b053329e9ce/1537791573/307180/1182530/1_0001.jpg" style="width: 600px; height: 319px;" /></a>
@@ -3155,7 +3155,7 @@
       <p>
          &nbsp;
       </p>
-      <span style="font-size:16px;"><strong><a href="https://www.facebook.com/100001614886139/videos/1768533469877132/?t=15" target="_blank">ПЕРЕГЛЯНУТИ</a></strong></span></p>
+      <span style="font-size:16px;"><strong><a href="https://www.facebook.com/100001614886139/videos/1768533469877132/?t=15" target="_blank">ПЕРЕГЛЯНУТИ</a></strong></span>
    </div>
    <div style="float: right;">
       <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1523864763&amp;template=Default">0 Коментарів</a>
@@ -3705,9 +3705,9 @@
 </div>
 <div class="post">
    <h1>Gymnasium News #7</h1>
-   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px; solid #D3D3D3;">
       <p>
-         <a href="https://www.youtube.com/watch?v=UPL6PXkotuo&t=3s" target="_blank">ПЕРЕГЛЯНУТИ ВІДЕО</a>
+         <a href="https://www.youtube.com/watch?v=UPL6PXkotuo" target="_blank">ПЕРЕГЛЯНУТИ ВІДЕО</a>
       </p>
       <br />
    </div>
@@ -3720,7 +3720,7 @@
    <h1>Gymnasium News #6</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
-         <a href="https://www.youtube.com/watch?v=9IH6krUX-dc&t=15s" target="_blank">ПЕРЕГЛЯНУТИ ВІДЕО</a>
+         <a href="https://www.youtube.com/watch?v=9IH6krUX-dc" target="_blank">ПЕРЕГЛЯНУТИ ВІДЕО</a>
       </p>
       <br />
    </div>
@@ -3829,7 +3829,7 @@
       <p style="text-align: center;">
          &nbsp;
       </p>
-      p style="text-align: center;">
+      <p style="text-align: center;">
       <a href="https://lh3.googleusercontent.com/TLYMPVnYYluVxWdoZjEAWnewHD_25El25A9uPwwwIPAkCmEBCcZ4cJFnRzDd0xnDW2SfnaeDYXUi1ii5EmzxXrDoH-su5QxtbwvJwi7PilgLH5kw8px-QjeW1OK_nY7Hw27Lig"><img src="https://lh3.googleusercontent.com/K6YUsyNPmaaVNiADibwMxHOSC9SHUGr-HRZPoB196jqfJNh2DINJ3LI4Kdf7d1-4yicB_Mdn83Vul8oB8UvArXb-I_IWBuUAy-NHHEq-ZgtbKZLswUwQDKIwgl43FhngSPJoyA" /></a></p>
       <p style="text-align: center;">
          &nbsp;
@@ -4405,7 +4405,7 @@
    <h1>Увага! Конкурс!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
-         <img alt="" src="https://lh5.googleusercontent.com/-pUE1XU0vnfE/VLd_UxzSDkI/AAAAAAAAEa0/Cvt7vP_Dp-4/s2048/konkurs_malunok.jpg" style="width: 600px; height: 400px;" /><img href="" /><img 0="" 2015="" height="" td="" width="" />
+         <img alt="" src="https://lh5.googleusercontent.com/-pUE1XU0vnfE/VLd_UxzSDkI/AAAAAAAAEa0/Cvt7vP_Dp-4/s2048/konkurs_malunok.jpg" style="width: 600px; height: 400px;" />
       </p>
    </div>
    <div style="float: right;">

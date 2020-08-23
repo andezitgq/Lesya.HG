@@ -2,7 +2,7 @@
     <div class=wrap-content-box>
     <?php
     
-        $all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 10' );
+        /*$all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 10' );
         for($i = -1; $i <= count($all); $i++){
             if(isset($all[$i])){
                 $date = date_create($all[$i]['date']);
@@ -15,7 +15,8 @@
                           $post->content.
                       '</div>';
             }
-        }
+        }*/
+        require 'post/temp.php';
     
     ?>
     </div>
