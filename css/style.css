@@ -388,7 +388,13 @@ a.anchor {
 }
 
 .lesya-pdf {
-    max-width: 50%;
+    background: url('../img/noise.png');
+    padding:20px;
+}
+
+#viewport-container {
+    width: 50%;
+    margin: auto;
 }
 
 @media screen and (max-device-width: 800px) and (orientation: landscape) {

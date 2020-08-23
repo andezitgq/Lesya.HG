@@ -13,6 +13,8 @@
 .icon-music:before { content: '\e80b'; } /* '' */
 .icon-link:before { content: '\e80c'; } /* '' */
 .icon-download:before { content: '\e80d'; } /* '' */
+.icon-left-open:before { content: '\e80e'; } /* '' */
+.icon-right-open:before { content: '\e80f'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
 .icon-list-bullet:before { content: '\f0ca'; } /* '' */
 .icon-table:before { content: '\f0ce'; } /* '' */

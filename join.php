@@ -8,8 +8,9 @@
 <div class="lesya-pdf">
     <div role="toolbar" id="toolbar">
         <div id="pager">
-            <button data-pager="prev">prev</button>
-            <button data-pager="next">next</button>
+            <button class=icon-left-open data-pager="prev"></button>
+            <button class=icon-right-open data-pager="next"></button>
+            <button class=icon-download></button>
         </div>
         <div id="page-mode" style="display:none">
             <label>Page Mode <input type="number" value="1" min="1"/></label>
