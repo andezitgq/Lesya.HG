@@ -74,7 +74,16 @@
         $dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'utf-8'));
         $xpath = new DOMXpath($dom);
         foreach($xpath->query('//div[contains(@class, "post")]') as $node){
-            echo $node->textContent;
+            //<div><em> Новина від 18.08.2020 о 01:03 pm опублікував Administrator</em></div>
+            preg_match('/опублікував (.*)/', $node->textContent, $author);
+            preg_match('/Новина від (.*) о/', $node->textContent, $date);
+            $date     = preg_replace('/о/', '', $date);
+            $datetime = date_create($date[1]);
+            $newdate  = date_format($datetime, 'Y-m-d G:i:s');
+            echo 'Content: '.'<br>';
+            echo 'Date   : '. $newdate .'<br>';
+            echo 'Author : '.$author[1].'<br>';
+            echo 'Title  : '.'<br>';
         }
     }
     
