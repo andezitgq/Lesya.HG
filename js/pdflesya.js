@@ -74,16 +74,14 @@
     }
 
     Promise.all(renderPagesPromises).then(pages => {
-      const pagesHTML = `<div style="width: ${
-        pageMode > 1 ? "50%" : "100%"
-      }"><canvas></canvas></div>`.repeat(pages.length);
+      const pagesHTML = `<div style="width: 100%;"><canvas></canvas></div>`.repeat(pages.length);
       viewport.innerHTML = pagesHTML;
       pages.forEach(renderPage);
     });
   }
 
   function renderPage(page) {
-    let pdfViewport = page.getViewport(1);
+    var pdfViewport = page.getViewport(0.4);
 
     const container =
       viewport.children[page.pageIndex - cursorIndex * pageMode];
@@ -92,6 +90,7 @@
     const context = canvas.getContext("2d");
     canvas.height = pdfViewport.height;
     canvas.width = pdfViewport.width;
+    canvas.style.width = "100%";
 
     page.render({
       canvasContext: context,

@@ -373,7 +373,7 @@ a.anchor {
 
 .error {
     color: white;
-    background: #13324f;
+    background: #1b466f;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -391,21 +391,39 @@ a.anchor {
     background: url('../img/noise.png');
     padding:20px;
     padding-top:0;
+    width: 50%;
 }
 
 #pager {
-    width: 50%;
+    width: 75%;
     display: flex;
     justify-content: flex-end;
+    background: #1b466f;
 }
 
-#pager {
+#pager button{
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    background: #1b466f;
+    color: white;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    transition: all .05s;
+}
+
+#pager button:hover {
+    background: #13324f;
+}
+
+#pager button:active {
     
 }
 
 #viewport-container {
-    width: 50%;
     margin: auto;
+    width: 100%;
 }
 
 @media screen and (max-device-width: 800px) and (orientation: landscape) {
