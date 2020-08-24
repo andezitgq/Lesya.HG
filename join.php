@@ -8,6 +8,7 @@
 <div class="lesya-pdf">
     <div role="toolbar" id="toolbar">
         <center><div id="pager">
+            <p>Sas</p>
             <button class=icon-left-open data-pager="prev"></button>
             <button class=icon-right-open data-pager="next"></button>
             <button class=icon-download onclick="download('img/Вступ.pdf', 'Вступ до гімназії.pdf')"></button>

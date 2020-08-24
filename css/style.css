@@ -392,29 +392,40 @@ a.anchor {
     padding:20px;
     padding-top:0;
     width: 50%;
+    border-radius: 15px;
 }
 
 #pager {
-    width: 100%;
+    width: calc(100% + 40px);
+    margin-left: -20px;
     display: flex;
     justify-content: flex-end;
-    background: #1b466f;
+    align-items: center;
+    background: #13324f;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #pager button{
     width: 35px;
     height: 30px;
     text-align: center;
-    background: #1b466f;
+    background: #13324f;
     color: white;
     margin: 5px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all .05s;
 }
 
+#pager p {
+    color: white;
+    margin-right: auto;
+}
+
 #pager button:hover {
-    background: #13324f;
+    background: #1b466f;
 }
 
 #pager button:active {
