@@ -395,7 +395,7 @@ a.anchor {
 }
 
 #pager {
-    width: 75%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     background: #1b466f;
@@ -439,6 +439,10 @@ a.anchor {
         width: 100%;
     }
     
+    .lesya-pdf {
+        width: 100%;
+    }
+    
     .social-nav{display:none}
     .soc-nav-button {display: none}
 
@@ -447,8 +451,8 @@ a.anchor {
     }
 
     .content {
-        margin: 20px;
-        padding: 20px;
+        margin: 7px;
+        padding: 7px;
         margin-top:95px;   
     }
  
