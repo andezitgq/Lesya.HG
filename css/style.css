@@ -393,7 +393,7 @@ span[style="font-size:12.0pt;font-family:"] {
 }
 
 .lesya-pdf {
-    width: 65%;
+    width: 50%;
     border: 3px solid #1b466f;
     border-radius: 15px;
 }
@@ -404,8 +404,8 @@ span[style="font-size:12.0pt;font-family:"] {
     justify-content: flex-end;
     align-items: center;
     background: #1b466f;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     border-radius: 10px;
     border-bottom: 20px solid #1b466f;
     z-index:9;
@@ -451,20 +451,20 @@ span[style="font-size:12.0pt;font-family:"] {
 
 .join-content {
     width: 100%;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-wrap:nowrap;
 }
 
 .join-info-box {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40px;
 }
 
 .join-content h1 {font-size: 55px}
-.join-content h2 {font-size: 35px}
+.join-content h2 {font-size: 35px; margin-top: 15px}
 .join-content p {font-size: 25px}
 .join-content a {font-size: 25px}
+.join-content li {font-size: 25px; margin-left: 50px}
 
 @media screen and (max-device-width: 800px) and (orientation: landscape) {
     .title {
