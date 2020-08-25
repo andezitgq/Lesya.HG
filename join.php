@@ -32,8 +32,8 @@
         <ul>
             <li><a href="https://zakon.rada.gov.ua/laws/show/z0416-17#Text">Екстернат</a></li>
             <li><a href="https://zakon.rada.gov.ua/laws/show/z0184-16#Text">Індивідуальне навчання</a></li>
-        <a href=#>sus</a>
-        <p>sas</p>
+        </ul>
+        <br><br>
     </div>
 </div>
 

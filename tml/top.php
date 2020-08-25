@@ -85,7 +85,7 @@
                 <a title="Канал YouTube" target="_blank" href="https://www.youtube.com/gimnaziyazhv" class="icon-youtube-squared"></a>
                 <a title="Профіль Instagram" target="_blank" href="https://www.instagram.com/gimnaziya.zhv/" class="icon-instagram"></a>
                 <a title="Група Telegram" target="_blank" href="https://t.me/lesyazhv" class="icon-telegram"></a>
-                <a title="Сервер Discord" target="_blank" href="" class="icon-simplybuilt"></a>
+                <a title="Сервер Discord" target="_blank" href="https://discord.gg/sKUkNBK" class="icon-simplybuilt"></a>
                 <a href="#" class="icon-cancel-circled" style=color:red></a>
             </div>
         </form>
@@ -94,6 +94,6 @@
             <a title="Канал YouTube" target="_blank" href="https://www.youtube.com/gimnaziyazhv" class="icon-youtube-squared"></a>
             <a title="Профіль Instagram" target="_blank" href="https://www.instagram.com/gimnaziya.zhv/" class="icon-instagram"></a>
             <a title="Група Telegram" target="_blank" href="https://t.me/lesyazhv" class="icon-telegram"></a>
-            <a title="Сервер Discord" target="_blank" href="" class="icon-simplybuilt"></a>
+            <a title="Сервер Discord" target="_blank" href="https://discord.gg/sKUkNBK" class="icon-simplybuilt"></a>
         </div>
         <div class=content>
