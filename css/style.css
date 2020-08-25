@@ -456,10 +456,7 @@ span[style="font-size:12.0pt;font-family:"] {
     flex-wrap:nowrap;
 }
 
-.join-info-box {
-    margin-left: 40px;
-}
-
+.join-info-box {margin-left: 40px}
 .join-content h1 {font-size: 55px}
 .join-content h2 {font-size: 35px; margin-top: 15px}
 .join-content p {font-size: 25px}
@@ -475,6 +472,13 @@ span[style="font-size:12.0pt;font-family:"] {
 @media screen and (max-device-width: 760px) and (orientation: portrait),
        screen and (max-device-width: 770px) and (orientation: landscape)
 {
+    
+    .join-info-box {margin-left: 20px}
+    .join-content h1 {font-size: 50px}
+    .join-content h2 {font-size: 30px; margin-top: 15px}
+    .join-content p {font-size: 20px}
+    .join-content a {font-size: 20px}
+    .join-content li {font-size: 20px; margin-left: 30px}
     
     .blog-engine {
         width: 100%;
