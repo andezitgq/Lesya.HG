@@ -306,6 +306,7 @@ a.anchor {
 .post img{
     max-width: 415px;
     border-radius: 15px;
+    height: auto;
 }
 
 .post a{
@@ -318,6 +319,10 @@ a.anchor {
 
 .post strong{
     font-weight: 600;
+}
+
+span[style="font-size:12.0pt;font-family:"] {
+    margin-left: 15px;
 }
 
 .post-date {
@@ -388,30 +393,29 @@ a.anchor {
 }
 
 .lesya-pdf {
-    background: url('../img/noise.png');
-    padding:20px;
-    padding-top:0;
-    width: 50%;
+    width: 65%;
+    border: 3px solid #1b466f;
     border-radius: 15px;
 }
 
 #pager {
-    width: calc(100% + 40px);
-    margin-left: -20px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: #13324f;
-    border-radius: 15px;
+    background: #1b466f;
     padding-right: 20px;
     padding-left: 20px;
+    border-radius: 10px;
+    border-bottom: 20px solid #1b466f;
+    z-index:9;
 }
 
 #pager button{
     width: 35px;
     height: 30px;
     text-align: center;
-    background: #13324f;
+    background: #1b466f;
     color: white;
     margin: 5px;
     border: none;
@@ -422,10 +426,12 @@ a.anchor {
 #pager p {
     color: white;
     margin-right: auto;
+    white-space: pre-wrap;
+    font-size: 18px;
 }
 
 #pager button:hover {
-    background: #1b466f;
+    background: #13324f;
 }
 
 #pager button:active {
@@ -437,15 +443,39 @@ a.anchor {
     width: 100%;
 }
 
+#viewport canvas {
+    margin-top: -20px;
+    border-radius: 15px;
+    z-index:10;
+}
+
+.join-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.join-info-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join-content h1 {font-size: 55px}
+.join-content h2 {font-size: 35px}
+.join-content p {font-size: 25px}
+.join-content a {font-size: 25px}
+
 @media screen and (max-device-width: 800px) and (orientation: landscape) {
     .title {
         font-size: 30px;
     }
 }
 
-@media screen and (max-device-width: 580px) and (orientation: portrait),
+@media screen and (max-device-width: 760px) and (orientation: portrait),
        screen and (max-device-width: 770px) and (orientation: landscape)
 {
+    
     .blog-engine {
         width: 100%;
     }
@@ -482,6 +512,8 @@ a.anchor {
         align-items: center;
         position: fixed;
     }
+    
+    .join-content {flex-wrap: wrap-reverse}
     
     .logo {
         width: 55px;
@@ -543,4 +575,8 @@ a.anchor {
     }
     
     .nav-pc  {display: none;}
+    
+    .post img{
+        max-width: 100%;
+    }
 }

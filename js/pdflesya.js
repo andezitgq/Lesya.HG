@@ -81,7 +81,7 @@
   }
 
   function renderPage(page) {
-    var pdfViewport = page.getViewport(0.4);
+    var pdfViewport = page.getViewport(0.75);
 
     const container =
       viewport.children[page.pageIndex - cursorIndex * pageMode];
@@ -97,4 +97,8 @@
       viewport: pdfViewport
     });
   }
+  
+  window.addEventListener("orientationchange", function(event) {
+    render();
+  });
 })();
