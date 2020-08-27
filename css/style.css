@@ -313,6 +313,16 @@ a.anchor {
     height: auto;
 }
 
+.add-album {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #1b466f;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+
 .album-discription {
     width: 150px;
     height: 30px;
@@ -328,12 +338,40 @@ a.anchor {
     margin-bottom: 5px;
 }
 
+.poster-select-div {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background: url('../img/upload.svg');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.poster-select {
+    opacity: 0;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
 .album-delete {
     color: #1b466f;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    margin-bottom: 5px;
 }
 
 .album-create {
     color: #1b466f;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    margin-bottom: 5px;
 }
 
 /*==================/MEDIA==================*/
@@ -463,7 +501,7 @@ span[style="font-size:12.0pt;font-family:"] {
 }
 
 .lesya-pdf {
-    width: 50%;
+    width: 75%;
     border: 3px solid #1b466f;
     border-radius: 15px;
 }

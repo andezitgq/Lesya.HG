@@ -139,6 +139,18 @@
     if(isset($_GET['old-parse'])){
         old_parse(); //Y-m-d G:i:s
     }
+    
+    if(isset($_POST['create-album'])){
+        $uploaddir = 'img/poster/';
+        $uploadfile = $uploaddir . basename($_FILES['poster-file']['name']);
+
+        if (move_uploaded_file($_FILES['poster-file']['tmp_name'], $uploadfile)) {
+            if(preg_match('/image/', $_FILES['poster-file']['type']))
+                echo "Файл корректен и был успешно загружен.\n";
+            else
+                echo "Завантажений файл не є зображенням!";
+        }
+    }
 
 ?>
 
@@ -209,28 +221,33 @@
     <br>
     <a class="anchor" id="media"></a>
     <h2>Медіа</h2>
-    <form enctype="multipart/form-data" method=POST action="admin" class=media-engine>
+    <div class=media-engine>
         <div class=media-headers>
             <p class="header-list">Список альбомів</p>
             <p class="header-field">Список фото</p>
         </div>
         <div class=media-content>
             <div class=album-list>
-                <div class=album>
-                    <p class="album-delete icon-minus-squared"></p>
+                <!--<div class=album>
+                    <button type=submit class="album-delete icon-minus-squared" title="Видалити альбом"></button>
                     <img class=poster-preview src="http://lesya.org/cutenews//uploads/%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA_2020_1.jpg"/>
                     <input class="album-discription" type=text value=Blah-blah-blah placeholder="Назва альбому" required>
-                </div>
-                <div class=add-album>
-                    <p class="album-create icon-plus-squared"></p>
-                    <img class=poster-preview src="http://lesya.org/cutenews//uploads/%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA_2020_1.jpg"/>
-                    <input class="album-discription" type=text value=Blah-blah-blah>
-                </div>
+                </div>-->
+                <?php
+                
+                    echo 123;
+                
+                ?>
+                <form enctype="multipart/form-data" class=add-album id=add-album method=POST action="admin">
+                    <button type=submit name=create-album class="album-create icon-plus-squared" title="Створити альбом"></button>
+                    <div class=poster-select-div><input type=file name=poster-file class=poster-select accept="image/*" required></div>
+                    <input name=discr class="album-discription" type=text placeholder="Назва альбому" required>
+                </form>
             </div>
-            <div class=album-field>
+            <form enctype="multipart/form-data" method=POST action="admin" class=album-field>
                 <p class="unselect">Виберіть альбом</p>
-            </div>
+            </form>
         </div>
-    </form>
+    </div>
 </center>
 <?php include 'tml/bottom.php'; ?>
