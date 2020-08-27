@@ -152,18 +152,21 @@
                 $album->albumid     = $albumid;
                 $album->poster      = $uploadfile;
                 $album->discription = $data['album-discription'];
-                echo R::store($album);
-                echo "Альбом створений!.\n";
+                R::store($album);
+                $media_status = "Альбом створений!.\n";
             } else
-                echo 'Файл не був завантажений!';
+                $media_status = 'Файл не був завантажений!';
         } else
-            echo "Завантажений файл не є зображенням!";
+            $media_status = "Завантажений файл не є зображенням!";
     }
     
     if(isset($_GET['delete-album'])){
         $album = R::findOne('albums', 'albumid = ?', array($_GET['delete-album']));
-        if($album)
+        if($album){
             R::trash($album);
+            unlink($album->poster)
+            $media_status = 'Альбом видалений!';
+        }
     }
 
 ?>
@@ -235,6 +238,7 @@
     <br>
     <a class="anchor" id="media"></a>
     <h2>Медіа</h2>
+    <?php if(isset($media_status)) echo '<p class=media-status>'.$media_status.'</p>'; ?>
     <div class=media-engine>
         <div class=media-headers>
             <p class="header-list">Список альбомів</p>
@@ -242,17 +246,12 @@
         </div>
         <div class=media-content>
             <div class=album-list>
-                <!--<div class=album>
-                    <button type=submit class="album-delete icon-minus-squared" title="Видалити альбом"></button>
-                    <img class=poster-preview src="http://lesya.org/cutenews//uploads/%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA_2020_1.jpg"/>
-                    <input class="album-discription" type=text value="" placeholder="Назва альбому" readonly>
-                </div>-->
                 <?php
                 
                     $albums = R::getAll( 'SELECT * FROM albums ORDER BY id DESC' );
                     for($i = -1; $i <= count($albums); $i++){
                         if(isset($albums[$i])){
-                            echo '<form method=GET action="admin" class=album>'.
+                            echo '<form method=GET action="admin#media" class=album>'.
                                      '<button type=submit name=delete-album value="'.$albums[$i]['albumid'].'" class="album-delete icon-minus-squared" title="Видалити альбом"></button>'.
                                      '<img class=poster-preview src="'.$albums[$i]['poster'].'"/>'.
                                      '<input class="album-discription" type=text value="'.$albums[$i]['discription'].'" readonly>'.
@@ -261,7 +260,7 @@
                     }
                 
                 ?>
-                <form enctype="multipart/form-data" class=add-album id=add-album method=POST action="admin">
+                <form enctype="multipart/form-data" class=add-album id=add-album method=POST action="admin#media">
                     <button type=submit name=create-album class="album-create icon-plus-squared" title="Створити альбом"></button>
                     <div class=poster-select-div><input type=file name=poster-file class=poster-select accept="image/*" required></div>
                     <input name=album-discription class=album-discription type=text placeholder="Назва альбому" required>

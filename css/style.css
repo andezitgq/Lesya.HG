@@ -374,6 +374,14 @@ a.anchor {
     margin-bottom: 5px;
 }
 
+.media-status {
+    color: white;
+    background: #1b466f;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
 /*==================/MEDIA==================*/
 /*
  *
