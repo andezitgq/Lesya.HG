@@ -161,7 +161,9 @@
     }
     
     if(isset($_GET['delete-album'])){
-        
+        $album = R::findOne('albums', 'albumid = ?', array($_GET['delete-album']));
+        if($album)
+            R::trash($album);
     }
 
 ?>
