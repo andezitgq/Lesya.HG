@@ -141,15 +141,17 @@
     }
     
     if(isset($_POST['create-album'])){
+        $albumid = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
+        $ext = pathinfo($_FILES['poster-file']['name'], PATHINFO_EXTENSION);
+        
         $uploaddir = 'img/poster/';
-        $uploadfile = $uploaddir . basename($_FILES['poster-file']['name']);
-
-        if (move_uploaded_file($_FILES['poster-file']['tmp_name'], $uploadfile)) {
-            if(preg_match('/image/', $_FILES['poster-file']['type']))
+        $uploadfile = $uploaddir.$albumid.'.'.$ext;
+        if(preg_match('/image/', $_FILES['poster-file']['type'])){
+            if (move_uploaded_file($_FILES['poster-file']['tmp_name'], $uploadfile)) {
                 echo "Файл корректен и был успешно загружен.\n";
-            else
-                echo "Завантажений файл не є зображенням!";
-        }
+            }
+        } else
+            echo "Завантажений файл не є зображенням!";
     }
 
 ?>
