@@ -217,8 +217,9 @@
         <div class=media-content>
             <div class=album-list>
                 <div class=album>
-                    <img class=poster-preview src="http://lesya.org/cutenews//uploads/%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA_2020_1.jpg">
-                    <a class="album-delete icon-cancel-circled" href=#></a>
+                    <p class="album-delete icon-cancel-circled"></p>
+                    <img class=poster-preview src="http://lesya.org/cutenews//uploads/%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA_2020_1.jpg"/>
+                    <input class="album-discription" type=text value=Blah-blah-blah>
                 </div>
             </div>
             <div class=album-field>

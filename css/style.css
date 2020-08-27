@@ -277,6 +277,8 @@ a.anchor {
 .album-list {
     width: 65%;
     display: flex;
+    overflow-y: scroll;
+    align-items: flex-start;
 }
 
 .album-field {
@@ -302,6 +304,15 @@ a.anchor {
 
 .album {
     display: flex;
+    flex-direction: column;
+    border: 3px solid #1b466f;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+
+.album-discription {
+    width: 150px;
 }
 
 .poster-preview {
@@ -311,8 +322,7 @@ a.anchor {
 }
 
 .album-delete {
-    color: #1b466f !important;
-    text-decoration:none;
+    color: #1b466f;
 }
 
 /*==================/MEDIA==================*/
