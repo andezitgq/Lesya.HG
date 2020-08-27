@@ -264,9 +264,58 @@ a.anchor {
  */
 /*==================MEDIA==================*/
 
+.media-engine {
+    margin-top: 20px;
+}
+
+.media-content {
+    border: 2px solid #1b466f;
+    height: 66%;
+    display: flex;
+}
+
+.album-list {
+    width: 65%;
+    display: flex;
+}
+
+.album-field {
+    border-left: 1px solid #1b466f;
+    width: 35%;
+}
 
 
-/*==================MEDIA==================*/
+.media-headers {
+    display: flex;
+    background: #1b466f;
+    color: white;
+    padding: 10px;
+}
+
+.header-list {
+    width: 65%;
+}
+
+.header-field {
+    width: 35%;
+}
+
+.album {
+    display: flex;
+}
+
+.poster-preview {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.album-delete {
+    color: #1b466f !important;
+    text-decoration:none;
+}
+
+/*==================/MEDIA==================*/
 /*
  *
  *
@@ -336,7 +385,7 @@ span[style="font-size:12.0pt;font-family:"] {
     font-style: normal;
 }
 
-/*===POST===*/
+/*===/POST===*/
 
 .soc-nav-button {
     display: initial;
@@ -462,42 +511,6 @@ span[style="font-size:12.0pt;font-family:"] {
 .join-content p {font-size: 25px}
 .join-content a {font-size: 25px}
 .join-content li {font-size: 25px; margin-left: 50px}
-
-.media-engine {
-    margin-top: 20px;
-}
-
-.media-content {
-    border: 2px solid #1b466f;
-    height: 66%;
-    display: flex;
-}
-
-.album-list {
-    width: 65%;
-    display: flex;
-}
-
-.album-field {
-    border-left: 1px solid #1b466f;
-    width: 35%;
-}
-
-
-.media-headers {
-    display: flex;
-    background: #1b466f;
-    color: white;
-    padding: 10px;
-}
-
-.header-list {
-    width: 65%;
-}
-
-.header-field {
-    width: 35%;
-}
 
 @media screen and (max-device-width: 800px) and (orientation: landscape) {
     .title {
