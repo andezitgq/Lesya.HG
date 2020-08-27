@@ -217,7 +217,12 @@
         <div class=media-content>
             <div class=album-list>
                 <div class=album>
-                    <p class="album-delete icon-cancel-circled"></p>
+                    <p class="album-delete icon-minus-squared"></p>
+                    <img class=poster-preview src="http://lesya.org/cutenews//uploads/%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA_2020_1.jpg"/>
+                    <input class="album-discription" type=text value=Blah-blah-blah placeholder="Назва альбому" required>
+                </div>
+                <div class=add-album>
+                    <p class="album-create icon-plus-squared"></p>
                     <img class=poster-preview src="http://lesya.org/cutenews//uploads/%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA_2020_1.jpg"/>
                     <input class="album-discription" type=text value=Blah-blah-blah>
                 </div>

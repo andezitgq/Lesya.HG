@@ -19,6 +19,8 @@
 .icon-list-bullet:before { content: '\f0ca'; } /* '' */
 .icon-table:before { content: '\f0ce'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-plus-squared:before { content: '\f0fe'; } /* '' */
+.icon-minus-squared:before { content: '\f146'; } /* '' */
 .icon-youtube-squared:before { content: '\f166'; } /* '' */
 .icon-simplybuilt:before { content: '\f215'; } /* '' */
 .icon-commenting:before { content: '\f27a'; } /* '' */

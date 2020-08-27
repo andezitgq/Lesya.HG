@@ -278,6 +278,7 @@ a.anchor {
     width: 65%;
     display: flex;
     overflow-y: scroll;
+    flex-wrap: wrap;
     align-items: flex-start;
 }
 
@@ -305,7 +306,8 @@ a.anchor {
 .album {
     display: flex;
     flex-direction: column;
-    border: 3px solid #1b466f;
+    border: 2px solid #1b466f;
+    border-radius: 15px;
     padding: 10px;
     margin: 10px;
     height: auto;
@@ -313,15 +315,24 @@ a.anchor {
 
 .album-discription {
     width: 150px;
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid #1b466f;
 }
 
 .poster-preview {
     height: 150px;
     width: 150px;
     object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 5px;
 }
 
 .album-delete {
+    color: #1b466f;
+}
+
+.album-create {
     color: #1b466f;
 }
 
