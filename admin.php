@@ -164,7 +164,7 @@
         $album = R::findOne('albums', 'albumid = ?', array($_GET['delete-album']));
         if($album){
             R::trash($album);
-            unlink($album->poster)
+            unlink($album->poster);
             $media_status = 'Альбом видалений!';
         }
     }
