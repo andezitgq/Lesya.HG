@@ -223,7 +223,7 @@ a.anchor {
 }
 
 .post-editor {
-    border: 3px solid #1b466f;
+    border: 2px solid #1b466f;
     width: 100%;
     min-width: 100%;
     max-width: 100%;
@@ -462,6 +462,42 @@ span[style="font-size:12.0pt;font-family:"] {
 .join-content p {font-size: 25px}
 .join-content a {font-size: 25px}
 .join-content li {font-size: 25px; margin-left: 50px}
+
+.media-engine {
+    margin-top: 20px;
+}
+
+.media-content {
+    border: 2px solid #1b466f;
+    height: 66%;
+    display: flex;
+}
+
+.album-list {
+    width: 65%;
+    display: flex;
+}
+
+.album-field {
+    border-left: 1px solid #1b466f;
+    width: 35%;
+}
+
+
+.media-headers {
+    display: flex;
+    background: #1b466f;
+    color: white;
+    padding: 10px;
+}
+
+.header-list {
+    width: 65%;
+}
+
+.header-field {
+    width: 35%;
+}
 
 @media screen and (max-device-width: 800px) and (orientation: landscape) {
     .title {

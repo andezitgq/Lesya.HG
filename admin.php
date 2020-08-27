@@ -209,8 +209,21 @@
     <br>
     <a class="anchor" id="media"></a>
     <h2>Медіа</h2>
-    <form method=POST action="admin" class=media-engine>
-        
+    <form enctype="multipart/form-data" method=POST action="admin" class=media-engine>
+        <div class=media-headers>
+            <p class="header-list">Список альбомів</p>
+            <p class="header-field">Список фото</p>
+        </div>
+        <div class=media-content>
+            <div class=album-list>
+                <div class=album>
+                    <a href=# class=icon-cancel-circled></a>
+                </div>
+            </div>
+            <div class=album-field>
+                <p class="unselect">Виберіть альбом</p>
+            </div>
+        </div>
     </form>
 </center>
 <?php include 'tml/bottom.php'; ?>

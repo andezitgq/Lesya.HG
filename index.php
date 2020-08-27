@@ -4,6 +4,7 @@
     include 'tml/top.php';
 
 ?>
+    <center><h1>Новини</h1></center>
     <div class=wrap-content-box>
     <?php
     
