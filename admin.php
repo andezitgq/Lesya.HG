@@ -188,6 +188,7 @@
                 $photo->source      = $uploadfile;
                 $photo->discription = $discription;
                 R::store($photo);
+                echo '<script>window.location.href = "admin?select-album='.$albumid.'#media"</script>';
                 $media_status = "Фото додано!.\n";
             } else
                 $media_status = 'Файл не був завантажений!';
