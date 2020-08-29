@@ -172,6 +172,28 @@
             $media_status = 'Альбом видалений!';
         }
     }
+    
+    if(isset($data['submit-photo'])){
+        $albumid = $_GET['select-album'];
+        $discription = $data['photo-discription'];
+        
+        $ext = pathinfo($_FILES['photo-file']['name'], PATHINFO_EXTENSION);
+        
+        $uploaddir = 'img/photos/';
+        $uploadfile = $uploaddir.$albumid.'.'.$ext;
+        if(preg_match('/image/', $_FILES['photo-file']['type'])){
+            if (move_uploaded_file($_FILES['photo-file']['tmp_name'], $uploadfile)) {
+                $photo = R::dispense('photos');
+                $photo->albumid     = $albumid;
+                $photo->source      = $uploadfile;
+                $photo->discription = $discription;
+                R::store($photo);
+                $media_status = "Фото додано!.\n";
+            } else
+                $media_status = 'Файл не був завантажений!';
+        } else
+            $media_status = "Завантажений файл не є зображенням!";
+    }
 
 ?>
 
