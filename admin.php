@@ -252,7 +252,7 @@
             <div class=album-list>
                 <?php
                 
-                    $albums = R::getAll( 'SELECT * FROM albums ORDER BY id DESC' );
+                    $albums = R::getAll( 'SELECT * FROM albums ORDER BY id ASC' );
                     for($i = -1; $i <= count($albums); $i++){
                         if(isset($albums[$i])){
                             echo '<form method=GET action="admin#media" class=album>'.
@@ -279,14 +279,12 @@
                         <button type=submit name=remove-photo value=123 class="icon-minus-squared submit-photo"></button>
                     </form>-->
                     <?php
-                    
-                        $photos = R::getAll( 'SELECT * FROM albums ORDER BY id DESC' );
-                        for($i = -1; $i <= count($albums); $i++){
-                            if(isset($albums[$i])){
-                                echo '<form method=GET action="admin#media" class=album>'.
-                                         '<button type=submit name=delete-album value="'.$albums[$i]['albumid'].'" class="album-delete icon-minus-squared" title="Видалити альбом"></button>'.
-                                         '<a href="?select-album='.$albums[$i]['albumid'].'#media"><img class=poster-preview src="'.$albums[$i]['poster'].'"/></a>'.
-                                         '<input class="album-discription" type=text value="'.$albums[$i]['discription'].'" readonly>'.
+                        $photos = R::findAll('photos', 'albumid = ?', array($_GET['select-album']));
+                        for($i = -1; $i <= count($photos); $i++){
+                            if(isset($photos[$i])){
+                                echo '<form method=GET action=admin#media class=add-photo>'.
+                                         '<input type=text class=photo-discription value="'.$photos[$i]['discription'].'" readonly>'.
+                                         '<button type=submit name=remove-photo value="'.$photos[$i]['id'].'" class="icon-minus-squared submit-photo"></button>'.
                                      '</form>';
                             }
                         }
