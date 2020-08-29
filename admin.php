@@ -174,7 +174,7 @@
     }
     
     if(isset($data['submit-photo'])){
-        $albumid = $_GET['select-album'];
+        $albumid = $data['albumid'];
         $discription = $data['photo-discription'];
         
         $ext = pathinfo($_FILES['photo-file']['name'], PATHINFO_EXTENSION);
@@ -315,6 +315,7 @@
                     <form enctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
                         <input type=text placeholder="Опис фото" class=photo-discription name=photo-discription required>
                         <input type=file name=photo-file required>
+                        <input type=hidden name=albumid value="<?php echo $_GET['select-album'] ?>">;
                         <button type=submit name=submit-photo class="icon-plus-squared submit-photo"></button>
                     </form>
                 <?php endif ?>
