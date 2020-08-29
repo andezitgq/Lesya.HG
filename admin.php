@@ -142,6 +142,10 @@
     
     if(isset($data['create-album'])){
         $albumid = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
+        $album_check = R::findOne('albums', 'albumid = ?', array($albumid));
+        if(isset($album_check)){
+            return;
+        }
         $ext = pathinfo($_FILES['poster-file']['name'], PATHINFO_EXTENSION);
         
         $uploaddir = 'img/poster/';
@@ -253,7 +257,7 @@
                         if(isset($albums[$i])){
                             echo '<form method=GET action="admin#media" class=album>'.
                                      '<button type=submit name=delete-album value="'.$albums[$i]['albumid'].'" class="album-delete icon-minus-squared" title="Видалити альбом"></button>'.
-                                     '<img class=poster-preview src="'.$albums[$i]['poster'].'"/>'.
+                                     '<a href="?select-album='.$albums[$i]['albumid'].'#media"><img class=poster-preview src="'.$albums[$i]['poster'].'"/></a>'.
                                      '<input class="album-discription" type=text value="'.$albums[$i]['discription'].'" readonly>'.
                                  '</form>';
                         }
@@ -267,16 +271,33 @@
                 </form>
             </div>
             <div class=album-field>
-                <label class="unselect">Виберіть альбом</label>
-                <form method=GET action=admin#media class=add-photo>
-                    <input type=text class=photo-discription readonly>
-                    <button type=submit name=remove-photo value=123 class="icon-minus-squared submit-photo"></button>
-                </form>
-                <form enctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
-                    <input type=text placeholder="Опис фото" class=photo-discription name=photo-discription required>
-                    <input type=file name=photo-file required>
-                    <button type=submit name=submit-photo class="icon-plus-squared submit-photo"></button>
-                </form>
+                <?php if (!isset($_GET['select-album']) || $_GET['select-album'] == ''): ?>
+                    <label class="unselect">Виберіть альбом</label>
+                <?php else: ?>
+                    <!--<form method=GET action=admin#media class=add-photo>
+                        <input type=text class=photo-discription readonly>
+                        <button type=submit name=remove-photo value=123 class="icon-minus-squared submit-photo"></button>
+                    </form>-->
+                    <?php
+                    
+                        $photos = R::getAll( 'SELECT * FROM albums ORDER BY id DESC' );
+                        for($i = -1; $i <= count($albums); $i++){
+                            if(isset($albums[$i])){
+                                echo '<form method=GET action="admin#media" class=album>'.
+                                         '<button type=submit name=delete-album value="'.$albums[$i]['albumid'].'" class="album-delete icon-minus-squared" title="Видалити альбом"></button>'.
+                                         '<a href="?select-album='.$albums[$i]['albumid'].'#media"><img class=poster-preview src="'.$albums[$i]['poster'].'"/></a>'.
+                                         '<input class="album-discription" type=text value="'.$albums[$i]['discription'].'" readonly>'.
+                                     '</form>';
+                            }
+                        }
+                    
+                    ?>
+                    <form enctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
+                        <input type=text placeholder="Опис фото" class=photo-discription name=photo-discription required>
+                        <input type=file name=photo-file required>
+                        <button type=submit name=submit-photo class="icon-plus-squared submit-photo"></button>
+                    </form>
+                <?php endif ?>
             </div>
         </div>
     </div>
