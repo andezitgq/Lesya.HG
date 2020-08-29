@@ -285,6 +285,11 @@ a.anchor {
 .album-field {
     border-left: 1px solid #1b466f;
     width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: scroll;
+    flex-wrap: wrap;
 }
 
 
@@ -311,6 +316,10 @@ a.anchor {
     padding: 10px;
     margin: 10px;
     height: auto;
+}
+
+.add-album input{
+    background: none;
 }
 
 .add-album {
@@ -394,7 +403,7 @@ a.anchor {
     background: none;
 }
 
-.add-photo * {margin: 5px;}
+.add-photo * {margin: 10px;}
 
 .submit-photo {
     border: none;
