@@ -266,9 +266,14 @@
                     <input name=album-discription class=album-discription type=text placeholder="Назва альбому" required>
                 </form>
             </div>
-            <form enctype="multipart/form-data" method=POST action="admin" class=album-field>
-                <p class="unselect">Виберіть альбом</p>
-            </form>
+            <div class=album-field>
+                <label class="unselect">Виберіть альбом</label>
+                <form nctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
+                    <input type=text placeholder="Опис фото" name=photo-discription required>
+                    <input type=file name=photo-file required>
+                    <button type=submit name=submit-photo class="icon-plus-squared submit-photo"></button>
+                </form>
+            </div>
         </div>
     </div>
 </center>

@@ -382,6 +382,20 @@ a.anchor {
     max-width: 500px;
 }
 
+.add-photo {
+    display: flex;
+}
+
+.add-photo * {margin: 5px;}
+
+.submit-photo {
+    border: none;
+    color: #1b466f;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
 /*==================/MEDIA==================*/
 /*
  *
