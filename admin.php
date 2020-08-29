@@ -268,10 +268,10 @@
             </div>
             <div class=album-field>
                 <label class="unselect">Виберіть альбом</label>
-                <div class=add-photo>
-                    <input type=text placeholder="Опис фото" class=photo-discription name=photo-discription readonly>
-                    <button type=submit name=submit-photo class="icon-minus-squared submit-photo"></button>
-                </div>
+                <form method=GET action=admin#media class=add-photo>
+                    <input type=text class=photo-discription readonly>
+                    <button type=submit name=remove-photo value=123 class="icon-minus-squared submit-photo"></button>
+                </form>
                 <form enctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
                     <input type=text placeholder="Опис фото" class=photo-discription name=photo-discription required>
                     <input type=file name=photo-file required>
