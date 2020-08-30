@@ -63,14 +63,16 @@
                 <input type=file name=avatar-file class=avatar-file>
                 <input type=submit name=avatar-submit style=display:none>
             </form>
-            <h2 class=fullname title="Імʼя та прізвище"><?php echo $current_user->fullname; ?></h3>
-            <h3 class=nickname title="Нікнейм"><?php echo $current_user->login; ?></h3>
+            <div>
+                <h2 class=fullname title="Імʼя та прізвище"><?php echo $current_user->fullname; ?></h3>
+                <h3 class=nickname title="Нікнейм"><?php echo $current_user->login; ?></h3>
+            </div>
         </div>
         <div class=profile-info>
             <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'London')" id="defaultOpen">London</button>
-                <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
-                <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
+                <button class="tablinks" onclick="openTab(event, 'London')" id="defaultOpen">Інфо</button>
+                <button class="tablinks" onclick="openTab(event, 'Paris')">Коментарі</button>
+                <button class="tablinks" onclick="openTab(event, 'Tokyo')">Аккаунт</button>
             </div>
               
             <div id="London" class="tabcontent">

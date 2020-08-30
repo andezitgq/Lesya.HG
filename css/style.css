@@ -491,6 +491,7 @@ span[style="font-size:12.0pt;font-family:"] {
 
 .profile {
     display: flex;
+    flex-direction: row;
 }
 
 .profile-preview {
@@ -499,6 +500,8 @@ span[style="font-size:12.0pt;font-family:"] {
     padding: 10px;
     color: white;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .avatar {
@@ -564,9 +567,10 @@ input {background: none}
 
 .tabcontent {
   display: none;
-  padding: 6px 12px;
+  padding: 6px 12px 30px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  min-height: 300px;
   animation: fadeEffect 1s;
 }
 
@@ -719,6 +723,19 @@ input {background: none}
     .join-content p {font-size: 20px}
     .join-content a {font-size: 20px}
     .join-content li {font-size: 20px; margin-left: 30px}
+    
+    .profile-info {
+        margin-top: 30px;
+        width: auto;
+    }
+    
+    .profile {
+        flex-direction: column;
+    }
+    
+    .profile-preview {
+        flex-direction: row;
+    }
     
     .blog-engine {
         width: 100%;
