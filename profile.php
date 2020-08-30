@@ -35,13 +35,28 @@
     } else {
         $user_is_you = true;
     }
+    
+    if(isset($_FILES['avatar-file'])){
+        if(preg_match('/image/', $_FILES['avatar-file']['type'])){
+            $return = saveToImgBB($_FILES['avatar-file']);
+            echo $return['data']['url'];
+        } else
+            $media_status = "Завантажений файл не є зображенням!";
+    }
 ?>
 <?php if ($user_is_you == true): ?>
+    <?php
+    
+        $uinfo = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
+        echo $uinfo->aboutme;
+    
+    ?>
     <center><h1>Профіль</h1></center>
     <div class=profile>
         <div class=profile-preview>
-            <form enctype="multipart/form-data" action=profile method=POST class=avatar style="background: url('img/profile.svg'); background-size: cover">
+            <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('img/profile.svg'); background-size: cover">
                 <input type=file name=avatar-file class=avatar-file>
+                <input type=submit name=sas style=display:none>
             </form>
             <h2 class=fullname title="Імʼя та прізвище">Sas Sasovich</h3>
             <h3 class=nickname title="Нікнейм">freelogger</h3>

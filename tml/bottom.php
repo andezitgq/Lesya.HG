@@ -6,7 +6,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"> </script> 
         <script src="js/pdflesya.js"></script>
         <script>
-          initPDFViewer("img/Вступ.pdf");
+            initPDFViewer("img/Вступ.pdf");
+            document.getElementById("avatar-form").onchange = function() {
+                document.getElementById("avatar-form").submit();
+            };
         </script>
         <script>
             const player = Plyr.setup('.jplayer');

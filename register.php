@@ -73,13 +73,19 @@
         $errors = array();
         if($data['code'] == $_SESSION['confirm_int']){
             $userinfo = R::dispense('userinfo');
-            $userinfo->avatar = '';
+            $userinfo->avatar = 'img/profile.svg';
+            $userinfo->aboutme = 'Змінити інформацію про себе';
+            $userinfo->comments = 0;
+            $userinfo->regdate = date('m.d.Y G:i', time());
+            $userinfo->actype = 'Гість';
+            $info_id = R::store($userinfo);
             
             $user = R::dispense('users');
             $user->login    = $_SESSION['q-login'];
             $user->fullname = $_SESSION['q-sname'];
             $user->email    = $_SESSION['q-email'];
             $user->password = $_SESSION['q-pswd'];
+            $user->userinfo = $info_id;
             R::store($user);
             $_SESSION['logged-user'] = $user;
             echo '<script>window.location.href = "/";</script>';
