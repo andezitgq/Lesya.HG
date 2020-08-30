@@ -56,7 +56,7 @@
         $uinfo = R::findOne('userinfo', 'id = ?', array($current_user->userinfo));
     
     ?>
-    <center><h1>Профіль</h1></center>
+    <center><h1>Профіль</h1></center><br>
     <div class=profile>
         <div class=profile-preview>
             <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('<?php echo $uinfo->avatar; ?>'); background-size: cover">
@@ -68,7 +68,7 @@
         </div>
         <div class=profile-info>
             <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'London')">London</button>
+                <button class="tablinks" onclick="openTab(event, 'London')" id="defaultOpen">London</button>
                 <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
                 <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
             </div>
