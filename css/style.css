@@ -494,10 +494,10 @@ span[style="font-size:12.0pt;font-family:"] {
 }
 
 .profile-preview {
+    border: 2px solid #25619A;
     background: #1b466f;
     padding: 10px;
     color: white;
-    border-radius: 15px;
     padding-bottom: 50px;
 }
 
@@ -539,7 +539,7 @@ input {background: none}
 
 .tab {
   overflow: hidden;
-  border: 1px solid #25619A;
+  border: 2px solid #25619A;
   background-color: #1b466f;
 }
 
