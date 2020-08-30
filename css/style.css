@@ -570,13 +570,20 @@ input {background: none}
   padding: 6px 12px 30px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  min-height: 300px;
+  min-height: 400px;
   animation: fadeEffect 1s;
 }
 
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+#Info span {
+    padding: 5px;
+    background: wheat;
+    font-size: 20px;
+    border-radius: 10px; 
 }
 
 /*===/PROFILE===*/

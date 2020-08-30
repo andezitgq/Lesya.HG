@@ -44,9 +44,9 @@
                 $avatar->avatar = $return['data']['url'];;
                 R::store($avatar);
             } else
-                echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл більше 15МБ!<h2>";
+                echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл більше 15МБ!</h2>";
         } else
-            echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл не є зображенням!<h2>";
+            echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл не є зображенням!</h2>";
     }
 ?>
 <?php if ($user_is_you == true): ?>
@@ -70,24 +70,27 @@
         </div>
         <div class=profile-info>
             <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'London')" id="defaultOpen">Інфо</button>
-                <button class="tablinks" onclick="openTab(event, 'Paris')">Коментарі</button>
-                <button class="tablinks" onclick="openTab(event, 'Tokyo')">Аккаунт</button>
+                <button class="tablinks" onclick="openTab(event, 'Info')" id="defaultOpen">Інфо</button>
+                <button class="tablinks" onclick="openTab(event, 'Comments')">Коментарі</button>
+                <button class="tablinks" onclick="openTab(event, 'Account')">Аккаунт</button>
             </div>
               
-            <div id="London" class="tabcontent">
-                <h3>London</h3>
-                <p>London is the capital city of England.</p>
+            <div id="Info" class="tabcontent">
+                <h2>Інфо</h2><hr><br>
+                <p class=icon-statusnet>Статус: <?php echo $uinfo->actype; ?></p>
+                <p class=icon-commenting>Коментарі: <?php echo $uinfo->comments; ?></p>
+                <p class=icon-rocket>Дата реєстрації: <?php echo $uinfo->regdate; ?></p>
+                <p class=icon-text-width>Про мене: <br><br>
+                    <span><i class=icon-quote-left></i><?php echo $uinfo->aboutme; ?><i class=icon-quote-right></i></span>
+                </p>
             </div>
               
-            <div id="Paris" class="tabcontent">
-                <h3>Paris</h3>
-                <p>Paris is the capital of France.</p>
+            <div id="Comments" class="tabcontent">
+                <h2>Коментарі</h2><hr><br>
             </div>
               
-            <div id="Tokyo" class="tabcontent">
-                <h3>Tokyo</h3>
-                <p>Tokyo is the capital of Japan.</p>
+            <div id="Account" class="tabcontent">
+                <h2>Управління аккаунтом</h2><hr><br>
             </div>
         </div>
     </div>
