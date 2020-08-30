@@ -95,7 +95,60 @@
         </div>
     </div>
 <?php else: ?>
-    SAS
+    <?php
+    
+        $current_user = R::findOne('users', 'id = ?', array($_GET['id']));
+        $uinfo = R::findOne('userinfo', 'id = ?', array($current_user->userinfo));
+    
+    ?>
+    <?php if($current_user && $current_user->login != 'root'): ?>
+    <?php if($current_user->id != $_SESSION['logged-user']->id): ?>
+        <center><h1>Профіль</h1></center><br>
+        <div class=profile>
+            <div class=profile-preview>
+                <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('<?php echo $uinfo->avatar; ?>'); background-size: cover">
+                    <input type=file name=avatar-file class=avatar-file>
+                    <input type=submit name=avatar-submit style=display:none>
+                </form>
+                <div>
+                    <h2 class=fullname title="Імʼя та прізвище"><?php echo $current_user->fullname; ?></h3>
+                    <h3 class=nickname title="Нікнейм"><?php echo $current_user->login; ?></h3>
+                </div>
+            </div>
+            <div class=profile-info>
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Info')" id="defaultOpen">Інфо</button>
+                    <button class="tablinks" onclick="openTab(event, 'Comments')">Коментарі</button>
+                    <button class="tablinks" onclick="openTab(event, 'Account')">Аккаунт</button>
+                </div>
+                  
+                <div id="Info" class="tabcontent">
+                    <h2>Інфо</h2><hr><br>
+                    <p class=icon-statusnet>Статус: <?php echo $uinfo->actype; ?></p>
+                    <p class=icon-commenting>Коментарі: <?php echo $uinfo->comments; ?></p>
+                    <p class=icon-rocket>Дата реєстрації: <?php echo $uinfo->regdate; ?></p>
+                    <p class=icon-text-width>Про мене: <br><br>
+                        <span><i class=icon-quote-left></i><?php echo $uinfo->aboutme; ?><i class=icon-quote-right></i></span>
+                    </p>
+                </div>
+                  
+                <div id="Comments" class="tabcontent">
+                    <h2>Коментарі</h2><hr><br>
+                </div>
+                  
+                <div id="Account" class="tabcontent">
+                    <h2>Управління аккаунтом</h2><hr><br>
+                </div>
+            </div>
+        </div>
+        <?php else: ?>
+            <?php echo 'Користувач за таким ID не знайдений!'; ?>
+        <?php endif; ?>
+    <?php else: ?>
+        <?php echo 'Користувач за таким ID не знайдений!'; ?>
+    <?php endif; ?>
+    
+    
 <?php endif; ?>
 
 <?php include 'tml/bottom.php'; ?>
