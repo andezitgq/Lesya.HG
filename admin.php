@@ -166,10 +166,10 @@
     
     if(isset($_GET['delete-album'])){
         $album = R::findOne('albums', 'albumid = ?', array($_GET['delete-album']));
-        $photoss = R::findAll('photos', 'albumid = ?', array($_GET['delete-album']));
+        $photoss = R::getAll('SELECT * FROM photos WHERE albumid = '.$_GET['delete-album']);
         if($album){
             if($photoss)
-                R::trash($photoss);
+                R::trashAll($photoss);
             unlink($album->poster);
             R::trash($album);
             $media_status = 'Альбом видалений!';
@@ -199,7 +199,6 @@
                 $photo->photoid     = $photoid;
                 R::store($photo);
                 echo '<script>window.location.href = "admin?select-album='.$albumid.'#media"</script>';
-                $media_status = "Фото додано!.\n";
             } else
                 $media_status = 'Файл не був завантажений!';
         } else
@@ -211,7 +210,6 @@
         if($photo){
             unlink($photo->source);
             R::trash($photo);
-            $media_status = 'Фото видалене!';
         }
     }
 
@@ -317,12 +315,13 @@
                     <label class="unselect">Виберіть альбом</label>
                 <?php else: ?>
                     <?php
-                        $photosk = R::getAll('SELECT * FROM photos WHERE albumid = '.$_GET['select-album']);
+                        $albumid_n = $_GET['select-album'];
+                        $photosk = R::getAll('SELECT * FROM photos WHERE albumid = '.$albumid_n);
                         for($i = -1; $i <= count($photosk); $i++){
                             if(isset($photosk[$i])){
                                 echo '<div class=add-photo>'.
                                          '<input type=text class=photo-discription value="'.$photosk[$i]['discription'].'" readonly>'.
-                                         '<a href="?remove-photo='.$photosk[$i]['photoid'].'#media" class="icon-minus-squared submit-photo"></a>'.
+                                         '<a href="?remove-photo='.$photosk[$i]['photoid'].'&select-album='.$albumid_n.'#media" class="icon-minus-squared submit-photo"></a>'.
                                      '</div>';
                             }
                         }
