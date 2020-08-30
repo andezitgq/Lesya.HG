@@ -37,36 +37,55 @@
     }
     
     if(isset($_FILES['avatar-file'])){
-        if(preg_match('/image/', $_FILES['avatar-file']['type'])){
-            $return = saveToImgBB($_FILES['avatar-file']);
-            echo $return['data']['url'];
+        if(preg_match('/image/', $_FILES['avatar-file']['type']) && !preg_match('/svg/', $_FILES['avatar-file']['type'])){
+            if($_FILES['avatar-file']['size'] <= 15728640) {
+                $return = saveToImgBB($_FILES['avatar-file']);
+                $avatar = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
+                $avatar->avatar = $return['data']['url'];;
+                R::store($avatar);
+            } else
+                echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл більше 15МБ!<h2>";
         } else
-            $media_status = "Завантажений файл не є зображенням!";
+            echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл не є зображенням!<h2>";
     }
 ?>
 <?php if ($user_is_you == true): ?>
     <?php
     
-        $uinfo = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
-        echo $uinfo->aboutme;
+        $current_user = $_SESSION['logged-user'];
+        $uinfo = R::findOne('userinfo', 'id = ?', array($current_user->userinfo));
     
     ?>
     <center><h1>Профіль</h1></center>
     <div class=profile>
         <div class=profile-preview>
-            <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('img/profile.svg'); background-size: cover">
+            <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('<?php echo $uinfo->avatar; ?>'); background-size: cover">
                 <input type=file name=avatar-file class=avatar-file>
-                <input type=submit name=sas style=display:none>
+                <input type=submit name=avatar-submit style=display:none>
             </form>
-            <h2 class=fullname title="Імʼя та прізвище">Sas Sasovich</h3>
-            <h3 class=nickname title="Нікнейм">freelogger</h3>
+            <h2 class=fullname title="Імʼя та прізвище"><?php echo $current_user->fullname; ?></h3>
+            <h3 class=nickname title="Нікнейм"><?php echo $current_user->login; ?></h3>
         </div>
         <div class=profile-info>
-            <div class=profile-nav>
-                <button>1</button>
-                <button>1</button>
-                <button>1</button>
-                <button>1</button>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'London')">London</button>
+                <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
+                <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
+            </div>
+              
+            <div id="London" class="tabcontent">
+                <h3>London</h3>
+                <p>London is the capital city of England.</p>
+            </div>
+              
+            <div id="Paris" class="tabcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p>
+            </div>
+              
+            <div id="Tokyo" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
             </div>
         </div>
     </div>
