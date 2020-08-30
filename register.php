@@ -72,6 +72,9 @@
     if(isset($data['do_submit'])){
         $errors = array();
         if($data['code'] == $_SESSION['confirm_int']){
+            $userinfo = R::dispense('userinfo');
+            $userinfo->avatar = '';
+            
             $user = R::dispense('users');
             $user->login    = $_SESSION['q-login'];
             $user->fullname = $_SESSION['q-sname'];
