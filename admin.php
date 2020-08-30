@@ -166,27 +166,37 @@
     
     if(isset($_GET['delete-album'])){
         $album = R::findOne('albums', 'albumid = ?', array($_GET['delete-album']));
+        $photoss = R::findAll('photos', 'albumid = ?', array($_GET['delete-album']));
         if($album){
-            R::trash($album);
+            if($photoss)
+                R::trash($photoss);
             unlink($album->poster);
+            R::trash($album);
             $media_status = 'Альбом видалений!';
         }
     }
     
     if(isset($data['submit-photo'])){
+        $photoid = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
+        $photoid_check = R::findOne('photos', 'photoid = ?', array($photoid));
+        if(isset($photoid_check)){
+            return;
+        }
+        
         $albumid = $data['albumid'];
         $discription = $data['photo-discription'];
         
         $ext = pathinfo($_FILES['photo-file']['name'], PATHINFO_EXTENSION);
         
         $uploaddir = 'img/photos/';
-        $uploadfile = $uploaddir.$albumid.'.'.$ext;
+        $uploadfile = $uploaddir.$photoid.'.'.$ext;
         if(preg_match('/image/', $_FILES['photo-file']['type'])){
             if (move_uploaded_file($_FILES['photo-file']['tmp_name'], $uploadfile)) {
                 $photo = R::dispense('photos');
                 $photo->albumid     = $albumid;
                 $photo->source      = $uploadfile;
                 $photo->discription = $discription;
+                $photo->photoid     = $photoid;
                 R::store($photo);
                 echo '<script>window.location.href = "admin?select-album='.$albumid.'#media"</script>';
                 $media_status = "Фото додано!.\n";
@@ -194,6 +204,15 @@
                 $media_status = 'Файл не був завантажений!';
         } else
             $media_status = "Завантажений файл не є зображенням!";
+    }
+    
+    if(isset($_GET['remove-photo']) && $_GET['remove-photo'] != ''){
+        $photo = R::findOne('photos', 'photoid = ?', array($_GET['remove-photo']));
+        if($photo){
+            unlink($photo->source);
+            R::trash($photo);
+            $media_status = 'Фото видалене!';
+        }
     }
 
 ?>
@@ -275,7 +294,7 @@
             <div class=album-list>
                 <?php
                 
-                    $albums = R::getAll( 'SELECT * FROM albums ORDER BY id ASC' );
+                    $albums = R::getAll( 'SELECT * FROM albums ORDER BY id DESC' );
                     for($i = -1; $i <= count($albums); $i++){
                         if(isset($albums[$i])){
                             echo '<form method=GET action="admin#media" class=album>'.
@@ -297,18 +316,14 @@
                 <?php if (!isset($_GET['select-album']) || $_GET['select-album'] == ''): ?>
                     <label class="unselect">Виберіть альбом</label>
                 <?php else: ?>
-                    <!--<form method=GET action=admin#media class=add-photo>
-                        <input type=text class=photo-discription readonly>
-                        <button type=submit name=remove-photo value=123 class="icon-minus-squared submit-photo"></button>
-                    </form>-->
                     <?php
-                        $photos = R::findAll('photos', 'albumid = ?', array($_GET['select-album']));
-                        for($i = -1; $i <= count($photos); $i++){
-                            if(isset($photos[$i])){
-                                echo '<form method=GET action=admin#media class=add-photo>'.
-                                         '<input type=text class=photo-discription value="'.$photos[$i]['discription'].'" readonly>'.
-                                         '<button type=submit name=remove-photo value="'.$photos[$i]['id'].'" class="icon-minus-squared submit-photo"></button>'.
-                                     '</form>';
+                        $photosk = R::getAll('SELECT * FROM photos WHERE albumid = '.$_GET['select-album']);
+                        for($i = -1; $i <= count($photosk); $i++){
+                            if(isset($photosk[$i])){
+                                echo '<div class=add-photo>'.
+                                         '<input type=text class=photo-discription value="'.$photosk[$i]['discription'].'" readonly>'.
+                                         '<a href="?remove-photo='.$photosk[$i]['photoid'].'#media" class="icon-minus-squared submit-photo"></a>'.
+                                     '</div>';
                             }
                         }
                     
