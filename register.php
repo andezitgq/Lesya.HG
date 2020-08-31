@@ -74,7 +74,7 @@
         if($data['code'] == $_SESSION['confirm_int']){
             $userinfo = R::dispense('userinfo');
             $userinfo->avatar = 'img/profile.svg';
-            $userinfo->aboutme = 'Змінити інформацію про себе';
+            $userinfo->aboutme = 'Інформація користувача '.$_SESSION['q-login'];
             $userinfo->comments = 0;
             $userinfo->regdate = date('m.d.Y G:i', time());
             $userinfo->actype = 'Гість';

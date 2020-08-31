@@ -48,6 +48,12 @@
         } else
             echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл не є зображенням!</h2>";
     }
+    
+    if(isset($_POST['change-uinfo'])){
+        $udiscr = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
+        $udiscr->aboutme = $_POST['change-uinfo'];
+        R::store($udiscr);
+    }
 ?>
 <?php if ($user_is_you == true): ?>
     <?php
@@ -75,15 +81,15 @@
                 <button class="tablinks" onclick="openTab(event, 'Account')">Аккаунт</button>
             </div>
               
-            <div id="Info" class="tabcontent">
+            <form method=POST action=profile id="Info" class="tabcontent">
                 <h2>Інфо</h2><hr><br>
                 <p class=icon-statusnet>Статус: <?php echo $uinfo->actype; ?></p>
                 <p class=icon-commenting>Коментарі: <?php echo $uinfo->comments; ?></p>
                 <p class=icon-rocket>Дата реєстрації: <?php echo $uinfo->regdate; ?></p>
                 <p class=icon-text-width>Про мене: <br><br>
-                    <span><i class=icon-quote-left></i><?php echo $uinfo->aboutme; ?><i class=icon-quote-right></i></span>
+                    <span><i class=icon-quote-left></i><input style="border:none; border-bottom: 2px solid #1b466f" required name=change-uinfo type=text value="<?php echo $uinfo->aboutme; ?>"><i class=icon-quote-right></i></span>
                 </p>
-            </div>
+            </form>
               
             <div id="Comments" class="tabcontent">
                 <h2>Коментарі</h2><hr><br>
@@ -101,48 +107,95 @@
         $uinfo = R::findOne('userinfo', 'id = ?', array($current_user->userinfo));
     
     ?>
-    <?php if($current_user && $current_user->login != 'root'): ?>
-    <?php if($current_user->id != $_SESSION['logged-user']->id): ?>
-        <center><h1>Профіль</h1></center><br>
-        <div class=profile>
-            <div class=profile-preview>
-                <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('<?php echo $uinfo->avatar; ?>'); background-size: cover">
-                    <input type=file name=avatar-file class=avatar-file>
-                    <input type=submit name=avatar-submit style=display:none>
-                </form>
-                <div>
-                    <h2 class=fullname title="Імʼя та прізвище"><?php echo $current_user->fullname; ?></h3>
-                    <h3 class=nickname title="Нікнейм"><?php echo $current_user->login; ?></h3>
+    <?php if($current_user): ?>
+        <?php if($current_user->id != $_SESSION['logged-user']->id): ?>
+            <?php if($current_user->login != 'root'): ?>
+                <center><h1>Профіль</h1></center><br>
+                <div class=profile>
+                    <div class=profile-preview>
+                        <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('<?php echo $uinfo->avatar; ?>'); background-size: cover">
+                            <input type=file name=avatar-file class=avatar-file>
+                            <input type=submit name=avatar-submit style=display:none>
+                        </form>
+                        <div>
+                            <h2 class=fullname title="Імʼя та прізвище"><?php echo $current_user->fullname; ?></h3>
+                            <h3 class=nickname title="Нікнейм"><?php echo $current_user->login; ?></h3>
+                        </div>
+                    </div>
+                    <div class=profile-info>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openTab(event, 'Info')" id="defaultOpen">Інфо</button>
+                            <button class="tablinks" onclick="openTab(event, 'Comments')">Коментарі</button>
+                            <button class="tablinks" onclick="openTab(event, 'Account')">Аккаунт</button>
+                        </div>
+                          
+                        <div id="Info" class="tabcontent">
+                            <h2>Інфо</h2><hr><br>
+                            <p class=icon-statusnet>Статус: <?php echo $uinfo->actype; ?></p>
+                            <p class=icon-commenting>Коментарі: <?php echo $uinfo->comments; ?></p>
+                            <p class=icon-rocket>Дата реєстрації: <?php echo $uinfo->regdate; ?></p>
+                            <p class=icon-text-width>Про мене: <br><br>
+                                <span><i class=icon-quote-left></i><?php echo $uinfo->aboutme; ?><i class=icon-quote-right></i></span>
+                            </p>
+                        </div>
+                          
+                        <div id="Comments" class="tabcontent">
+                            <h2>Коментарі</h2><hr><br>
+                        </div>
+                          
+                        <div id="Account" class="tabcontent">
+                            <h2>Управління аккаунтом</h2><hr><br>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class=profile-info>
-                <div class="tab">
-                    <button class="tablinks" onclick="openTab(event, 'Info')" id="defaultOpen">Інфо</button>
-                    <button class="tablinks" onclick="openTab(event, 'Comments')">Коментарі</button>
-                    <button class="tablinks" onclick="openTab(event, 'Account')">Аккаунт</button>
-                </div>
-                  
-                <div id="Info" class="tabcontent">
-                    <h2>Інфо</h2><hr><br>
-                    <p class=icon-statusnet>Статус: <?php echo $uinfo->actype; ?></p>
-                    <p class=icon-commenting>Коментарі: <?php echo $uinfo->comments; ?></p>
-                    <p class=icon-rocket>Дата реєстрації: <?php echo $uinfo->regdate; ?></p>
-                    <p class=icon-text-width>Про мене: <br><br>
-                        <span><i class=icon-quote-left></i><?php echo $uinfo->aboutme; ?><i class=icon-quote-right></i></span>
-                    </p>
-                </div>
-                  
-                <div id="Comments" class="tabcontent">
-                    <h2>Коментарі</h2><hr><br>
-                </div>
-                  
-                <div id="Account" class="tabcontent">
-                    <h2>Управління аккаунтом</h2><hr><br>
-                </div>
-            </div>
-        </div>
+                <?php else: ?>
+                    <center><h1 style=>НЕМА ДОСТУПУ</h1></center>
+                <?php endif; ?>
         <?php else: ?>
-            <?php echo 'Користувач за таким ID не знайдений!'; ?>
+            <?php
+    
+                $current_user = $_SESSION['logged-user'];
+                $uinfo = R::findOne('userinfo', 'id = ?', array($current_user->userinfo));
+            
+            ?>
+            <center><h1>Профіль</h1></center><br>
+            <div class=profile>
+                <div class=profile-preview>
+                    <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('<?php echo $uinfo->avatar; ?>'); background-size: cover">
+                        <input type=file name=avatar-file class=avatar-file>
+                        <input type=submit name=avatar-submit style=display:none>
+                    </form>
+                    <div>
+                        <h2 class=fullname title="Імʼя та прізвище"><?php echo $current_user->fullname; ?></h3>
+                        <h3 class=nickname title="Нікнейм"><?php echo $current_user->login; ?></h3>
+                    </div>
+                </div>
+                <div class=profile-info>
+                    <div class="tab">
+                        <button class="tablinks" onclick="openTab(event, 'Info')" id="defaultOpen">Інфо</button>
+                        <button class="tablinks" onclick="openTab(event, 'Comments')">Коментарі</button>
+                        <button class="tablinks" onclick="openTab(event, 'Account')">Аккаунт</button>
+                    </div>
+                      
+                    <form method=POST action=profile id="Info" class="tabcontent">
+                        <h2>Інфо</h2><hr><br>
+                        <p class=icon-statusnet>Статус: <?php echo $uinfo->actype; ?></p>
+                        <p class=icon-commenting>Коментарі: <?php echo $uinfo->comments; ?></p>
+                        <p class=icon-rocket>Дата реєстрації: <?php echo $uinfo->regdate; ?></p>
+                        <p class=icon-text-width>Про мене: <br><br>
+                            <span><i class=icon-quote-left></i><input style="border:none; border-bottom: 2px solid #1b466f" required name=change-uinfo type=text value="<?php echo $uinfo->aboutme; ?>"><i class=icon-quote-right></i></span>
+                        </p>
+                    </form>
+                      
+                    <div id="Comments" class="tabcontent">
+                        <h2>Коментарі</h2><hr><br>
+                    </div>
+                      
+                    <div id="Account" class="tabcontent">
+                        <h2>Управління аккаунтом</h2><hr><br>
+                    </div>
+                </div>
+            </div>
         <?php endif; ?>
     <?php else: ?>
         <?php echo 'Користувач за таким ID не знайдений!'; ?>
