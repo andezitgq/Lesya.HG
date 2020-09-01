@@ -17,21 +17,24 @@
                 $title = R::findOne('posttitle', 'id = ?', array($post->title_id));
                 if($post->id != 88)
                 {
-                    echo '<div class=post><i class=post-date>';
+                    echo '<div><i class=post-date>';
                     
-                            if(isset($date))
-                                echo date_format($date, 'd.m.Y G:i');
-                            if(isset($author->author))
-                                echo ' 📝 '.$author->author;
-                                
-                            echo '</i>';
+                        if(isset($date))
+                            echo date_format($date, 'd.m.Y G:i');
+                        if(isset($author->author))
+                            echo ' 📝 '.$author->author;
+                            
+                    echo '</i>';
+                    
+                    echo '<div style=cursor:pointer onclick="window.location.href = \'showpost?postid='.$post->id.'\';" class=post>';
+
                             
                             if(isset($title->title))
                                 echo '<h1>'.$title->title.'</h1><hr><br>';
                             if(isset($post->content))
                                 echo $post->content;
                                 
-                    echo '</div>';
+                    echo '</div></div>';
                 }
             }
         }
