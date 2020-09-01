@@ -17,7 +17,7 @@
                 $title = R::findOne('posttitle', 'id = ?', array($post->title_id));
                 if($post->id != 88)
                 {
-                    echo '<div><i class=post-date>';
+                    echo '<div class=outpost><i class=post-date>';
                     
                         if(isset($date))
                             echo date_format($date, 'd.m.Y G:i');
