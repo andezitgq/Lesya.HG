@@ -28,7 +28,7 @@
         }
     ?>
     <?php if(isset($_SESSION['logged-user'])): ?>
-        <form method=POST action="showpost?postid=<?php echo $_GET['postid']; ?>" class=comment-form>
+        <br><form method=POST action="showpost?postid=<?php echo $_GET['postid']; ?>" class=comment-form>
             <button type=submit>sas</button>
         </form>
     <?php else: ?>
