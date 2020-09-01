@@ -39,6 +39,8 @@
             }
         }
     
+    if(isset($post_var)) echo $post_var;
+    
     ?>
     </div>
 <?php include 'tml/bottom.php'; ?>

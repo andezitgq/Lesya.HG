@@ -475,6 +475,7 @@ span[style="font-size:12.0pt;font-family:"] {
 
 .post-date {
     background: white;
+    position: relative;
     padding-left: 5px;
     padding-right: 5px;
     margin-left: 20px;
@@ -485,7 +486,7 @@ span[style="font-size:12.0pt;font-family:"] {
 
 .wrap-content-box {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% auto;
     width: 100%;
 }
 
