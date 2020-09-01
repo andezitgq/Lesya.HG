@@ -27,4 +27,11 @@
             echo '</div>';
         }
     ?>
+    <?php if(isset($_SESSION['logged-user'])): ?>
+        <form method=POST action="showpost?postid=<?php echo $_GET['postid']; ?>" class=comment-form>
+            <button type=submit>sas</button>
+        </form>
+    <?php else: ?>
+        <br><p>Щоб залишити коментар <a href=register>зареєструйтесь</a> або <a href=login>увійдіть</a> в акканут</p>
+    <?php endif; ?>
 <?php include 'tml/bottom.php'; ?>

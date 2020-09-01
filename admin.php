@@ -41,13 +41,13 @@
         return preg_replace($a_patterns, $a_replacements, $second);
     }
     
-    if(isset($data['do-preview']) && $_SESSION['logged-user']->login = 'root'){
+    if(isset($data['do-preview']) && $_SESSION['logged-user']->login == 'root'){
         if(isset($data['post-editor'])){
             $preview = $parsedown->text(custom_parse($data['post-editor']));
         }
     }
     
-    if(isset($data['send']) && $_SESSION['logged-user']->login = 'root'){
+    if(isset($data['send']) && $_SESSION['logged-user']->login == 'root'){
         $post = $parsedown->text(custom_parse($data['post-editor']));
         
         $postdate         = R::dispense('postdate');
@@ -131,16 +131,16 @@
         }
     }
     
-    if(isset($_GET['unset-session']) && $_SESSION['logged-user']->login = 'root'){
+    if(isset($_GET['unset-session']) && $_SESSION['logged-user']->login == 'root'){
         unset($_SESSION['logged-user']);
         echo '<script>window.location.href = "/";</script>';
     }
     
-    if(isset($_GET['old-parse']) && $_SESSION['logged-user']->login = 'root'){
+    if(isset($_GET['old-parse']) && $_SESSION['logged-user']->login =='root'){
         old_parse(); //Y-m-d G:i:s
     }
     
-    if(isset($data['create-album']) && $_SESSION['logged-user']->login = 'root'){
+    if(isset($data['create-album']) && $_SESSION['logged-user']->login =='root'){
         $albumid = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
         $album_check = R::findOne('albums', 'albumid = ?', array($albumid));
         if(isset($album_check)){
@@ -164,7 +164,7 @@
             $media_status = "Завантажений файл не є зображенням!";
     }
     
-    if(isset($_GET['delete-album']) && $_SESSION['logged-user']->login = 'root'){
+    if(isset($_GET['delete-album']) && $_SESSION['logged-user']->login == 'root'){
         $album = R::findOne('albums', 'albumid = ?', array($_GET['delete-album']));
         $photoss = R::getAll('SELECT * FROM photos WHERE albumid = '.$_GET['delete-album']);
         if($album){
@@ -176,7 +176,7 @@
         }
     }
     
-    if(isset($data['submit-photo']) && $_SESSION['logged-user']->login = 'root'){
+    if(isset($data['submit-photo']) && $_SESSION['logged-user']->login == 'root'){
         $photoid = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
         $photoid_check = R::findOne('photos', 'photoid = ?', array($photoid));
         if(isset($photoid_check)){
@@ -205,7 +205,7 @@
             $media_status = "Завантажений файл не є зображенням!";
     }
     
-    if(isset($_GET['remove-photo']) && $_GET['remove-photo'] != '' && $_SESSION['logged-user']->login = 'root'){
+    if(isset($_GET['remove-photo']) && $_GET['remove-photo'] != '' && $_SESSION['logged-user']->login == 'root'){
         $photo = R::findOne('photos', 'photoid = ?', array($_GET['remove-photo']));
         if($photo){
             unlink($photo->source);

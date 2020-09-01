@@ -54,6 +54,11 @@
         $udiscr->aboutme = $_POST['change-uinfo'];
         R::store($udiscr);
     }
+    
+    if(isset($_GET['unset-session'])){
+        unset($_SESSION['logged-user']);
+        echo '<script>window.location.href = "/";</script>';
+    }
 ?>
 <?php if ($user_is_you == true): ?>
     <?php
@@ -97,6 +102,7 @@
               
             <div id="Account" class="tabcontent">
                 <h2>Управління аккаунтом</h2><hr><br>
+                <a href="?unset-session">Вийти з аккаунту</a>
             </div>
         </div>
     </div>
