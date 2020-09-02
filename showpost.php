@@ -66,17 +66,22 @@
         for($i = -1; $i <= count($comments); $i++){
             if(isset($comments[$i])){
                 $comdate = date_create($comments[$i]['date']);
-                echo date_format($comdate, 'd.m.Y G:i').'<br>';
+                $author = R::findOne('users', 'id = ?', array($comments[$i]['authorid']));
+                $authorinfo = R::findOne('userinfo', 'id = ?', array($author->userinfo));
+                echo '<div class=comment-box>'.
+                         '<div class=comment-user>'.
+                             '<img src="'.$authorinfo->avatar.'">'.
+                             '<p>'.$author->fullname.'</p>'.
+                         '</div>'.
+                         '<p>'.$comments[$i]['content'].'</p>'.
+                     '</div>';
             }
+        }
+        
+        if(count($comments) <= 0){
+            echo '<center><label>Коментарів не знайдено!</label></center>';
         }
     
     ?>
-    <div class=comment-box>
-        <div class=comment-user>
-            <img src="img/profile.svg">
-            <p>username</p>
-        </div>
-        <p>comment</p>
-    </div>
 
 <?php include 'tml/bottom.php'; ?>
