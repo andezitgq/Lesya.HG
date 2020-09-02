@@ -2,7 +2,7 @@
     
     session_start();
     
-    $string = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
+    $string = rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
      
     $_SESSION['rand_code'] = $string;
      

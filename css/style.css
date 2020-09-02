@@ -574,6 +574,25 @@ span[style="font-size:12.0pt;font-family:"] {
     margin-bottom: 10px;
 }
 
+.comment-box {
+    border: 1px solid #25619A;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+}
+
+.comment-user {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.comment-user img {
+    width: 100px;
+    border-radius: 10px;
+}
+
 /*===/POST===*/
 /*
  *

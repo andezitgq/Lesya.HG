@@ -36,6 +36,7 @@
                 $comment = R::dispense('comments');
                 $comment->postid   = $_GET['postid'];
                 $comment->content  = $data['comment-field'];
+                $comment->date     = date('Y-m-d G:i:s', time());
                 $comment->authorid = $_SESSION['logged-user']->id;
                 $cid = R::store($comment);
             } else {
@@ -56,6 +57,26 @@
             <button type="submit" name="comment">Надіслати</button>
         </form>
     <?php else: ?>
-        <br><p>Щоб залишити коментар <a href=register>зареєструйтесь</a> або <a href=login>увійдіть</a> в акканут</p>
+        <br><p>Щоб залишити коментар <a href=register>зареєструйтесь</a> або <a href=login>увійдіть в акканут</a></p>
     <?php endif; ?>
+    <br><h2>Коментарі</h2>
+    <?php
+    
+        $comments = R::getAll('SELECT * FROM comments WHERE postid = '.$_GET['postid'].' ORDER BY date DESC');
+        for($i = -1; $i <= count($comments); $i++){
+            if(isset($comments[$i])){
+                $comdate = date_create($comments[$i]['date']);
+                echo date_format($comdate, 'd.m.Y G:i').'<br>';
+            }
+        }
+    
+    ?>
+    <div class=comment-box>
+        <div class=comment-user>
+            <img src="img/profile.svg">
+            <p>username</p>
+        </div>
+        <p>comment</p>
+    </div>
+
 <?php include 'tml/bottom.php'; ?>
