@@ -68,7 +68,8 @@
                 $comdate = date_create($comments[$i]['date']);
                 $author = R::findOne('users', 'id = ?', array($comments[$i]['authorid']));
                 $authorinfo = R::findOne('userinfo', 'id = ?', array($author->userinfo));
-                echo '<div class=comment-box>'.
+                echo '<a name=com'.$comments[$i]['id'].'></a>'.
+                     '<div class="comment-box">'.
                          '<div class=comment-user>'.
                              '<img src="'.$authorinfo->avatar.'">'.
                              '<p>'.$author->fullname.'</p>'.
