@@ -2,6 +2,7 @@
     <?php
     
         session_start();
+        $data = $_POST;
     
         if(!isset($_GET['postid']) || $_GET['postid'] == '' || $_GET['postid'] == 0)
             echo '<script>window.location.href = "/";</script>';
@@ -29,14 +30,30 @@
                         
             echo '</div>';
         }
+        
+        if(isset($data['comment'])){
+            if($data['code'] == $_SESSION['rand_code']){
+                $comment = R::dispense('comments');
+                $comment->postid   = $_GET['postid'];
+                $comment->content  = $data['comment-field'];
+                $comment->authorid = $_SESSION['logged-user']->id;
+                $cid = R::store($comment);
+            } else {
+                $comerror = 'Код введений невірно!';
+            }
+        }
     ?>
     <?php if(isset($_SESSION['logged-user'])): ?>
         <form action="showpost?postid=<?php echo $_GET['postid']; ?>" method=POST enctype="multipart/form-data" class=comment-form>
             <h2>Залишити коментар</h2>
-            <textarea name="comment-field" required placeholder="Текст коментарю"></textarea>
+            <?php if(isset($comerror)) echo '<h1 class=comerror>'.$comerror.'</h1>'; ?>
+            <textarea name="comment-field" required placeholder="Текст коментаря"></textarea>
             <img src="font/captcha/captcha"/>
-            <input type="text" name="code" required/> Captcha
-            <button type="submit" name="comment"/>
+            <p>
+                <label style=margin-top:10px></label>
+                <input type="text" name="code" required placeholder="Введіть число з зображення"/>
+            </p>
+            <button type="submit" name="comment">Надіслати</button>
         </form>
     <?php else: ?>
         <br><p>Щоб залишити коментар <a href=register>зареєструйтесь</a> або <a href=login>увійдіть</a> в акканут</p>

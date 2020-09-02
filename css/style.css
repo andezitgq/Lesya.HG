@@ -269,7 +269,7 @@ a.anchor {
 }
 
 .media-content {
-    border: 2px solid #1b466f;
+    border: 2px solid #25619A;
     height: 66%;
     display: flex;
 }
@@ -296,6 +296,7 @@ a.anchor {
 .media-headers {
     display: flex;
     background: #1b466f;
+    border: 2px solid #25619A;
     color: white;
     padding: 10px;
 }
@@ -533,11 +534,44 @@ span[style="font-size:12.0pt;font-family:"] {
 .comment-form textarea {
     min-width: 100%;
     min-height: 150px;
+    border: 1px solid #1b466f;
+    border-radius: 5px;
+    background: none;
+    padding: 5px;
 }
 
 .comment-form h2 {
     margin: auto;
     margin-bottom: 5px;
+}
+
+.comment-form input {
+    border: none;
+    border-bottom: 2px solid #1b466f;
+    padding: 7px;
+}
+
+.comment-form button {
+    min-width: 75px;
+    min-height: 40px;
+    border: 2px solid #25619A;
+    background: #1b466f;
+    margin: 10px;
+    padding: 7px;
+    color: white;
+    transition: all .05s;
+}
+
+.comment-form button:hover  {background: #13324f;}
+
+.comerror {
+    color: white;
+    background: #1b466f;
+    margin: auto;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 /*===/POST===*/
@@ -616,10 +650,6 @@ input {background: none}
 
 .tab button:hover {
   background-color: #13324f;
-}
-
-.tab button:active {
-  background-color: #25619A;
 }
 
 .tabcontent {

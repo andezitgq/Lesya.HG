@@ -17,6 +17,4 @@
     header("Content-type: image/jpeg");
     imagepng($image);
     
-    $_SESSION['sas'] = $_SESSION['rand_code'];
-    
 ?>
