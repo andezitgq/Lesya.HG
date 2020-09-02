@@ -495,11 +495,11 @@ span[style="font-size:12.0pt;font-family:"] {
     height: 300px;
     overflow: hidden;
     position: relative;
-    transition: all .05s;
+    transition: all .1s;
 }
 
 .wrap-content-box .post:hover {
-    box-shadow: 5px 0 0 #13324f, 0 5px 0 #13324f, -5px 0 0 #13324f, 0 -5px 0 #13324f;
+    opacity: 0.5;
 }
 
 .wrap-content-box .post:before {
@@ -521,6 +521,23 @@ span[style="font-size:12.0pt;font-family:"] {
 
 .outpost {
     margin: 10px;
+}
+
+.comment-form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comment-form textarea {
+    min-width: 100%;
+    min-height: 150px;
+}
+
+.comment-form h2 {
+    margin: auto;
+    margin-bottom: 5px;
 }
 
 /*===/POST===*/

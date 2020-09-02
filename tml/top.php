@@ -1,13 +1,6 @@
 <?php
 
     require 'include/db.php';
-    
-    /*$book = R::dispense( 'book' );
-    $book->title = 'Learn to SEX';
-    $book->rating = 14324;
-    $book->sas = 'sas';
-    
-    $id = R::store( $book );*/
 
     session_start();
     

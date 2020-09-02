@@ -1,5 +1,8 @@
 <?php include 'tml/top.php'; ?>
     <?php
+    
+        session_start();
+    
         if(!isset($_GET['postid']) || $_GET['postid'] == '' || $_GET['postid'] == 0)
             echo '<script>window.location.href = "/";</script>';
             
@@ -28,8 +31,12 @@
         }
     ?>
     <?php if(isset($_SESSION['logged-user'])): ?>
-        <br><form method=POST action="showpost?postid=<?php echo $_GET['postid']; ?>" class=comment-form>
-            <button type=submit>sas</button>
+        <form action="showpost?postid=<?php echo $_GET['postid']; ?>" method=POST enctype="multipart/form-data" class=comment-form>
+            <h2>Залишити коментар</h2>
+            <textarea name="comment-field" required placeholder="Текст коментарю"></textarea>
+            <img src="font/captcha/captcha"/>
+            <input type="text" name="code" required/> Captcha
+            <button type="submit" name="comment"/>
         </form>
     <?php else: ?>
         <br><p>Щоб залишити коментар <a href=register>зареєструйтесь</a> або <a href=login>увійдіть</a> в акканут</p>
