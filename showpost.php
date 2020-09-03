@@ -33,12 +33,31 @@
         
         if(isset($data['comment'])){
             if($data['code'] == $_SESSION['rand_code']){
-                $comment = R::dispense('comments');
-                $comment->postid   = $_GET['postid'];
-                $comment->content  = $data['comment-field'];
-                $comment->date     = date('Y-m-d G:i:s', time());
-                $comment->authorid = $_SESSION['logged-user']->id;
-                $cid = R::store($comment);
+                preg_match('', $data['comment-field'], $matches);
+                if($matches[1] == ''){
+                    $answer = R::dispense('answers');
+                    $answer->postid   = $_GET['postid'];
+                    $answer->content  = $data['comment-field'];
+                    $answer->date     = date('Y-m-d G:i:s', time());
+                    $answer->comid    = '';
+                    $answer->authorid = $_SESSION['logged-user']->id;
+                    $cid = R::store($answer);
+                    
+                    $comuser = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
+                    $comuser->comments = $comuser->comments + 1;
+                    $uid = R::store($comuser);
+                } else {
+                    $comment = R::dispense('comments');
+                    $comment->postid   = $_GET['postid'];
+                    $comment->content  = $data['comment-field'];
+                    $comment->date     = date('Y-m-d G:i:s', time());
+                    $comment->authorid = $_SESSION['logged-user']->id;
+                    $cid = R::store($comment);
+                    
+                    $comuser = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
+                    $comuser->comments = $comuser->comments + 1;
+                    $uid = R::store($comuser);
+                }
             } else {
                 $comerror = 'Код введений невірно!';
             }
@@ -75,6 +94,7 @@
                              '<p>'.$author->fullname.'</p>'.
                          '</div>'.
                          '<p>'.$comments[$i]['content'].'</p>'.
+                         '<label class=comid>#'.$comments[$i]['id'].'</label>'.
                      '</div>';
             }
         }
