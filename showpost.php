@@ -84,6 +84,7 @@
         $comments = R::getAll('SELECT * FROM comments WHERE postid = '.$_GET['postid'].' ORDER BY date DESC');
         for($i = -1; $i <= count($comments); $i++){
             if(isset($comments[$i])){
+                $answers = R::getAll('SELECT * FROM answers WHERE comid = '.$comments[$i]['id'].' ORDER BY date DESC');
                 $comdate = date_create($comments[$i]['date']);
                 $author = R::findOne('users', 'id = ?', array($comments[$i]['authorid']));
                 $authorinfo = R::findOne('userinfo', 'id = ?', array($author->userinfo));
@@ -96,6 +97,24 @@
                          '<p>'.$comments[$i]['content'].'</p>'.
                          '<label class=comid>#'.$comments[$i]['id'].'</label>'.
                      '</div>';
+                     
+                for($x = -1; $x <= count($answers); $x++){
+                    
+                    if(isset($answers[$x])){
+                        $n_comdate = date_create($answers[$i]['date']);
+                        $n_author = R::findOne('users', 'id = ?', array($answers[$i]['authorid']));
+                        $n_authorinfo = R::findOne('userinfo', 'id = ?', array($n_author->userinfo));
+                        echo '<a name=com'.$answers[$i]['id'].'></a>'.
+                             '<div class="comment-box answer">'.
+                                 '<div class=comment-user>'.
+                                     '<img src="'.$n_authorinfo->avatar.'">'.
+                                     '<p>'.$n_author->fullname.'</p>'.
+                                 '</div>'.
+                                 '<p>'.$answers[$i]['content'].'</p>'.
+                                 '<label class=comid>#'.$answers[$i]['id'].'</label>'.
+                             '</div>';
+                    }
+                }
             }
         }
         
