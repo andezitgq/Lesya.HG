@@ -24,8 +24,8 @@
     }
     
     if(!isset($_SESSION['logged-user']) ||
-       $_SESSION['logged-user']->login == 'root')
-            echo '<script>window.location.href = "login";</script>';
+       $_SESSION['logged-user']->login == 'root' && !isset($_GET['id']))
+            echo '<script>window.location.href = "/";</script>';
             
     if(isset($_GET['id'])){
         if($_GET['id'] == 0 || $_GET['id'] == '')
@@ -131,8 +131,6 @@
                     <div class=profile-info>
                         <div class="tab">
                             <button class="tablinks" onclick="openTab(event, 'Info')" id="defaultOpen">Інфо</button>
-                            <button class="tablinks" onclick="openTab(event, 'Comments')">Коментарі</button>
-                            <button class="tablinks" onclick="openTab(event, 'Account')">Аккаунт</button>
                         </div>
                           
                         <div id="Info" class="tabcontent">
@@ -155,7 +153,7 @@
                     </div>
                 </div>
                 <?php else: ?>
-                    <center><h1 style=>НЕМА ДОСТУПУ</h1></center>
+                    <center><h1 style=font-size:25px>НЕМА ДОСТУПУ</h1></center>
                 <?php endif; ?>
         <?php else: ?>
             <?php
@@ -164,6 +162,7 @@
                 $uinfo = R::findOne('userinfo', 'id = ?', array($current_user->userinfo));
             
             ?>
+            <?php if($current_user->login != 'root'): ?>
             <center><h1>Профіль</h1></center><br>
             <div class=profile>
                 <div class=profile-preview>
@@ -202,9 +201,12 @@
                     </div>
                 </div>
             </div>
+            <?php else: ?>
+                <center><h1 style=font-size:25px>НЕМА ДОСТУПУ</h1></center>
+            <?php endif; ?>
         <?php endif; ?>
     <?php else: ?>
-        <?php echo 'Користувач за таким ID не знайдений!'; ?>
+        <?php echo '<center><h1 style=font-size:25px>Користувач за таким ID не знайдений!</h1></center>'; ?>
     <?php endif; ?>
     
     
