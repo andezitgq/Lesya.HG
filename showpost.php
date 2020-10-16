@@ -34,33 +34,21 @@
         if(isset($data['comment'])){
             if($data['code'] == $_SESSION['rand_code']){
                 preg_match('#\#(.*)\?#', $data['comment-field'], $matches);
-                preg_match('#\#(.*)R\?#', $data['comment-field'], $matchesR);
                 if(!empty($matches) && $matches[1] != ''){
-                    if(!empty($matchesR) && $matchesR[1] != ''){
-                        $answer = R::dispense('answers');
-                        $answer->postid   = $_GET['postid'];
-                        $answer->content  = preg_replace('#\#(.*)R\?#', '<a href="com'.$matchesR[1].'">#'.$matchesR[1].'R?</a>', $data['comment-field']);
-                        $answer->date     = date('Y-m-d G:i:s', time());
-                        $answer->comid    = $matches[1];
-                        $answer->authorid = $_SESSION['logged-user']->id;
-                        $cid = R::store($answer);
+                    $user_to_answer = R::findOne('users', 'id = ?', array(
+                                        R::findOne('comments', 'id = ?', array($matches[1]))->authorid)
+                                      )->fullname;
+                    $answer = R::dispense('answers');
+                    $answer->postid   = $_GET['postid'];
+                    $answer->content  = preg_replace('#\#(.*)\?#', '<a href="#com'.$matches[1].'">#'.$user_to_answer.'</a>', $data['comment-field']);
+                    $answer->date     = date('Y-m-d G:i:s', time());
+                    $answer->comid    = $matches[1];
+                    $answer->authorid = $_SESSION['logged-user']->id;
+                    $cid = R::store($answer);
                         
-                        $comuser = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
-                        $comuser->comments = $comuser->comments + 1;
-                        $uid = R::store($comuser);
-                    } else {
-                        $answer = R::dispense('answers');
-                        $answer->postid   = $_GET['postid'];
-                        $answer->content  = preg_replace('#\#(.*)\?#', '<a href="ans'.$matches[1].'">#'.$matches[1].'?</a>', $data['comment-field']);
-                        $answer->date     = date('Y-m-d G:i:s', time());
-                        $answer->comid    = $matches[1];
-                        $answer->authorid = $_SESSION['logged-user']->id;
-                        $cid = R::store($answer);
-                        
-                        $comuser = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
-                        $comuser->comments = $comuser->comments + 1;
-                        $uid = R::store($comuser);
-                    }
+                    $comuser = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
+                    $comuser->comments = $comuser->comments + 1;
+                    $uid = R::store($comuser);
                 } else {
                     $comment = R::dispense('comments');
                     $comment->postid   = $_GET['postid'];
@@ -126,7 +114,6 @@
                                      '<p>'.$n_author->fullname.'</p>'.
                                  '</div>'.
                                  '<p>'.$answers[$x]['content'].'</p>'.
-                                 '<label class=comid>#'.$answers[$x]['id'].'</label>'.
                              '</div>';
                     }
                 }
