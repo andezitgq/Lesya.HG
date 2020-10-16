@@ -5,7 +5,7 @@
 
 ?>
     <center><h1>Новини</h1></center>
-    <div class=wrap-content-box>
+    <div class=wrap-content-box id=wrap-content-box>
     <?php
     
         $all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 11' );

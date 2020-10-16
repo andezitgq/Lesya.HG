@@ -8,8 +8,11 @@ $('document').ready(function(){
             type:'get',
             data:{'from':loaded,'to':+loaded+10},
             success: function (res) {
-                alert(res);
-                
+                var posts = $.parseJSON(res);
+                posts.each(function() {
+                    alert(12);
+                });
+                $('#loadmore').attr('num_loaded',+loaded+10);
             }
         });
     });
