@@ -8,7 +8,7 @@
     <div class=wrap-content-box>
     <?php
     
-        $all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 15' );
+        $all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 11' );
         for($i = -1; $i <= count($all); $i++){
             if(isset($all[$i])){
                 $date = date_create($all[$i]['date']);
@@ -43,4 +43,5 @@
     
     ?>
     </div>
+    <button class=show-more id=loadmore num_loaded=10>Показати ще</button>
 <?php include 'tml/bottom.php'; ?>
