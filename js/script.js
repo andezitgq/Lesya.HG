@@ -2,17 +2,15 @@ $('document').ready(function(){
 
     $('#loadmore').click(function(){
         var loaded = $(this).attr('num_loaded');
-        $(this).attr("disabled", true);
+        $('#loadmore').attr('disabled', true);
         $.ajax({
             url:'loadPosts.php',
             type:'get',
             data:{'from':loaded,'to':+loaded+10},
             success: function (res) {
-                var posts = $.parseJSON(res);
-                posts.each(function() {
-                    alert(12);
-                });
+                $('#wrap-content-box').append(res);
                 $('#loadmore').attr('num_loaded',+loaded+10);
+                $('#loadmore').attr('disabled', false);
             }
         });
     });
