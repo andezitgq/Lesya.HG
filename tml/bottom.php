@@ -57,17 +57,22 @@
                     url:download_url, 
                     method:'GET', 
                     responseType: 'blob' 
-            }) 
-            .then((response) => { 
-                   const url = window.URL 
-                   .createObjectURL(new Blob([response.data])); 
-                          const link = document.createElement('a'); 
-                          link.href = url; 
-                          link.setAttribute('download', name); 
-                          document.body.appendChild(link); 
-                          link.click(); 
-            }) 
+                }).then((response) => { 
+                      const url = window.URL 
+                      .createObjectURL(new Blob([response.data])); 
+                              const link = document.createElement('a'); 
+                              link.href = url; 
+                              link.setAttribute('download', name); 
+                              document.body.appendChild(link); 
+                              link.click(); 
+                }) 
             } 
+
+            function commentReply(comid){
+              var txtarea = document.getElementById("comment-field");          
+              var newText = "#" + comid + "# " + txtarea.value;
+              txtarea.value = newText;
+            }
         </script>
     </body>
 </html>

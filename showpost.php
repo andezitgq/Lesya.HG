@@ -33,14 +33,14 @@
         
         if(isset($data['comment'])){
             if($data['code'] == $_SESSION['rand_code']){
-                preg_match('#\#(.*)\?#', $data['comment-field'], $matches);
+                preg_match('#\#(.*)\##', $data['comment-field'], $matches);
                 if(!empty($matches) && $matches[1] != ''){
                     $user_to_answer = R::findOne('users', 'id = ?', array(
                                         R::findOne('comments', 'id = ?', array($matches[1]))->authorid)
                                       )->fullname;
                     $answer = R::dispense('answers');
                     $answer->postid   = $_GET['postid'];
-                    $answer->content  = preg_replace('#\#(.*)\?#', '<a href="#com'.$matches[1].'">#'.$user_to_answer.'</a>', $data['comment-field']);
+                    $answer->content  = preg_replace('#\#(.*)\##', '<a href="#com'.$matches[1].'">#'.$user_to_answer.'</a>', $data['comment-field']);
                     $answer->date     = date('Y-m-d G:i:s', time());
                     $answer->comid    = $matches[1];
                     $answer->authorid = $_SESSION['logged-user']->id;
@@ -68,9 +68,10 @@
     ?>
     <?php if(isset($_SESSION['logged-user'])): ?>
         <form action="showpost?postid=<?php echo $_GET['postid']; ?>" method=POST enctype="multipart/form-data" class=comment-form>
+            <a class=anchor name=comment-area></a>
             <h2>Залишити коментар</h2>
             <?php if(isset($comerror)) echo '<h1 class=comerror>'.$comerror.'</h1>'; ?>
-            <textarea name="comment-field" required placeholder="Текст коментаря"></textarea>
+            <textarea name=comment-field id=comment-field required placeholder="Текст коментаря"></textarea>
             <img src="font/captcha/captcha"/>
             <p>
                 <label style=margin-top:10px></label>
@@ -91,14 +92,14 @@
                 $comdate = date_create($comments[$i]['date']);
                 $author = R::findOne('users', 'id = ?', array($comments[$i]['authorid']));
                 $authorinfo = R::findOne('userinfo', 'id = ?', array($author->userinfo));
-                echo '<a name=com'.$comments[$i]['id'].'></a>'.
+                echo '<a class=anchor name=com'.$comments[$i]['id'].'></a>'.
                      '<div class="comment-box">'.
                          '<div class=comment-user>'.
                              '<img src="'.$authorinfo->avatar.'">'.
                              '<p>'.$author->fullname.'</p>'.
                          '</div>'.
                          '<p>'.$comments[$i]['content'].'</p>'.
-                         '<label class=comid>#'.$comments[$i]['id'].'</label>'.
+                         '<a href="#comment-area" class="icon-reply comment-reply" onclick="commentReply('.$comments[$i]['id'].')"></a><label class=comid>#'.$comments[$i]['id'].'</label>'.
                      '</div>';
                      
                 for($x = -1; $x <= count($answers); $x++){
@@ -107,7 +108,7 @@
                         $n_comdate = date_create($answers[$x]['date']);
                         $n_author = R::findOne('users', 'id = ?', array($answers[$x]['authorid']));
                         $n_authorinfo = R::findOne('userinfo', 'id = ?', array($n_author->userinfo));
-                        echo '<a name=ans'.$answers[$x]['id'].'></a>'.
+                        echo '<a class=anchor name=ans'.$answers[$x]['id'].'></a>'.
                              '<div class="comment-box answer">'.
                                  '<div class=comment-user>'.
                                      '<img src="'.$n_authorinfo->avatar.'">'.
