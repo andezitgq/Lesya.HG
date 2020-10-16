@@ -1,4 +1,133 @@
 <div class="inner-post">
+   <h1>CЕНСАЦІЙНА НОВИНА!</h1>
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+      <p>
+         <img alt="" src="http://lesya.org/cutenews//uploads/1клас.jpg" style="width: 580px; height: 410px;" />
+      </p>
+   </div>
+   <div style="float: right;">
+      <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1602248380&amp;template=Default">0 Коментарів</a>
+   </div>
+   <div><em> Новина від 09.10.2020 о 01:59 pm опублікував Administrator</em></div>
+</div>
+<div class="inner-post">
+   <h1>30 ВЕРЕСНЯ - ВСЕУКРАЇНСЬКИЙ ДЕНЬ БІБЛІОТЕК</h1>
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+      <p>
+         <span style="font-size:18px;">Вітаємо бібліотекаря гімназії Какушу Аллу Степанівну з професійним святом! І не забуваємо, що навчаючи наших учнів любові до читання, ми виховуємо громадян!</span>
+      </p>
+      <p>
+         <strong style="font-size: 18px;"><img alt="" src="http://lesya.org/cutenews//uploads/dsc_7.jpg" style="width: 400px; height: 266px;" /></strong><span style="font-size:18px;"><strong><img alt="" src="http://lesya.org/cutenews//uploads/7.png" style="width: 249px; height: 318px;" /></strong></span>
+      </p>
+      <p>
+         &nbsp;
+      </p>
+   </div>
+   <div style="float: right;">
+      <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1601462303&amp;template=Default">0 Коментарів</a>
+   </div>
+   <div><em> Новина від 30.09.2020 о 11:38 am опублікував Administrator</em></div>
+</div>
+<div class="inner-post">
+   <h1>ПЕРША РАДА ЛІДЕРІВ</h1>
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+      <p>
+         <span style="font-size:18px;">07.09 відбулась перша &quot;Рада лідерів&quot; гімназії у новому навчальному році. Вдалого нам старту, разом до перемоги!</span>
+      </p>
+      <p>
+         <img alt="" src="http://lesya.org/cutenews//uploads/Рада.jpg" style="width: 580px; height: 435px;" />
+      </p>
+   </div>
+   <div style="float: right;">
+      <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1599831576&amp;template=Default">0 Коментарів</a>
+   </div>
+   <div><em> Новина від 11.09.2020 о 02:39 pm опублікував Administrator</em></div>
+</div>
+<div class="inner-post">
+   <h1>ВІТАЄМО ЮНИХ СПОРТСМЕНІВ ГІМНАЗІЇ!</h1>
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+      <p>
+         <span style="font-size:18px;">Голова Жовтоводської громадської організації &quot;Мото-вело клуб &quot;Ювілейний&quot; Пирогов Леонід Миколайович привітав учнів 5-А класу Куща Дмитра та ученицю 8-А класу Кущ Катерину із здобуттям юнацького розряду з мотоспорту. Вітаємо наших юних спортсменів та бажаємо нових звершень!</span>
+      </p>
+      <p>
+         <img alt="" src="http://lesya.org/cutenews//uploads/Гонки_1.jpg" style="width: 580px; height: 580px;" />
+      </p>
+      <p>
+         <img alt="" src="http://lesya.org/cutenews//uploads/гонки_2.jpg" style="width: 580px; height: 580px;" />
+      </p>
+   </div>
+   <div style="float: right;">
+      <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1599831433&amp;template=Default">0 Коментарів</a>
+   </div>
+   <div><em> Новина від 11.09.2020 о 02:37 pm опублікував Administrator</em></div>
+</div>
+<div class="inner-post">
+   <h1>ВІТАЄМО З ПОЧАТКОМ НОВОГО НАВЧАЛЬНОГО РОКУ!</h1>
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+      <p>
+         <span style="font-size:20px;"><span style="color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif;">1 вересня вперше розпочалося у всіх освітніх закладах України в умовах карантину. Новий навчальний рік стартував і у Жовтоводській гуманітарній гімназії. Учні і вчителі, батьки дуже задоволені</span><span style="color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif;">, що попри карантин зможуть проводити заняття не дистанційно, а у закладі, адже для здобуття гарних знань це особливо важливо.&nbsp;</span></span>
+      </p>
+      <p>
+         <span style="font-size:20px;"><span style="color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif;"><img alt="" src="http://lesya.org/cutenews//uploads/IMG-1.jpg" style="width: 560px; height: 374px;" /></span></span>
+      </p>
+      <p>
+         <span style="font-size:20px;"><span style="color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif;"><img alt="" src="http://lesya.org/cutenews//uploads/IMG-2.jpg" style="width: 560px; height: 420px;" /></span></span>
+      </p>
+   </div>
+   <div style="float: right;">
+      <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1599152517&amp;template=Default">0 Коментарів</a>
+   </div>
+   <div><em> Новина від 03.09.2020 о 06:01 pm опублікував Administrator</em></div>
+</div>
+<div class="inner-post">
+   <h1>ПРАЦЮЄМО РАЗОМ З G SUITE !</h1>
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+      <p>
+         <span style="font-size:20px;">25, 26 серпня в гімназії відбулось навчання вчителів по роботі з платформою G Suite Education.</span>
+      </p>
+      <p>
+         <img alt="" src="http://lesya.org/cutenews//uploads/68c3cc.jpg" style="width: 580px; height: 326px;" />
+      </p>
+      <p>
+         <img alt="" src="http://lesya.org/cutenews//uploads/ade5faa.jpg" style="width: 580px; height: 326px;" />
+      </p>
+   </div>
+   <div style="float: right;">
+      <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1599141501&amp;template=Default">0 Коментарів</a>
+   </div>
+   <div><em> Новина від 03.09.2020 о 02:58 pm опублікував Administrator</em></div>
+</div>
+<div class="inner-post">
+   <h1>Списки зарахованих учнів до гімназії</h1>
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+      <p>
+         <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><a href="https://drive.google.com/file/d/1qn8o-97M2zkfybVSaNxfh7WJVg9dzjdx/view?usp=sharing" target="_blank">Переглянути</a></font></font></font></font>
+      </p>
+      <p>
+         &nbsp;
+      </p>
+   </div>
+   <div style="float: right;">
+      <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1598514446&amp;template=Default">0 Коментарів</a>
+   </div>
+   <div><em> Новина від 27.08.2020 о 08:47 am опублікував Administrator</em></div>
+</div>
+<div class="inner-post">
+   <h1>До уваги батьків учнів гімназії!</h1>
+   <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
+      <p>
+         Батьківські збори в 5-х класах відбудуться 20 серпня о 17:15 в актовій залі гімназії.
+      </p>
+      <p>
+         Збори для батьків учнів 6-11-х класів пройдуть в онлайн-форматі, слідкуйте за повідомленнями класних керівників.
+      </p>
+   </div>
+   <div style="float: right;">
+      <!-- no full story--> | <a href="/cutenews/gymnaziumnews.php?subaction=showcomments&amp;id=1597762540&amp;template=Default">0 Коментарів</a>
+   </div>
+   <div><em> Новина від 18.08.2020 о 03:55 pm опублікував Administrator</em></div>
+</div>
+<div class="inner-post">
    <h1>До уваги батьків учнів гімназії!</h1>
    <div style="text-align:justify; padding:3px; margin-top:3px; margin-bottom:5px; border-top:1px solid #D3D3D3;">
       <p>
