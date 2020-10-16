@@ -99,7 +99,7 @@
                              '<p>'.$author->fullname.'</p>'.
                          '</div>'.
                          '<p>'.$comments[$i]['content'].'</p>'.
-                         '<a href="#comment-area" class="icon-reply comment-reply" onclick="commentReply('.$comments[$i]['id'].')"></a><label class=comid>#'.$comments[$i]['id'].'</label>'.
+                         '<label class=comid><a title="Відповісти" href="#comment-area" class="icon-reply comment-reply" onclick="commentReply('.$comments[$i]['id'].')"></a> #'.$comments[$i]['id'].'</label>'.
                      '</div>';
                      
                 for($x = -1; $x <= count($answers); $x++){
