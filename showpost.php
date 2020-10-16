@@ -33,19 +33,34 @@
         
         if(isset($data['comment'])){
             if($data['code'] == $_SESSION['rand_code']){
-                preg_match('', $data['comment-field'], $matches);
-                if($matches[1] == ''){
-                    $answer = R::dispense('answers');
-                    $answer->postid   = $_GET['postid'];
-                    $answer->content  = $data['comment-field'];
-                    $answer->date     = date('Y-m-d G:i:s', time());
-                    $answer->comid    = '';
-                    $answer->authorid = $_SESSION['logged-user']->id;
-                    $cid = R::store($answer);
-                    
-                    $comuser = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
-                    $comuser->comments = $comuser->comments + 1;
-                    $uid = R::store($comuser);
+                preg_match('#\#(.*)\?#', $data['comment-field'], $matches);
+                preg_match('#\#(.*)R\?#', $data['comment-field'], $matchesR);
+                if(!empty($matches) && $matches[1] != ''){
+                    if(!empty($matchesR) && $matchesR[1] != ''){
+                        $answer = R::dispense('answers');
+                        $answer->postid   = $_GET['postid'];
+                        $answer->content  = preg_replace('#\#(.*)R\?#', '<a href="com'.$matchesR[1].'">#'.$matchesR[1].'R?</a>', $data['comment-field']);
+                        $answer->date     = date('Y-m-d G:i:s', time());
+                        $answer->comid    = $matches[1];
+                        $answer->authorid = $_SESSION['logged-user']->id;
+                        $cid = R::store($answer);
+                        
+                        $comuser = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
+                        $comuser->comments = $comuser->comments + 1;
+                        $uid = R::store($comuser);
+                    } else {
+                        $answer = R::dispense('answers');
+                        $answer->postid   = $_GET['postid'];
+                        $answer->content  = preg_replace('#\#(.*)\?#', '<a href="ans'.$matches[1].'">#'.$matches[1].'?</a>', $data['comment-field']);
+                        $answer->date     = date('Y-m-d G:i:s', time());
+                        $answer->comid    = $matches[1];
+                        $answer->authorid = $_SESSION['logged-user']->id;
+                        $cid = R::store($answer);
+                        
+                        $comuser = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
+                        $comuser->comments = $comuser->comments + 1;
+                        $uid = R::store($comuser);
+                    }
                 } else {
                     $comment = R::dispense('comments');
                     $comment->postid   = $_GET['postid'];
@@ -101,17 +116,17 @@
                 for($x = -1; $x <= count($answers); $x++){
                     
                     if(isset($answers[$x])){
-                        $n_comdate = date_create($answers[$i]['date']);
-                        $n_author = R::findOne('users', 'id = ?', array($answers[$i]['authorid']));
+                        $n_comdate = date_create($answers[$x]['date']);
+                        $n_author = R::findOne('users', 'id = ?', array($answers[$x]['authorid']));
                         $n_authorinfo = R::findOne('userinfo', 'id = ?', array($n_author->userinfo));
-                        echo '<a name=com'.$answers[$i]['id'].'></a>'.
+                        echo '<a name=ans'.$answers[$x]['id'].'></a>'.
                              '<div class="comment-box answer">'.
                                  '<div class=comment-user>'.
                                      '<img src="'.$n_authorinfo->avatar.'">'.
                                      '<p>'.$n_author->fullname.'</p>'.
                                  '</div>'.
-                                 '<p>'.$answers[$i]['content'].'</p>'.
-                                 '<label class=comid>#'.$answers[$i]['id'].'</label>'.
+                                 '<p>'.$answers[$x]['content'].'</p>'.
+                                 '<label class=comid>#'.$answers[$x]['id'].'</label>'.
                              '</div>';
                     }
                 }
