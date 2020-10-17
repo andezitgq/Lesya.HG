@@ -9,7 +9,7 @@ $from = $_GET['from'];
 $to = $_GET['to'];
 $diff = $from-$to;
 
-$all = R::getAll('SELECT * FROM postdate ORDER BY date DESC LIMIT '.strval($from + 1).', '.strval($to + 1).'');
+$all = R::getAll('SELECT * FROM postdate ORDER BY date DESC LIMIT '.strval($from - 1).', '.strval($to).'');
 $posts = "";
 for($i = -1; $i <= count($all); $i++){
     if(isset($all[$i])){

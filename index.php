@@ -43,5 +43,5 @@
     
     ?>
     </div>
-    <button class=show-more id=loadmore num_loaded=10>Показати ще</button>
+    <button class=show-more id=loadmore num_loaded=12>Показати ще</button>
 <?php include 'tml/bottom.php'; ?>

@@ -41,7 +41,7 @@
             if($_FILES['avatar-file']['size'] <= 15728640) {
                 $return = saveToImgBB($_FILES['avatar-file']);
                 $avatar = R::findOne('userinfo', 'id = ?', array($_SESSION['logged-user']->userinfo));
-                $avatar->avatar = $return['data']['url'];;
+                $avatar->avatar = $return['data']['url'];
                 R::store($avatar);
             } else
                 echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл більше 15МБ!</h2>";

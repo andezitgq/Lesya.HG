@@ -8,7 +8,7 @@
     <h1 align=center>Наша галерея</h1>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"></div>
+            <div class="swiper-slide">1</div>
         </div>
         <div class="swiper-pagination"></div>
     

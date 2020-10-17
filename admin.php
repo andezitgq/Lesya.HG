@@ -12,6 +12,26 @@
     require 'tml/Parsedown.php';
     $parsedown = new Parsedown();
     
+    function saveToImgBB($image,$name = null){
+        $API_KEY = 'ada56faf5a2545ab10970e17344ef4e4';
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'https://api.imgbb.com/1/upload?key='.$API_KEY);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_SAFE_UPLOAD, false);
+        $extension = pathinfo($image['name'],PATHINFO_EXTENSION);
+        $file_name = ($name)? $name.'.'.$extension : $image['name'] ;
+        $data = array('image' => base64_encode(file_get_contents($image['tmp_name'])), 'name' => $file_name);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        $result = curl_exec($ch);
+        if (curl_errno($ch)) {
+            return 'Error:' . curl_error($ch);
+        }else{
+            return json_decode($result, true);
+        }
+        curl_close($ch);
+    }
+
     function custom_parse($pars){
         preg_match('#<yt>(.*)</yt>#', $pars, $link);
         
@@ -146,22 +166,22 @@
         if(isset($album_check)){
             return;
         }
-        $ext = pathinfo($_FILES['poster-file']['name'], PATHINFO_EXTENSION);
-        
-        $uploaddir = 'img/poster/';
-        $uploadfile = $uploaddir.$albumid.'.'.$ext;
-        if(preg_match('/image/', $_FILES['poster-file']['type'])){
-            if (move_uploaded_file($_FILES['poster-file']['tmp_name'], $uploadfile)) {
-                $album = R::dispense('albums');
-                $album->albumid     = $albumid;
-                $album->poster      = $uploadfile;
-                $album->discription = $data['album-discription'];
-                R::store($album);
-                $media_status = "Альбом створений!.\n";
+
+        if(isset($_FILES['poster-file'])){
+            if(preg_match('/image/', $_FILES['poster-file']['type']) && !preg_match('/svg/', $_FILES['poster-file']['type'])){
+                if($_FILES['poster-file']['size'] <= 15728640) {
+                    $return = saveToImgBB($_FILES['poster-file']);
+                    $album = R::dispense('albums');
+                    $album->albumid     = $albumid;
+                    $album->poster      = $return['data']["url"];
+                    $album->discription = $data['album-discription'];
+                    R::store($album);
+                    $media_status = "Альбом створений!.\n";
+                } else
+                    echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл більше 15МБ!</h2>";
             } else
-                $media_status = 'Файл не був завантажений!';
-        } else
-            $media_status = "Завантажений файл не є зображенням!";
+                echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл не є зображенням!</h2>";
+        }
     }
     
     if(isset($_GET['delete-album']) && $_SESSION['logged-user']->login == 'root'){
@@ -185,24 +205,23 @@
         
         $albumid = $data['albumid'];
         $discription = $data['photo-discription'];
-        
-        $ext = pathinfo($_FILES['photo-file']['name'], PATHINFO_EXTENSION);
-        
-        $uploaddir = 'img/photos/';
-        $uploadfile = $uploaddir.$photoid.'.'.$ext;
-        if(preg_match('/image/', $_FILES['photo-file']['type'])){
-            if (move_uploaded_file($_FILES['photo-file']['tmp_name'], $uploadfile)) {
-                $photo = R::dispense('photos');
-                $photo->albumid     = $albumid;
-                $photo->source      = $uploadfile;
-                $photo->discription = $discription;
-                $photo->photoid     = $photoid;
-                R::store($photo);
-                echo '<script>window.location.href = "admin?select-album='.$albumid.'#media"</script>';
+
+        if(isset($_FILES['photo-file'])){
+            if(preg_match('/image/', $_FILES['photo-file']['type']) && !preg_match('/svg/', $_FILES['photo-file']['type'])){
+                if($_FILES['photo-file']['size'] <= 15728640) {
+                    $return = saveToImgBB($_FILES['poster-file']);
+                    $photo = R::dispense('photos');
+                    $photo->albumid     = $albumid;
+                    $photo->source      = $return;
+                    $photo->discription = $discription;
+                    $photo->photoid     = $photoid;
+                    R::store($photo);
+                    echo '<script>window.location.href = "admin?select-album='.$albumid.'#media"</script>';
+                } else
+                    echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл більше 15МБ!</h2>";
             } else
-                $media_status = 'Файл не був завантажений!';
-        } else
-            $media_status = "Завантажений файл не є зображенням!";
+                echo "<h2 style='background: #1b466f; text-align:center; color: white; padding: 5px; border-radius: 10px'>Завантажений файл не є зображенням!</h2>";
+        }
     }
     
     if(isset($_GET['remove-photo']) && $_GET['remove-photo'] != '' && $_SESSION['logged-user']->login == 'root'){
