@@ -209,10 +209,10 @@
         if(isset($_FILES['photo-file'])){
             if(preg_match('/image/', $_FILES['photo-file']['type']) && !preg_match('/svg/', $_FILES['photo-file']['type'])){
                 if($_FILES['photo-file']['size'] <= 15728640) {
-                    $return = saveToImgBB($_FILES['poster-file']);
+                    $return = saveToImgBB($_FILES['photo-file']);
                     $photo = R::dispense('photos');
                     $photo->albumid     = $albumid;
-                    $photo->source      = $return;
+                    $photo->source      = $return['data']["url"];
                     $photo->discription = $discription;
                     $photo->photoid     = $photoid;
                     R::store($photo);
