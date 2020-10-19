@@ -429,6 +429,21 @@ a.anchor {
 
 }
 
+.m-page-photos {
+    display: flex;
+}
+
+.m-photo {
+    width: 100% !important;
+    width: 200px;
+}
+
+.m-photo img {
+    width: 200px;
+    flex-wrap: wrap;
+    flex: 30 10 200px;
+}
+
 .m-page-discription {
     position: absolute;
     top: 50px;
@@ -453,7 +468,6 @@ a.anchor {
 .m-page-poster:hover + .m-page-discription {
     display: initial;
 }
-
 
 /*==================/MEDIA==================*/
 /*

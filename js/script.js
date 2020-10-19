@@ -15,6 +15,18 @@ $('document').ready(function(){
         });
     });
 
+    $('.m-page-album').click(function(){
+        var albumid = $(this).attr('albumid');
+        $.ajax({
+            url:'loadMedia.php',
+            type:'get',
+            data:{'albumid':albumid},
+            success: function (res) {
+                alert(res);
+            }
+        });
+    });
+
     $('.nav-mob').click(function(){
         $('.full-nav').toggle('slow'); 
     });
