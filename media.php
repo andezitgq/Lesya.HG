@@ -30,4 +30,7 @@
     <a name=photos class="anchor"></a>
     <h1 align=center>Фото</h1>
     <div class="m-page-photos"><h3 style="margin: auto; margin-top: 20px; font-style: italic">Виберіть альбом</h3></div>
+    <div class="media-viewer" style="display: none">
+        <img src="https://i.ibb.co/f96vZ3D/1-jpg.jpg" class="mv-preview">
+    </div>
 <?php include 'tml/bottom.php'; ?>

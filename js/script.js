@@ -116,6 +116,13 @@ $('document').ready(function(){
         }
         $(this).val(0);
     });
+
+    $('.media-viewer').click(function(){
+        $('.media-viewer').toggle('slide');
+    });
+    $('.m-photo').click(function(){
+        alert("sas");
+    });
     
     function removeLocationHash(){
         var noHashURL = window.location.href.replace(/#.*$/, '');
