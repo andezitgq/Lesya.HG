@@ -312,7 +312,7 @@
                 <?php
                 
                     $albums = R::getAll( 'SELECT * FROM albums ORDER BY id DESC' );
-                    for($i = -1; $i <= count($albums); $i++){
+                    for($i = -1; $i <= max(array_keys($albums)); $i++){
                         if(isset($albums[$i])){
                             echo '<form method=GET action="admin#media" class=album>'.
                                      '<button type=submit name=delete-album value="'.$albums[$i]['albumid'].'" class="album-delete icon-minus-squared" title="Видалити альбом"></button>'.
@@ -336,7 +336,7 @@
                     <?php
                         $albumid_n = $_GET['select-album'];
                         $photosk = R::getAll('SELECT * FROM photos WHERE albumid = '.$albumid_n);
-                        for($i = -1; $i <= count($photosk); $i++){
+                        for($i = -1; $i <= max(array_keys($photosk)); $i++){
                             if(isset($photosk[$i])){
                                 echo '<div class=add-photo>'.
                                          '<input type=text class=photo-discription value="'.$photosk[$i]['discription'].'" readonly>'.

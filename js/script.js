@@ -22,7 +22,8 @@ $('document').ready(function(){
             type:'get',
             data:{'albumid':albumid},
             success: function (res) {
-                alert(res);
+                $('.m-page-photos').html(res);
+                window.location.href = "#photos";
             }
         });
     });

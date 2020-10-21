@@ -431,17 +431,31 @@ a.anchor {
 
 .m-page-photos {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .m-photo {
-    width: 100% !important;
-    width: 200px;
+    width: 100%;
+    margin: 0.5%;
+    flex-basis: 24%;
+    transition: all .1s;
+    cursor: pointer;
+    user-select: none;
 }
 
 .m-photo img {
-    width: 200px;
-    flex-wrap: wrap;
-    flex: 30 10 200px;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.m-photo:hover {
+    filter: grayscale(1);
+}
+
+.m-photo img:hover + .m-photo-discription {
+    display: initial;
 }
 
 .m-page-discription {
@@ -451,9 +465,21 @@ a.anchor {
     font-size: 28px;
     color: white;
     display: none;
+    pointer-events: none;
+    user-select: none;
+    text-shadow: 0 0 3px white;
+}
+
+.m-photo-discription {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    font-size: 24px;
+    color: white;
     transition: all .1s;
     pointer-events: none;
     user-select: none;
+    text-shadow: 0 0 3px white;
 }
 
 .active {
