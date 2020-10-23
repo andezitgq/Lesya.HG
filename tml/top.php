@@ -47,7 +47,7 @@
             <form class=nav-pc method=POST>
                 <button onclick="window.location.href='/'" type="button" class=nav-button>Головна</button>
                 <button onclick="window.location.href='join'" type="button" class=nav-button>Вступ</button>
-                <button onclick="window.location.href='info'" type="button" class=nav-button>Інфо</button>
+                <button onclick="window.location.href='info'" type="button" class=nav-button>Наша гімназія</button>
                 <button onclick="window.location.href='distance'" type="button" class=nav-button>Дистанційні завдання</button>
                 <button onclick="window.location.href='media'" type="button" class=nav-button>Медіа</button>
                 <button onclick="window.location.href='victory'" type="button" class=nav-button>ДО "VICTORY"</button>
@@ -63,7 +63,7 @@
         <form class=full-nav style=display:none method=POST>
             <button onclick="window.location.href='/'" type="button" class=m-nav-button>Головна</button>
             <button onclick="window.location.href='join'" type="button" class=m-nav-button>Вступ</button>
-            <button onclick="window.location.href='info'" type="button" class=m-nav-button>Інфо</button>
+            <button onclick="window.location.href='info'" type="button" class=m-nav-button>Наша гімназія</button>
             <button onclick="window.location.href='distance'" type="button" class=m-nav-button>Дистанційні завдання</button>
             <button onclick="window.location.href='media'" type="button" class=m-nav-button>Медіа</button>
             <button onclick="window.location.href='victory'" type="button" class=m-nav-button>ДО "VICTORY"</button>

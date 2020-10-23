@@ -99,5 +99,6 @@
               txtarea.value = newText;
             }
         </script>
+        <!-- <<< Валечка, я тебя люблю! >>> -->
     </body>
 </html>
