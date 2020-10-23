@@ -1,7 +1,12 @@
 $('document').ready(function(){
 
     $(document).on("click", ".m-photo img", function(){
-        
+        $('.mv-preview').attr('src', $(this).attr('src'));
+        $('.media-viewer').toggle('slide');
+    });
+
+    $('.media-viewer').click(function(){
+        $('.media-viewer').toggle('slide');
     });
 
     $('#loadmore').click(function(){
@@ -119,10 +124,6 @@ $('document').ready(function(){
             setSel("", "");
         }
         $(this).val(0);
-    });
-
-    $('.media-viewer').click(function(){
-        $('.media-viewer').toggle('slide');
     });
     
     function removeLocationHash(){
