@@ -460,7 +460,6 @@ a.anchor {
     flex-basis: 24%;
     transition: all .1s;
     cursor: pointer;
-    user-select: none;
 }
 
 .m-photo img {
@@ -496,7 +495,6 @@ a.anchor {
     font-size: 24px;
     color: white;
     transition: all .1s;
-    pointer-events: none;
     user-select: none;
     text-shadow: 0 0 3px white;
 }

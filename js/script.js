@@ -1,5 +1,9 @@
 $('document').ready(function(){
 
+    $(document).on("click", ".m-photo img", function(){
+        
+    });
+
     $('#loadmore').click(function(){
         var loaded = $(this).attr('num_loaded');
         $('#loadmore').attr('disabled', true);
@@ -97,7 +101,7 @@ $('document').ready(function(){
     $('.icon-cancel-circled').on('click', function(){
         document.getElementById("post-editor").value = null;
     });
-    
+
     $( ".post-headers" ).change(function(){
         if($(this).val() == 'Заголовок 1') {
             setSel("# ", "");
@@ -119,9 +123,6 @@ $('document').ready(function(){
 
     $('.media-viewer').click(function(){
         $('.media-viewer').toggle('slide');
-    });
-    $('.m-photo').click(function(){
-        alert("sas");
     });
     
     function removeLocationHash(){
