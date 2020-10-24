@@ -246,6 +246,22 @@
         <a href="?unset-session">Вийти з аккаунту</a>
         <!--<a href="?old-parse">Старий парс</a>-->
     </div><br><br><br>
+    <a class="anchor" id="post-manager"></a>
+    <h2>Управлінная постами</h2>
+    <form method=POST action="admin" class=post-manager>
+        <div class="pm-post-menu">
+            <button id="remove">Видалити</button>
+            <button id="remove">Перейменувати</button>
+            <button id="remove">Редагувати як HTML</button>
+        </div>
+        <div class="pm-posts">
+            <div class="pm-post">
+                <h2>POST TITLE</h2>
+                <i>DATE</i>
+                <input type="checkbox">
+            </div>
+        </div>
+    </form>
     <a class="anchor" id="create-post"></a>
     <h2>Створити пост</h2>
     <form method=POST action="admin" class=blog-engine>

@@ -10,7 +10,7 @@ include 'tml/top.php';
     <div class="document-nav">
         <input class="document-search" placeholder="Пошук документів">
         <ul class="document-tree" id="tree">
-            <li><span class="caret">Beverages</span>
+            <!--<li><span class="caret">Beverages</span>
                 <ul class="nested">
                     <li>Water</li>
                     <li>Coffee</li>
@@ -29,7 +29,20 @@ include 'tml/top.php';
                         </ul>
                     </li>
                 </ul>
-            </li>
+            </li>-->
+            <?php 
+            
+                /*$documents = R::getAll( 'SELECT * FROM albums ORDER BY id ASC' );
+                for($i = -1; $i <= max(array_keys($albums)); $i++){
+                    if(isset($albums[$i])){
+                        echo '<div class="swiper-slide m-page-album" albumid='.$albums[$i]['albumid'].'>'.
+                                '<img class=m-page-poster src="'.$albums[$i]['poster'].'"/>'.
+                                '<p class=m-page-discription>'.$albums[$i]['discription'].'</p>'.
+                            '</div>';
+                    }
+                }*/
+            
+            ?>
         </ul> 
         <div class="lds-ellipsis" style="display: none"><div></div><div></div><div></div><div></div></div>
     </div>
