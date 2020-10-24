@@ -9,9 +9,29 @@ include 'tml/top.php';
 <div class="document-panel">
     <div class="document-nav">
         <input class="document-search" placeholder="Пошук документів">
-        <div class="document-tree">
-            list
-        </div>
+        <ul class="document-tree" id="tree">
+            <li><span class="caret">Beverages</span>
+                <ul class="nested">
+                    <li>Water</li>
+                    <li>Coffee</li>
+                    <li><span class="caret">Tea</span>
+                        <ul class="nested">
+                            <li>Black Tea</li>
+                            <li>White Tea</li>
+                            <li><span class="caret">Green Tea</span>
+                                <ul class="nested">
+                                    <li>Sencha</li>
+                                    <li>Gyokuro</li>
+                                    <li>Matcha</li>
+                                    <li>Pi Lo Chun</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul> 
+        <div class="lds-ellipsis" style="display: none"><div></div><div></div><div></div><div></div></div>
     </div>
     <div class="document-view">
         <div class="lesya-pdf" style="width: 100%">
@@ -30,5 +50,6 @@ include 'tml/top.php';
         </div>
     </div>
 </div>
+<button onclick='initPDFViewer("img/pdf-test.pdf");'>123</button>
 
 <?php include 'tml/bottom.php'; ?>

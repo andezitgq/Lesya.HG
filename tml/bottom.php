@@ -33,24 +33,6 @@
         </script>
         <script>
             const player = Plyr.setup('.jplayer');
-            
-            /*var mySwiper = new Swiper('.swiper-container', {
-                direction: 'horizontal',
-                loop: true,
-              
-                pagination: {
-                  el: '.swiper-pagination',
-                },
-              
-                navigation: {
-                  nextEl: '.swiper-button-next',
-                  prevEl: '.swiper-button-prev',
-                },
-                
-                slidesPerView: 3,
-                
-                centeredSlides: true
-            });*/
 
             var swiper = new Swiper('.swiper-container', {
               slidesPerView: 3,
