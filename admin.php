@@ -251,14 +251,14 @@
     <form method=POST action="admin" class=post-manager>
         <div class="pm-post-menu">
             <button id="remove">Видалити</button>
-            <button id="remove">Перейменувати</button>
-            <button id="remove">Редагувати як HTML</button>
+            <button id="rename">Перейменувати</button>
+            <button id="edit">Редагувати як HTML</button>
         </div>
         <div class="pm-posts">
             <div class="pm-post">
                 <h2>POST TITLE</h2>
                 <i>DATE</i>
-                <input type="checkbox">
+                <input type="checkbox" checked=true disabled>
             </div>
         </div>
     </form>
