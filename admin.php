@@ -89,6 +89,24 @@
         $postdb->author_id = $author_id;
         R::store($postdb);
     }
+
+    if(isset($_GET['remove-post']) && $_SESSION['logged-user']->login == 'root'){
+        $rmpost = R::findOne('post', 'id = ?', array($_GET['remove-post']));
+        $rmdate = R::findOne('postdate', 'id = ?', array($rmpost->date_id));
+        $rmtitle = R::findOne('posttitle', 'id = ?', array($rmpost->title_id));
+        $rmauthor = R::findOne('postauthor', 'id = ?', array($rmpost->author_id));
+        R::trash($rmpost);
+        R::trash($rmdate);
+        R::trash($rmtitle);
+        R::trash($rmauthor);
+    }
+
+    if(isset($_GET['rename-post']) && $_SESSION['logged-user']->login == 'root'){
+        $rnpost = R::findOne('post', 'id = ?', array($_GET['rename-post']));
+        $rntitle = R::findOne('posttitle', 'id = ?', array($rnpost->title_id));
+        $rntitle->title = $_GET['rename-field'];
+        R::store($rntitle);
+    }
     
     function old_parse(){
         $html = file_get_contents('./post/temp.php');
@@ -242,24 +260,37 @@
         <a href="#preview">Швидкий перегляд</a>
         <a href="#comments">Коментарі</a>
         <a href="#media">Медіа</a>
-        <a href="#create-post">Дистанційні завдання</a>
+        <a href="#documents">Документи</a>
         <a href="?unset-session">Вийти з аккаунту</a>
         <!--<a href="?old-parse">Старий парс</a>-->
     </div><br><br><br>
     <a class="anchor" id="post-manager"></a>
     <h2>Управлінная постами</h2>
-    <form method=POST action="admin" class=post-manager>
-        <div class="pm-post-menu">
-            <button id="remove">Видалити</button>
-            <button id="rename">Перейменувати</button>
-            <button id="edit">Редагувати як HTML</button>
-        </div>
+    <div class=post-manager>
         <div class="pm-posts">
-            <div class="pm-post">
-                <h2>POST TITLE</h2>
-                <i>DATE</i>
-                <input type="checkbox" checked=true disabled>
-            </div>
+            <?php 
+            
+            $all = R::getAll( 'SELECT * FROM postdate ORDER BY date DESC LIMIT 11' );
+            for($i = -1; $i <= max(array_keys($all)); $i++){
+                if(isset($all[$i])){
+                    $date = date_create($all[$i]['date']);
+                    $post = R::findOne('post', 'date_id = ?', array($all[$i]['id']));
+                    $author = R::findOne('postauthor', 'id = ?', array($post->author_id));
+                    $title = R::findOne('posttitle', 'id = ?', array($post->title_id));
+                    if($post->id != 88)
+                    {
+                        echo '<form method=GET action="admin" class="pm-post">'.
+                                 '<input type=text name="rename-field" value="'.$title->title.'" required>'.
+                                 '<i>'.date_format($date, 'd.m.Y G:i').'</i>'.
+                                 '<button name=remove-post value="'.$all[$i]['id'].'">Видалити</button>'.
+                                 '<button name=rename-post value="'.$all[$i]['id'].'">Перейменувати</button>'.
+                                 '<button name=edit-post value="'.$all[$i]['id'].'">Редагувати як HTML</button>'.
+                             '</form>';
+                    }
+                }
+            }
+
+            ?>
         </div>
     </form>
     <a class="anchor" id="create-post"></a>
@@ -307,8 +338,8 @@
         <a class="anchor" id="preview"></a>
         <h2>Швидкий перегляд</h2>
         <div class=post-preview>
+            <i class=post-date><?php echo date('m.d.Y G:i', time()); ?> 📝 <?php if(isset($data['p-author'])) echo $data['p-author']; else echo 'Автор посту'; ?></i>
             <div class=post>
-                <i class=post-date><?php echo date('m.d.Y G:i', time()); ?> 📝 <?php if(isset($data['p-author'])) echo $data['p-author']; else echo 'Автор посту'; ?></i>
                 <?php if(isset($data['p-title'])) echo '<h1>'.$data['p-title'].'</h1><hr><br>'; ?>
                 <?php if(isset($preview)) echo $preview; ?>
             </div>

@@ -169,23 +169,16 @@ a.anchor {
     visibility: hidden;
 }
 
-.pm-post-menu {
-    background: #1b466f;
-    margin-top: 5px;
-    padding: 5px;
-    border: 2px solid #13324f;
-}
-
-.pm-post-menu button {
+.pm-post button {
     background: #1b466f;
     color: white;
     border: none;
-    padding: 10px;
-    font-size: 16px;
+    padding: 5px;
+    font-size: 14px;
     transition: all .1s;
 }
 
-.pm-post-menu button:hover {
+.pm-post button:hover {
     background: #13324f;
 }
 
@@ -194,8 +187,10 @@ a.anchor {
     width: 100%;
     height: 400px;
     margin-bottom: 25px;
+    margin-top: 5px;
     display:flex;
     flex-direction: column;
+    border-radius: 15px;
     overflow:auto;
 }
 
@@ -206,22 +201,22 @@ a.anchor {
     border-bottom: 2px solid #13324f;
 }
 
-.pm-post h2 {
+.pm-post input[type=text] {
     margin-left: 20px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: #fff;
+    font-size: 15px;
+    color: #13324f;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    border-bottom: 2px solid #13324f;
 }
 
 .pm-post i {
     margin-left: 30px;
     font-size: 20px;
     color: #fff;
-}
-
-.pm-post input {
-    margin-left: auto;
-    margin-right: 20px;
+    margin-right: auto;
 }
 
 .blog-engine {
