@@ -29,10 +29,11 @@
 <html>
     <head>
         <title><?php if(isset($page_title)) echo $page_title.' | '; ?>Гуманітарна гімназія ім. Лесі Українки</title>
-        <link href="css/style.css?version=51" type="text/css" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.min.css">
         <link href="css/fontello-embedded.css" rel="stylesheet">
+        <link href="css/style.css?version=51" type="text/css" rel="stylesheet">
         <link href="img/logo.svg" rel="icon">
         <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

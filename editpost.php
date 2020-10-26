@@ -13,8 +13,10 @@
 
 ?>
 
-<form method=GET action=<?php ?> class="postedit">
-    <textarea name="post-field" id="post-field" class="post-edit-field">123</textarea>
+<form method=GET action="editpost?postid=<?php echo $_GET['postid']; ?>" class="postedit">
+    <textarea name="post-field" id="post-field" class="post-edit-field">
+        <?php echo $test_post->content; ?>
+    </textarea>
 </form>
 
 <?php include 'tml/bottom.php'; ?>
