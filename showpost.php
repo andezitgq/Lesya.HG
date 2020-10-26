@@ -4,7 +4,8 @@
         session_start();
         $data = $_POST;
     
-        if(!isset($_GET['postid']) || $_GET['postid'] == '' || $_GET['postid'] == 0)
+        $test_post = R::findOne('post', 'id = ?', array($_GET['postid']));
+        if(!isset($_GET['postid']) || !isset($test_post) || $_GET['postid'] == '' || $_GET['postid'] == 0)
             echo '<script>window.location.href = "/";</script>';
             
         $post = R::findOne('post', 'id = ?', array($_GET['postid']));
