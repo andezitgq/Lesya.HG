@@ -363,7 +363,7 @@
     <div class="comment-editor">
         <div class=post-manager>
             <div class="pm-posts">
-                <h3 style="color: white; background: #1b466f; border-bottom: 2px solid #13324f">Коментарі</h3>
+                <h3 style="color: white; background: #1b466f; border-bottom: 2px solid #13324f; padding:7px">Коментарі</h3>
                 <?php 
                 
                 $all = R::getAll( 'SELECT * FROM comments ORDER BY date DESC LIMIT 26' );
@@ -386,7 +386,7 @@
         </div>
         <div class=post-manager>
             <div class="pm-posts">
-                <h3 style="color: white; background: #1b466f; border-bottom: 2px solid #13324f;">Відповіді</h3>
+                <h3 style="color: white; background: #1b466f; border-bottom: 2px solid #13324f; padding:7px">Відповіді</h3>
                 <?php 
                 
                 $all = R::getAll( 'SELECT * FROM answers ORDER BY date DESC LIMIT 26' );
@@ -469,8 +469,27 @@
     <br>
     <a class="anchor" id="documents"></a>
     <h2>Документи</h2>
-    <form action="">
-        123
+    <form action="admin#documents" method=POST class=document-manager>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Назва</th>
+                <th>Документ</th>
+                <th>Рівень</th>
+            </tr>
+            <tr>
+                <td><button type="submit">-</button></td>
+                <td><input type="text" value=Sas></td>
+                <td><input type="url" value=></td>
+                <td><input type="number" value=3></td>
+            </tr>
+            <tr>
+                <td><button type="submit">+</button></td>
+                <td><input type="text"></td>
+                <td><input type="url"></td>
+                <td><input type="number"></td>
+            </tr>
+        </table>
     </form>
     <br>
 </center>

@@ -1048,6 +1048,30 @@ input {background: none}
 .join-content li {font-size: 25px; margin-left: 50px}
 
 /*==================DOCUMENT==================*/
+.document-manager table {
+    border-collapse: collapse;
+    width: 90%
+}
+
+.document-manager input {
+    border: none;
+    padding: 5px;
+    border-bottom: 2px solid #13324f;
+    color: #13324f;
+    background: white;
+}
+
+.document-manager table th, td {
+    border: 2px solid #13324f;
+    background-color: #1b466f;
+    color: white;
+    padding: 5px;
+}
+
+.document-manager table th {
+    font-weight: 800;
+    background-color: #13324f;
+}
 
 .document-panel {
     display: flex;

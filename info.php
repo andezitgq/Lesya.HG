@@ -10,15 +10,18 @@ include 'tml/top.php';
     <div class="document-nav">
         <input class="document-search" placeholder="Пошук документів">
         <ul class="document-tree" id="tree">
-            <!--<li><span class="caret">Beverages</span>
+            <li>
+                <span class="caret">Beverages</span>
                 <ul class="nested">
                     <li>Water</li>
                     <li>Coffee</li>
-                    <li><span class="caret">Tea</span>
+                    <li>
+                        <span class="caret">Tea</span>
                         <ul class="nested">
                             <li>Black Tea</li>
                             <li>White Tea</li>
-                            <li><span class="caret">Green Tea</span>
+                            <li>
+                                <span class="caret">Green Tea</span>
                                 <ul class="nested">
                                     <li>Sencha</li>
                                     <li>Gyokuro</li>
@@ -29,7 +32,7 @@ include 'tml/top.php';
                         </ul>
                     </li>
                 </ul>
-            </li>-->
+            </li>
             <?php 
             
                 /*$documents = R::getAll( 'SELECT * FROM albums ORDER BY id ASC' );
