@@ -1051,13 +1051,46 @@ input {background: none}
 
 .contact-main {
     display: flex;
-    width: 90%
+    width: 90%;
+    flex-direction: row;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
     width: 50%;
+}
+
+.contact-form * {
+    margin: 5px
+}
+
+.contact-form input {
+    border: none;
+    border-bottom: 2px solid #13324f;
+    padding: 5px;
+}
+
+.contact-form textarea {
+    border: 2px solid #13324f;
+    min-height: 100px;
+}
+
+.contact-form button {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #1b466f;
+    border: 2px solid #25619A;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.contact-form button:hover {
+    background: #25619A;
 }
 
 .contact-info {
@@ -1193,6 +1226,15 @@ ul, #tree {
        screen and (max-device-width: 770px) and (orientation: landscape)
 {
  
+    .contact-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-main div {
+        margin: 20px;
+    }
+
     /*==================DOCUMENT==================*/
 
     .document-panel {

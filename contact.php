@@ -3,12 +3,19 @@
     $page_title = 'Звʼязок';
     include 'tml/top.php';
 
+    $data = $_POST;
+
+    
+
 ?>
 
 <div class="contact-main">
     <form action="contact" class=contact-form method="post">
         <h2 align="center">Прямий звʼязок</h2>
-
+        <input type="text" placeholder="Ваше ім'я" required>
+        <input type="email" placeholder="Ваш E-mail" required>
+        <textarea name="" id="" placholder="Ваше повідомлення" style="resize: vertical" required></textarea>
+        <button type="submit">Відправити</button>
     </form>
     <div class="contact-info">
         <h2 align="center">Наші контакти:</h2>
