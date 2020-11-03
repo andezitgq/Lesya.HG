@@ -250,6 +250,18 @@
         }
     }
 
+    if(isset($_GET['remove-comment']) && $_GET['remove-comment'] != '' && $_SESSION['logged-user']->login == 'root'){
+        $comment = R::findOne('comments', 'id = ?', array($_GET['remove-comment']));
+        if($comment)
+            R::trash($comment);
+    }
+
+    if(isset($_GET['remove-answer']) && $_GET['remove-answer'] != '' && $_SESSION['logged-user']->login == 'root'){
+        $answer = R::findOne('answers', 'id = ?', array($_GET['remove-answer']));
+        if($answer)
+            R::trash($answer);
+    }
+
 ?>
 
 <center>
@@ -360,7 +372,7 @@
                         $date = date_create($all[$i]['date']);
                         $content = $all[$i]['content'];
                         $author = R::findOne('users', 'id = ?', array($all[$i]['authorid']));
-                            echo '<form method=GET action="admin" class="pm-post">'.
+                            echo '<form method=GET action="admin#comments" class="pm-post">'.
                                     '<p style=color:white>'.substr($content, 0, 21).'...</p>'.
                                     '<i style="color:white; margin-right: 20px">'.date_format($date, 'd.m.Y G:i').'</i>'.
                                     '<p style="color:white; margin-right: auto">'.$author->login.'</p>'.
@@ -383,11 +395,11 @@
                         $date = date_create($all[$i]['date']);
                         $content = preg_replace('#<a href=".*?</a>#si', '', $all[$i]['content']);
                         $author = R::findOne('users', 'id = ?', array($all[$i]['authorid']));
-                            echo '<form method=GET action="admin" class="pm-post" style="flex-direction: row;">'.
+                            echo '<form method=GET action="admin#comments" class="pm-post" style="flex-direction: row;">'.
                                     '<p style=color:white>'.substr($content, 0, 21).'...</p>'.
                                     '<i style="color:white; margin-right: 20px">'.date_format($date, 'd.m.Y G:i').'</i>'.
                                     '<p style="color:white; margin-right: auto">'.$author->login.'</p>'.
-                                    '<button name=remove-comment value="'.$all[$i]['id'].'">Видалити</button>'.
+                                    '<button name=remove-answer value="'.$all[$i]['id'].'">Видалити</button>'.
                                 '</form>';
                     }
                 }
