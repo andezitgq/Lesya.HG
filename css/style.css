@@ -1047,6 +1047,27 @@ input {background: none}
 .join-content a {font-size: 25px}
 .join-content li {font-size: 25px; margin-left: 50px}
 
+/*===================CONTACT==================*/
+
+.contact-main {
+    display: flex;
+    width: 90%
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/*==================/CONTACT==================*/
+
 /*==================DOCUMENT==================*/
 .document-manager table {
     border-collapse: collapse;
