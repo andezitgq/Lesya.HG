@@ -726,6 +726,20 @@ span[style="font-size:12.0pt;font-family:"] {
     transition: all .05s;
 }
 
+.save-post {
+    min-width: 75px;
+    min-height: 40px;
+    border: 2px solid #25619A;
+    background: #1b466f;
+    margin: 10px;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+    transition: all .05s;
+}
+
+.save-post:hover  {background: #13324f;}
+
 .comment-form button:hover  {background: #13324f;}
 
 .comerror {

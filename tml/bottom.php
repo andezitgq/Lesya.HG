@@ -82,12 +82,12 @@
             }
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/mode/htmlmixed/htmlmixed.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/mode/php/php.min.js"></script>
         <script>
           var myTextarea = document.getElementById("post-field");
           var editor = CodeMirror.fromTextArea(myTextarea, {
             lineNumbers: true,
-            mode:  "htmlmixed"
+            mode:  "php"
           });
         </script>
         <!-- <<< Валечка, я тебя люблю! >>> -->

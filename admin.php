@@ -284,7 +284,7 @@
                                  '<i>'.date_format($date, 'd.m.Y G:i').'</i>'.
                                  '<button name=remove-post value="'.$all[$i]['id'].'">Видалити</button>'.
                                  '<button name=rename-post value="'.$all[$i]['id'].'">Перейменувати</button>'.
-                                 '<button name=edit-post value="'.$all[$i]['id'].'">Редагувати як HTML</button>'.
+                                 "<button type=button onclick=\"window.location.href = 'editpost?postid=".$all[$i]['id']."';\">Редагувати як HTML</button>".
                              '</form>';
                     }
                 }
