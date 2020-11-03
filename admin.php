@@ -292,7 +292,7 @@
 
             ?>
         </div>
-    </form>
+    </div>
     <a class="anchor" id="create-post"></a>
     <h2>Створити пост</h2>
     <form method=POST action="admin" class=blog-engine>
@@ -345,6 +345,57 @@
             </div>
         </div>
     </form>
+    <br>
+    <a class="anchor" id="comments"></a>
+    <h2>Коментарі та відповіді</h2>
+    <div class="comment-editor">
+        <div class=post-manager>
+            <div class="pm-posts">
+                <h3 style="color: white; background: #1b466f; border-bottom: 2px solid #13324f">Коментарі</h3>
+                <?php 
+                
+                $all = R::getAll( 'SELECT * FROM comments ORDER BY date DESC LIMIT 26' );
+                for($i = -1; $i <= max(array_keys($all)); $i++){
+                    if(isset($all[$i])){
+                        $date = date_create($all[$i]['date']);
+                        $content = $all[$i]['content'];
+                        $author = R::findOne('users', 'id = ?', array($all[$i]['authorid']));
+                            echo '<form method=GET action="admin" class="pm-post">'.
+                                    '<p style=color:white>'.substr($content, 0, 21).'...</p>'.
+                                    '<i style="color:white; margin-right: 20px">'.date_format($date, 'd.m.Y G:i').'</i>'.
+                                    '<p style="color:white; margin-right: auto">'.$author->login.'</p>'.
+                                    '<button name=remove-comment value="'.$all[$i]['id'].'">Видалити</button>'.
+                                '</form>';
+                    }
+                }
+
+                ?>
+            </div>
+        </div>
+        <div class=post-manager>
+            <div class="pm-posts">
+                <h3 style="color: white; background: #1b466f; border-bottom: 2px solid #13324f;">Відповіді</h3>
+                <?php 
+                
+                $all = R::getAll( 'SELECT * FROM answers ORDER BY date DESC LIMIT 26' );
+                for($i = -1; $i <= max(array_keys($all)); $i++){
+                    if(isset($all[$i])){
+                        $date = date_create($all[$i]['date']);
+                        $content = preg_replace('#<a href=".*?</a>#si', '', $all[$i]['content']);
+                        $author = R::findOne('users', 'id = ?', array($all[$i]['authorid']));
+                            echo '<form method=GET action="admin" class="pm-post" style="flex-direction: row;">'.
+                                    '<p style=color:white>'.substr($content, 0, 21).'...</p>'.
+                                    '<i style="color:white; margin-right: 20px">'.date_format($date, 'd.m.Y G:i').'</i>'.
+                                    '<p style="color:white; margin-right: auto">'.$author->login.'</p>'.
+                                    '<button name=remove-comment value="'.$all[$i]['id'].'">Видалити</button>'.
+                                '</form>';
+                    }
+                }
+
+                ?>
+            </div>
+        </div>
+    </div>
     <br>
     <a class="anchor" id="media"></a>
     <h2>Медіа</h2>
@@ -403,5 +454,12 @@
             </div>
         </div>
     </div>
+    <br>
+    <a class="anchor" id="documents"></a>
+    <h2>Документи</h2>
+    <form action="">
+        123
+    </form>
+    <br>
 </center>
 <?php include 'tml/bottom.php'; ?>
