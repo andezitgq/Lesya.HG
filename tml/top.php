@@ -46,11 +46,11 @@
             <h1 class=title>Гуманітарна гімназія<br>ім. Лесі Українки</h1>
             <form class=nav-pc method=POST>
                 <button onclick="window.location.href='/'" type="button" class=nav-button>Головна</button>
-                <button onclick="window.location.href='join'" type="button" class=nav-button>Вступ</button>
+                <button onclick="window.location.href='edu-office'" type="button" class=nav-button>Виховна служба</button>
                 <button onclick="window.location.href='info'" type="button" class=nav-button>Наша гімназія</button>
-                <button onclick="window.location.href='distance'" type="button" class=nav-button>Дистанційні завдання</button>
+                <button onclick="window.location.href='director'" type="button" class=nav-button>Сторінка директора</button>
                 <button onclick="window.location.href='media'" type="button" class=nav-button>Медіа</button>
-                <button onclick="window.location.href='victory'" type="button" class=nav-button>ДО "VICTORY"</button>
+                <button onclick="window.location.href='council'" type="button" class=nav-button>Ради гімназії</button>
                 <button onclick="window.location.href='contact'" type="button" class=nav-button>Зв'язок</button>
                 <?php if(isset($_SESSION['logged-user'])): ?>
                 <button name="confirm-admin" type="submit" class=nav-button><?php echo $_SESSION['logged-user']->login; ?></button>
@@ -62,11 +62,11 @@
         </div>
         <form class=full-nav style=display:none method=POST>
             <button onclick="window.location.href='/'" type="button" class=m-nav-button>Головна</button>
-            <button onclick="window.location.href='join'" type="button" class=m-nav-button>Вступ</button>
+            <button onclick="window.location.href='edu-office'" type="button" class=m-nav-button>Виховна служба</button>
             <button onclick="window.location.href='info'" type="button" class=m-nav-button>Наша гімназія</button>
-            <button onclick="window.location.href='distance'" type="button" class=m-nav-button>Дистанційні завдання</button>
+            <button onclick="window.location.href='director'" type="button" class=m-nav-button>Сторінка директора</button>
             <button onclick="window.location.href='media'" type="button" class=m-nav-button>Медіа</button>
-            <button onclick="window.location.href='victory'" type="button" class=m-nav-button>ДО "VICTORY"</button>
+            <button onclick="window.location.href='council'" type="button" class=m-nav-button>Ради гімназії</button>
             <button onclick="window.location.href='contact'" type="button" class=m-nav-button>Зв'язок</button>
             <?php if(isset($_SESSION['logged-user'])): ?>
             <button name="m-confirm-admin" type="submit" class=m-nav-button><?php echo $_SESSION['logged-user']->login; ?></button>
