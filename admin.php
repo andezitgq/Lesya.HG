@@ -262,6 +262,34 @@
             R::trash($answer);
     }
 
+    if(isset($_GET['delete-dgroup']) && $_GET['delete-dgroup'] != '' && $_SESSION['logged-user']->login == 'root'){
+        $dgroup = R::findOne('docgroups', 'id = ?', array($_GET['delete-dgroup']));
+        $docs_DD = R::exec('DELETE FROM documents WHERE groupid = ?', array($_GET['delete-dgroup']));
+        if($dgroup)
+            R::trash($dgroup);
+    }
+
+    if(isset($data['create-dgroup']) && isset($data['dgroup-discription']) && $_SESSION['logged-user']->login == 'root'){
+        $dgroup = R::dispense('docgroups');
+        $dgroup->name = $data['dgroup-discription'];
+        R::store($dgroup);
+    }
+
+    if(isset($data['submit-document']) && $_SESSION['logged-user']->login == 'root'){
+        $doc = R::dispense('documents');
+        $doc->groupid = $data['groupid'];
+        $doc->name = $data['document-discription'];
+        $doc->path = $data['document-path'];
+        R::store($doc);
+    }
+
+    if(isset($_GET['remove-document']) && $_SESSION['logged-user']->login == 'root'){
+        $doc_delete = R::findOne('documents', 'id = ?', array($_GET['remove-document']));
+        if($doc_delete){
+            R::trash($doc_delete);
+        }
+    }
+
 ?>
 
 <center>
@@ -482,8 +510,8 @@
                     for($i = -1; $i <= max(array_keys($dgroups)); $i++){
                         if(isset($dgroups[$i])){
                             echo '<form method=GET action="admin#documents" class=album>'.
-                                    '<button type=submit name=delete-album value="'.$albums[$i]['albumid'].'" class="album-delete icon-minus-squared" title="Видалити групу документів"></button>'.
-                                    '<a href="?select-album='.$dgroups[$i]['id'].'#documents"><input style=cursor:pointer class="album-discription" type=text value="'.$dgroups[$i]['name'].'" readonly></a>'.
+                                    '<button type=submit name=delete-dgroup value="'.$dgroups[$i]['id'].'" class="album-delete icon-minus-squared" title="Видалити групу документів"></button>'.
+                                    '<a href="?select-dgroup='.$dgroups[$i]['id'].'#documents"><input style=cursor:pointer class="album-discription" type=text value="'.$dgroups[$i]['name'].'" readonly></a>'.
                                 '</form>';
                         }
                     }
@@ -491,31 +519,31 @@
                 ?>
                 <form class=add-album id=add-album method=POST action="admin#documents">
                     <button type=submit name=create-dgroup class="album-create icon-plus-squared" title="Створити групу документів"></button>
-                    <input name=album-discription class=album-discription type=text placeholder="Назва альбому" required>
+                    <input name=dgroup-discription id=dgroup-discription class=album-discription type=text placeholder="Назва документа" required>
                 </form>
             </div>
             <div class=album-field>
-                <?php if (!isset($_GET['select-album']) || $_GET['select-album'] == ''): ?>
-                    <label class="unselect">Виберіть альбом</label>
+                <?php if (!isset($_GET['select-dgroup']) || $_GET['select-dgroup'] == ''): ?>
+                    <label class="unselect">Виберіть групу документів</label>
                 <?php else: ?>
                     <?php
-                        $albumid_n = $_GET['select-album'];
-                        $photosk = R::getAll('SELECT * FROM photos WHERE albumid = '.$albumid_n);
-                        for($i = -1; $i <= max(array_keys($photosk)); $i++){
-                            if(isset($photosk[$i])){
+                        $dgroupid_n = $_GET['select-dgroup'];
+                        $tdoc = R::getAll('SELECT * FROM documents WHERE groupid = '.$dgroupid_n);
+                        for($i = -1; $i <= max(array_keys($tdoc)); $i++){
+                            if(isset($tdoc[$i])){
                                 echo '<div class=add-photo>'.
-                                         '<input type=text class=photo-discription value="'.$photosk[$i]['discription'].'" readonly>'.
-                                         '<a href="?remove-photo='.$photosk[$i]['photoid'].'&select-album='.$albumid_n.'#media" class="icon-minus-squared submit-photo"></a>'.
+                                         '<input type=text class=photo-discription value="'.$tdoc[$i]['name'].'" readonly>'.
+                                         '<a href="?remove-document='.$tdoc[$i]['id'].'&select-dgroup='.$dgroupid_n.'#documents" class="icon-minus-squared submit-photo"></a>'.
                                      '</div>';
                             }
                         }
                     
                     ?>
-                    <form enctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
-                        <input type=text placeholder="Опис фото" class=photo-discription name=photo-discription required>
-                        <input type=file name=photo-file required>
-                        <input type=hidden name=albumid value="<?php echo $_GET['select-album'] ?>">;
-                        <button type=submit name=submit-photo class="icon-plus-squared submit-photo"></button>
+                    <form id=add-photo method=POST action="admin?select-dgroup=<?php echo $_GET['select-dgroup'] ?>#documents" class=add-photo>
+                        <input type=text placeholder="Назва документа" class=album-discription name=document-discription required>
+                        <input type=text style="margin-left: auto" placeholder="Шлях до документа" class=album-discription name=document-path required>
+                        <input type=hidden name=groupid value="<?php echo $_GET['select-dgroup'] ?>">;
+                        <button type=submit name=submit-document class="icon-plus-squared submit-photo"></button>
                     </form>
                 <?php endif ?>
             </div>
