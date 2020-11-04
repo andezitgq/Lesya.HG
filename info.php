@@ -13,13 +13,9 @@ include 'tml/top.php';
             <li>
                 <span class="caret">Beverages</span>
                 <ul class="nested">
-                    <li>Water</li>
-                    <li>Coffee</li>
                     <li>
                         <span class="caret">Tea</span>
                         <ul class="nested">
-                            <li>Black Tea</li>
-                            <li>White Tea</li>
                             <li>
                                 <span class="caret">Green Tea</span>
                                 <ul class="nested">
@@ -35,16 +31,19 @@ include 'tml/top.php';
             </li>
             <?php 
             
-                /*$documents = R::getAll( 'SELECT * FROM albums ORDER BY id ASC' );
-                for($i = -1; $i <= max(array_keys($albums)); $i++){
-                    if(isset($albums[$i])){
-                        echo '<div class="swiper-slide m-page-album" albumid='.$albums[$i]['albumid'].'>'.
-                                '<img class=m-page-poster src="'.$albums[$i]['poster'].'"/>'.
-                                '<p class=m-page-discription>'.$albums[$i]['discription'].'</p>'.
-                            '</div>';
+                $groups = R::getAll( 'SELECT * FROM docgroups ORDER BY id ASC' );
+                $docs = R::getAll( 'SELECT * FROM documents ORDER BY id ASC' );
+                for($i = -1; $i <= max(array_keys($groups)); $i++){
+                    if(isset($groups[$i])){
+                        echo '<li><span class="caret">'.$groups[$i]['name'].'</span><ul class="nested">';
+                        for($d = -1; $d <= max(array_keys($docs)); $d++){
+                            if(isset($docs[$d]) && $docs[$d]['groupid'] == $groups[$i]['id']){
+                                echo '<li>'.$docs[$d]['name'].'</li>';
+                            }
+                        } 
+                        echo '</ul></li>';
                     }
-                }*/
-            
+                }
             ?>
         </ul> 
         <div class="lds-ellipsis" style="display: none"><div></div><div></div><div></div><div></div></div>

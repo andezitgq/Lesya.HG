@@ -482,6 +482,21 @@
                 <td><input type="text" value=Sas></td>
                 <td><input type="url" value=></td>
                 <td><input type="number" value=3></td>
+                <?php
+                
+                    function print_doc(){
+
+                    }
+
+                    $groups = R::getAll( 'SELECT * FROM docgroups ORDER BY level ASC' );
+                    $docs = R::getAll( 'SELECT * FROM documents ORDER BY id ASC' );
+                    for($i = -1; $i <= max(array_keys($all)); $i++){
+                        if(isset($groups[$i])){
+                            
+                        }
+                    }
+                
+                ?>
             </tr>
             <tr>
                 <td><button type="submit">+</button></td>
