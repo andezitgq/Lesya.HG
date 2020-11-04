@@ -519,7 +519,7 @@
                 ?>
                 <form class=add-album id=add-album method=POST action="admin#documents">
                     <button type=submit name=create-dgroup class="album-create icon-plus-squared" title="Створити групу документів"></button>
-                    <input name=dgroup-discription id=dgroup-discription class=album-discription type=text placeholder="Назва документа" required>
+                    <input name=dgroup-discription id=dgroup-discription class=album-discription type=text placeholder="Назва групи" required>
                 </form>
             </div>
             <div class=album-field>
