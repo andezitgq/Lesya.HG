@@ -99,15 +99,19 @@ a:visited {color: #1b466f}
 .social-nav {
     position: fixed;
     right: 10px;
-    top: 40%;
+    bottom: 10px;
     display: flex;
     flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    z-index: 9;
 } 
 
 .social-nav a {
-    font-size: 40px;
+    font-size: 30px;
     text-align: right;
-    color: black;
+    color: #1b466f;
     text-decoration: none;
 }
 
