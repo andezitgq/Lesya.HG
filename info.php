@@ -19,7 +19,7 @@ include 'tml/top.php';
                         echo '<li><span class="caret">'.$groups[$i]['name'].'</span><ul class="nested">';
                         for($d = -1; $d <= max(array_keys($docs)); $d++){
                             if(isset($docs[$d]) && $docs[$d]['groupid'] == $groups[$i]['id']){
-                                echo '<li>'.$docs[$d]['name'].'</li>';
+                                echo '<li onclick=\'initPDFViewer("'.$docs[$d]['path'].'");\'>'.$docs[$d]['name'].'</li>';
                             }
                         } 
                         echo '</ul></li>';
@@ -46,6 +46,5 @@ include 'tml/top.php';
         </div>
     </div>
 </div>
-<button onclick='initPDFViewer("img/pdf-test.pdf");'>123</button>
 
 <?php include 'tml/bottom.php'; ?>
