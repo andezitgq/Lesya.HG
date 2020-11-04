@@ -98,6 +98,49 @@
               
             <div id="Comments" class="tabcontent">
                 <h2>Коментарі</h2><hr><br>
+                <?php 
+                
+                $comments = R::getAll('SELECT * FROM comments WHERE authorid = '.$current_user->id.' ORDER BY date DESC');
+                for($i = -1; $i <= count($comments); $i++){
+                    if(isset($comments[$i])){
+                        $answers = R::getAll('SELECT * FROM answers WHERE authorid = '.$current_user->id.' ORDER BY date DESC');
+                        $comdate = date_create($comments[$i]['date']);
+                        $author = R::findOne('users', 'id = ?', array($comments[$i]['authorid']));
+                        $authorinfo = R::findOne('userinfo', 'id = ?', array($author->userinfo));
+                        echo '<a class=anchor name=com'.$comments[$i]['id'].'></a>'.
+                             '<div class="comment-box">'.
+                                 '<div class=comment-user>'.
+                                     '<img src="'.$authorinfo->avatar.'">'.
+                                     '<p>'.$author->fullname.'</p>'.
+                                 '</div>'.
+                                 '<p>'.$comments[$i]['content'].'</p>'.
+                                 '<label class=comid><a title="Відповісти" href="#comment-area" class="icon-reply comment-reply" onclick="commentReply('.$comments[$i]['id'].')"></a> #'.$comments[$i]['id'].'</label>'.
+                             '</div>';
+                             
+                        for($x = -1; $x <= count($answers); $x++){
+                            
+                            if(isset($answers[$x])){
+                                $n_comdate = date_create($answers[$x]['date']);
+                                $n_author = R::findOne('users', 'id = ?', array($answers[$x]['authorid']));
+                                $n_authorinfo = R::findOne('userinfo', 'id = ?', array($n_author->userinfo));
+                                echo '<a class=anchor name=ans'.$answers[$x]['id'].'></a>'.
+                                     '<div class="comment-box">'.
+                                         '<div class=comment-user>'.
+                                             '<img src="'.$n_authorinfo->avatar.'">'.
+                                             '<p>'.$n_author->fullname.'</p>'.
+                                         '</div>'.
+                                         '<p>'.$answers[$x]['content'].'</p>'.
+                                     '</div>';
+                            }
+                        }
+                    }
+                }
+                
+                if(count($comments) <= 0){
+                    echo '<center><label>Коментарів не знайдено!</label></center>';
+                }
+                
+                ?>
             </div>
               
             <div id="Account" class="tabcontent">
