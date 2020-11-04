@@ -10,25 +10,6 @@ include 'tml/top.php';
     <div class="document-nav">
         <input class="document-search" placeholder="Пошук документів">
         <ul class="document-tree" id="tree">
-            <li>
-                <span class="caret">Beverages</span>
-                <ul class="nested">
-                    <li>
-                        <span class="caret">Tea</span>
-                        <ul class="nested">
-                            <li>
-                                <span class="caret">Green Tea</span>
-                                <ul class="nested">
-                                    <li>Sencha</li>
-                                    <li>Gyokuro</li>
-                                    <li>Matcha</li>
-                                    <li>Pi Lo Chun</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
             <?php 
             
                 $groups = R::getAll( 'SELECT * FROM docgroups ORDER BY id ASC' );

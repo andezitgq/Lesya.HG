@@ -469,43 +469,58 @@
     <br>
     <a class="anchor" id="documents"></a>
     <h2>Документи</h2>
-    <form action="admin#documents" method=POST class=document-manager>
-        <table>
-            <tr>
-                <th>#</th>
-                <th>Назва</th>
-                <th>Документ</th>
-                <th>Рівень</th>
-            </tr>
-            <tr>
-                <td><button type="submit">-</button></td>
-                <td><input type="text" value=Sas></td>
-                <td><input type="url" value=></td>
-                <td><input type="number" value=3></td>
+    <div class=media-engine>
+        <div class=media-headers>
+            <p class="header-list">Групи документів</p>
+            <p class="header-field">Документи</p>
+        </div>
+        <div class=media-content>
+            <div class=album-list>
                 <?php
                 
-                    function print_doc(){
-
-                    }
-
-                    $groups = R::getAll( 'SELECT * FROM docgroups ORDER BY level ASC' );
-                    $docs = R::getAll( 'SELECT * FROM documents ORDER BY id ASC' );
-                    for($i = -1; $i <= max(array_keys($all)); $i++){
-                        if(isset($groups[$i])){
-                            
+                    $dgroups = R::getAll( 'SELECT * FROM docgroups ORDER BY id ASC' );
+                    for($i = -1; $i <= max(array_keys($dgroups)); $i++){
+                        if(isset($dgroups[$i])){
+                            echo '<form method=GET action="admin#documents" class=album>'.
+                                    '<button type=submit name=delete-album value="'.$albums[$i]['albumid'].'" class="album-delete icon-minus-squared" title="Видалити групу документів"></button>'.
+                                    '<a href="?select-album='.$dgroups[$i]['id'].'#documents"><input style=cursor:pointer class="album-discription" type=text value="'.$dgroups[$i]['name'].'" readonly></a>'.
+                                '</form>';
                         }
                     }
                 
                 ?>
-            </tr>
-            <tr>
-                <td><button type="submit">+</button></td>
-                <td><input type="text"></td>
-                <td><input type="url"></td>
-                <td><input type="number"></td>
-            </tr>
-        </table>
-    </form>
+                <form class=add-album id=add-album method=POST action="admin#documents">
+                    <button type=submit name=create-dgroup class="album-create icon-plus-squared" title="Створити групу документів"></button>
+                    <input name=album-discription class=album-discription type=text placeholder="Назва альбому" required>
+                </form>
+            </div>
+            <div class=album-field>
+                <?php if (!isset($_GET['select-album']) || $_GET['select-album'] == ''): ?>
+                    <label class="unselect">Виберіть альбом</label>
+                <?php else: ?>
+                    <?php
+                        $albumid_n = $_GET['select-album'];
+                        $photosk = R::getAll('SELECT * FROM photos WHERE albumid = '.$albumid_n);
+                        for($i = -1; $i <= max(array_keys($photosk)); $i++){
+                            if(isset($photosk[$i])){
+                                echo '<div class=add-photo>'.
+                                         '<input type=text class=photo-discription value="'.$photosk[$i]['discription'].'" readonly>'.
+                                         '<a href="?remove-photo='.$photosk[$i]['photoid'].'&select-album='.$albumid_n.'#media" class="icon-minus-squared submit-photo"></a>'.
+                                     '</div>';
+                            }
+                        }
+                    
+                    ?>
+                    <form enctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
+                        <input type=text placeholder="Опис фото" class=photo-discription name=photo-discription required>
+                        <input type=file name=photo-file required>
+                        <input type=hidden name=albumid value="<?php echo $_GET['select-album'] ?>">;
+                        <button type=submit name=submit-photo class="icon-plus-squared submit-photo"></button>
+                    </form>
+                <?php endif ?>
+            </div>
+        </div>
+    </div>
     <br>
 </center>
 <?php include 'tml/bottom.php'; ?>
