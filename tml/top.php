@@ -44,7 +44,6 @@
         <div class=header>
             <a href="/" title="Головна"><img class=logo src="img/logo.svg"></a>
             <h1 class=title>Гуманітарна гімназія<br>ім. Лесі Українки</h1>
-            <!--<i class="icon-users soc-nav-button" title="Соціальні мережі"></i>-->
             <form class=nav-pc method=POST>
                 <button onclick="window.location.href='/'" type="button" class=nav-button>Головна</button>
                 <button onclick="window.location.href='join'" type="button" class=nav-button>Вступ</button>
@@ -83,7 +82,7 @@
                 <a href="#" class="icon-cancel-circled" style=color:red></a>
             </div>
         </form>
-        <div class=social-nav style=display:none>
+        <div class=social-nav>
             <a title="Ми в Facebook" target="_blank" href="https://www.facebook.com/lesya.org" class="icon-facebook-squared"></a>
             <a title="Канал YouTube" target="_blank" href="https://www.youtube.com/gimnaziyazhv" class="icon-youtube-squared"></a>
             <a title="Профіль Instagram" target="_blank" href="https://www.instagram.com/gimnaziya.zhv/" class="icon-instagram"></a>

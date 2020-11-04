@@ -98,9 +98,10 @@ a:visited {color: #1b466f}
 
 .social-nav {
     position: fixed;
-    top: 130px;
-    left: 145px;
+    right: 10px;
+    top: 40%;
     display: flex;
+    flex-direction: column;
 } 
 
 .social-nav a {
