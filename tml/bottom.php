@@ -5,9 +5,7 @@
         <script src="https://unpkg.com/pdfjs-dist@2.0.489/build/pdf.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"> </script> 
         <script src="js/pdflesya.js"></script>
-        <script>
-            initPDFViewer("img/Вступ.pdf");
-            
+        <script>            
             function openTab(evt, tabID) {
                 var i, tabcontent, tablinks;
               
@@ -90,6 +88,7 @@
             mode:  "php"
           });
         </script>
+        <?php if(isset($add_bottom)) echo $add_bottom; ?>
         <!-- <<< Валечка, я тебя люблю! >>> -->
     </body>
 </html>
