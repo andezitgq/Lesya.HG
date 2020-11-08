@@ -691,6 +691,23 @@ span[style="font-size:12.0pt;font-family:"] {
 
 .outpost {
     margin: 10px;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.post {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.wrap-content-box {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.content {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
 }
 
 .comment-form {

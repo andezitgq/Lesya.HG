@@ -368,7 +368,12 @@
 
     <div id="LS" class="tabcontent">
         <h1>Лесині спадкоємці</h1><hr><br>
-        <iframe style="width: 100%;" src="https://drive.google.com/file/d/1wWS2SV9O_6WjcnthrWnfuejteVf8DJqN/preview"></iframe>
+        <div class="lesiny-spadkoemci">
+            <div class="newspapers">
+
+            </div>
+            
+        </div>
     </div>
 
     <div id="CHK" class="tabcontent">
