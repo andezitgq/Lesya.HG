@@ -9,9 +9,9 @@
     <div class="tab" style="display: flex">
         <button style="width: 20%" class="tablinks" onclick="openTab(event, 'Bullying')">Булінг</button>
         <button style="width: 20%" class="tablinks" onclick="openTab(event, 'Soc-protection')">Соціальний захист</button>
-        <button style="width: 20%" class="tablinks" onclick="openTab(event, 'P-service')" id="defaultOpen">Психологічна служба</button>
+        <button style="width: 20%" class="tablinks" onclick="openTab(event, 'P-service')">Психологічна служба</button>
         <button style="width: 20%" class="tablinks" onclick="openTab(event, 'LS')">Лесині спадкоємці</button>
-        <button style="width: 20%; word-wrap: none" class="tablinks" onclick="openTab(event, 'CHK')">Червона калина</button>
+        <button style="width: 20%; word-wrap: none" class="tablinks" onclick="openTab(event, 'CHK')" id="defaultOpen">Червона калина</button>
     </div>
       
     <div id="Bullying" class="tabcontent">
@@ -350,7 +350,7 @@
             <li><a style="margin:3px" href="https://zakon.rada.gov.ua/laws/show/z1105-14" target="_blank">Наказ Міністерства соціальної політики України, Міністерства внутрішніх справ України, Міністерства освіти і науки України, Міністерства охорони здоров`я України від 19.08.2014 №564/836/945/577 «Про затвердження Порядку розгляду звернень та повідомлень з приводу жорстокого поводження з дітьми або реальної загрози його вчинення»</a></li>
             <li><a style="margin:3px" href="https://zakon.rada.gov.ua/rada/show/v-557729-14" target="_blank">Лист Міністерства освіти і науки України від 28.10.2014 № 1/9-557 «Методичні рекомендації щодо взаємодії педагогічних працівників у навчальних закладах та взаємодії з іншими органами і службами щодо захисту прав дітей»</a></li>
         </ul>
-    </div>      id="defaultOpen"
+    </div> 
     <div id="P-service" class="tabcontent">
         <h1>Поради психолога</h1><hr><br>
         <div class=swiper-container>
@@ -368,7 +368,7 @@
 
     <div id="LS" class="tabcontent">
         <h1>Лесині спадкоємці</h1><hr><br>
-        
+        <iframe style="width: 100%;" src="https://drive.google.com/file/d/1wWS2SV9O_6WjcnthrWnfuejteVf8DJqN/preview"></iframe>
     </div>
 
     <div id="CHK" class="tabcontent">
@@ -392,22 +392,7 @@
 
 <?php 
 
-    $add_bottom = '<script>initPDFViewer("img/chervona_kalina.pdf");</script>'.
-                  "<script>var bewswiper = new Swiper('.swiper-container', {
-                    slidesPerView: 3,
-                    centeredSlides: true,
-                    loop: true,
-                    autoplay: {
-                      delay: 5000
-                    },
-                    pagination: {
-                      el: '.swiper-pagination',
-                    },
-                    navigation: {
-                      nextEl: '.swiper-button-next',
-                      prevEl: '.swiper-button-prev',
-                    }
-                  });</script>";
+    $add_bottom = '<script>initPDFViewer("img/chervona_kalina.pdf");</script>';
     include 'tml/bottom.php';
 
 ?>

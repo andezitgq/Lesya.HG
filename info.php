@@ -37,7 +37,11 @@ include 'tml/top.php';
                 <div id="page-mode" style="display:none">
                 </div>
             </div>
-            <div id="viewport-container"><div role="main" id="viewport"><iframe class=canvas src="http://lesya.org/nasha_gimnazia/metodychna_robota/P_F_index.html"></iframe></div></div>
+            <div id="viewport-container">
+                <div role="main" id="viewport">
+                    <iframe class=canvas src="https://drive.google.com/file/d/1wWS2SV9O_6WjcnthrWnfuejteVf8DJqN/preview"></iframe>
+                </div>
+            </div>
         </div>
     </div>
 </div>
