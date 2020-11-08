@@ -8,7 +8,6 @@ include 'tml/top.php';
 <h1 align=center>Документи</h1>
 <div class="document-panel">
     <div class="document-nav">
-        <input class="document-search" placeholder="Пошук документів">
         <ul class="document-tree" id="tree">
             <?php 
             

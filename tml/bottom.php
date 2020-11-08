@@ -31,31 +31,6 @@
         </script>
         <script>
             const player = Plyr.setup('.jplayer');
-
-            var swiper = new Swiper('.swiper-container', {
-              slidesPerView: 3,
-              centeredSlides: true,
-              loop: true,
-              pagination: {
-                el: '.swiper-pagination',
-              },
-              navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-              },
-              on: {
-                init: function () {
-                  $('.swiper-slide-active .m-page-poster').addClass('active');
-                },
-                transitionStart: function() {
-                  $('.m-page-poster').removeClass('active');
-                },
-                transitionEnd: function(swiper) {
-                  $('.swiper-slide-active .m-page-poster').addClass('active');
-                }
-              }
-            });
-
             
             function download(download_url, name){ 
                 axios({ 

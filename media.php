@@ -33,4 +33,31 @@
     <div class="media-viewer" style="display: none">
         <img src="https://i.ibb.co/f96vZ3D/1-jpg.jpg" class="mv-preview">
     </div>
-<?php include 'tml/bottom.php'; ?>
+<?php
+
+    $add_bottom = "<script>var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        centeredSlides: true,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          init: function () {
+            $('.swiper-slide-active .m-page-poster').addClass('active');
+          },
+          transitionStart: function() {
+            $('.m-page-poster').removeClass('active');
+          },
+          transitionEnd: function(swiper) {
+            $('.swiper-slide-active .m-page-poster').addClass('active');
+          }
+        }
+      });</script>";
+    include 'tml/bottom.php';
+
+?>

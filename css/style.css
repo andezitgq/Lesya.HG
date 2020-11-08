@@ -1118,6 +1118,7 @@ input {background: none}
 /*==================/CONTACT==================*/
 
 /*==================DOCUMENT==================*/
+
 .document-manager table {
     border-collapse: collapse;
     width: 90%
@@ -1153,14 +1154,6 @@ input {background: none}
     display: flex;
     flex-direction: column;
     margin: 10px;
-}
-
-.document-search {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #1b466f;
-    font-size: 14px;
-    color: #13324f;
 }
 
 .document-tree {
@@ -1263,18 +1256,6 @@ ul, #tree {
         display: flex;
         flex-direction: column;
         margin: 5px;
-    }
-
-    .document-search {
-        padding: 5px;
-        border-radius: 5px;
-        border: 1px solid #1b466f;
-        font-size: 14px;
-        color: #13324f;
-    }
-
-    .document-search {
-        display: none;
     }
 
     .document-view {
