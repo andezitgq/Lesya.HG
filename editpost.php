@@ -21,7 +21,6 @@
     {
         $test_post->content = $_POST['post-field'];
         R::store($test_post);
-        echo 'sas';
     }
 
 ?>

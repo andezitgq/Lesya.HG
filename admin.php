@@ -554,7 +554,25 @@
     <a class="anchor" id="newspapers"></a>
     <h2>Газети</h2>
     <div class=np-engine>
-    
+        <?php
+            $albumid_n = 2356844;
+            $photosk = R::getAll('SELECT * FROM photos WHERE albumid = '.$albumid_n);
+            for($i = -1; $i <= max(array_keys($photosk)); $i++){
+                if(isset($photosk[$i])){
+                    echo '<div class=add-photo>'.
+                            '<input type=text class=photo-discription value="'.$photosk[$i]['discription'].'" readonly>'.
+                            '<a href="?remove-photo='.$photosk[$i]['photoid'].'&select-album='.$albumid_n.'#media" class="icon-minus-squared submit-photo"></a>'.
+                         '</div>';
+                }
+            }
+                    
+        ?>
+        <form enctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
+            <input type=text placeholder="Рік" class=photo-discription name=photo-discription required>
+            <input type=text placeholder="Посилання на embed" class=photo-discription name=photo-discription required>
+            <input type=hidden name=albumid value="<?php echo $_GET['select-album'] ?>">;
+            <button type=submit name=submit-photo class="icon-plus-squared submit-photo"></button>
+        </form>
     </div>
 </center>
 <?php include 'tml/bottom.php'; ?>

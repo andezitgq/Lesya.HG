@@ -1231,6 +1231,10 @@ ul, #tree {
 
 /*==================/DOCUMENT==================*/
 
+.np-engine {
+    width: 90%;
+}
+
 @media screen and (max-device-width: 950px) and (orientation: landscape) {
     .title {
         font-size: 30px;
