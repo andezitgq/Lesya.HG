@@ -290,6 +290,21 @@
         }
     }
 
+    if(isset($data['submit-np']) && $_SESSION['logged-user']->login == 'root'){
+        $np = R::dispense('newspapers');
+        $np->year = $data['np-year'];
+        $np->link = $data['np-link'];
+        $np->mark = $data['np-mark'];
+        R::store($np);
+    }
+
+    if(isset($_GET['remove-np']) && $_SESSION['logged-user']->login == 'root'){
+        $np_delete = R::findOne('newspapers', 'id = ?', array($_GET['remove-np']));
+        if($np_delete){
+            R::trash($np_delete);
+        }
+    }
+
 ?>
 
 <center>
@@ -555,23 +570,24 @@
     <h2>Газети</h2>
     <div class=np-engine>
         <?php
-            $albumid_n = 2356844;
-            $photosk = R::getAll('SELECT * FROM photos WHERE albumid = '.$albumid_n);
-            for($i = -1; $i <= max(array_keys($photosk)); $i++){
-                if(isset($photosk[$i])){
+            $nps = R::getAll('SELECT * FROM newspapers ORDER BY year DESC');
+            for($i = -1; $i <= max(array_keys($nps)); $i++){
+                if(isset($nps[$i])){
                     echo '<div class=add-photo>'.
-                            '<input type=text class=photo-discription value="'.$photosk[$i]['discription'].'" readonly>'.
-                            '<a href="?remove-photo='.$photosk[$i]['photoid'].'&select-album='.$albumid_n.'#media" class="icon-minus-squared submit-photo"></a>'.
+                            '<input type=text class=photo-discription value="'.$nps[$i]['year'].'" readonly>'.
+                            '<input type=text class=photo-discription value="'.$nps[$i]['link'].'" readonly>'.
+                            '<input type=text class=photo-discription value="'.$nps[$i]['mark'].'" readonly>'.
+                            '<a href="?remove-np='.$nps[$i]['id'].'#newspapers" class="icon-minus-squared submit-photo"></a>'.
                          '</div>';
                 }
             }
                     
         ?>
-        <form enctype="multipart/form-data" id=add-photo method=POST action="admin#media" class=add-photo>
-            <input type=text placeholder="Рік" class=photo-discription name=photo-discription required>
-            <input type=text placeholder="Посилання на embed" class=photo-discription name=photo-discription required>
-            <input type=hidden name=albumid value="<?php echo $_GET['select-album'] ?>">;
-            <button type=submit name=submit-photo class="icon-plus-squared submit-photo"></button>
+        <form enctype="multipart/form-data" id=add-photo method=POST action="admin#newspapers" class=add-photo>
+            <input type=text placeholder="Рік" class=photo-discription name=np-year required>
+            <input type=text placeholder="Посилання на embed" class=photo-discription name=np-link required>
+            <input type=text placeholder="Замітка" class=photo-discription name=np-mark required>
+            <button type=submit name=submit-np class="icon-plus-squared submit-photo"></button>
         </form>
     </div>
 </center>
