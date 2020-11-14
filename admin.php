@@ -301,6 +301,7 @@
         <a href="#comments">Коментарі</a>
         <a href="#media">Медіа</a>
         <a href="#documents">Документи</a>
+        <a href="#newspapers">Газети</a>
         <a href="?unset-session">Вийти з аккаунту</a>
         <!--<a href="?old-parse">Старий парс</a>-->
     </div><br><br><br>
@@ -550,5 +551,10 @@
         </div>
     </div>
     <br>
+    <a class="anchor" id="newspapers"></a>
+    <h2>Газети</h2>
+    <div class=np-engine>
+    
+    </div>
 </center>
 <?php include 'tml/bottom.php'; ?>

@@ -372,7 +372,22 @@
             <div class="newspapers">
 
             </div>
-            
+            <div class="document-view np-viewer">
+                <div class="lesya-pdf" style="width: 100%">
+                    <div role="toolbar" id="toolbar">
+                        <center><div id="pager">
+                            <p style="margin: 5px; margin-right: auto"><?php if(isset($document_name)) echo $document_name; ?></p>
+                        </div></center>
+                        <div id="page-mode" style="display:none">
+                        </div>
+                    </div>
+                    <div id="viewport-container">
+                        <div role="main" id="viewport2">
+                            <iframe class=canvas src="https://drive.google.com/file/d/1wWS2SV9O_6WjcnthrWnfuejteVf8DJqN/preview"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
