@@ -68,7 +68,7 @@ $('document').ready(function(){
     
         $('.post-editor').val(textBefore + $(this).val() + textAfter);
     });
-    
+
     function setSel(sep1, sep2){
         var txtarea = document.getElementById("post-editor");
         

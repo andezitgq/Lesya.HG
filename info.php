@@ -18,7 +18,7 @@ include 'tml/top.php';
                         echo '<li><span class="caret">'.$groups[$i]['name'].'</span><ul class="nested">';
                         for($d = -1; $d <= max(array_keys($docs)); $d++){
                             if(isset($docs[$d]) && $docs[$d]['groupid'] == $groups[$i]['id']){
-                                echo '<li onclick=\'initPDFViewer("'.$docs[$d]['path'].'");\'>'.$docs[$d]['name'].'</li>';
+                                echo '<li onclick=\'infoSetIFrame("'.$docs[$d]['path'].'");\'>'.$docs[$d]['name'].'</li>';
                             }
                         } 
                         echo '</ul></li>';
@@ -39,11 +39,20 @@ include 'tml/top.php';
             </div>
             <div id="viewport-container">
                 <div role="main" id="viewport">
-                    <iframe class=canvas src="https://drive.google.com/file/d/1wWS2SV9O_6WjcnthrWnfuejteVf8DJqN/preview"></iframe>
+                    <iframe class=canvas id=canvas src="https://drive.google.com/file/d/1wWS2SV9O_6WjcnthrWnfuejteVf8DJqN/preview"></iframe>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<?php include 'tml/bottom.php'; ?>
+<?php 
+
+$add_bottom = '<script>'.
+                'function infoSetIFrame(path){
+                    document.getElementById("canvas").src = path;
+                }'.
+              '</script>';
+include 'tml/bottom.php';
+
+?>
