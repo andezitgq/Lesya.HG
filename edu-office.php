@@ -370,7 +370,25 @@
         <h1>Лесині спадкоємці</h1><hr><br>
         <div class="lesiny-spadkoemci">
             <div class="newspapers">
-
+                <?php
+                
+                    $Y_MAX = R::getAll('SELECT MAX(year) FROM newspapers;')[0]['MAX(year)'];
+                    $Y_MIN = R::getAll('SELECT MIN(year) FROM newspapers;')[0]['MIN(year)'];
+                    for($x = $Y_MIN; $x <= $Y_MAX; $x++){
+                        $nps = R::getAll('SELECT * FROM newspapers WHERE year = '.$x);
+                        if(!empty($nps)){
+                            echo '<h2>'.$x.'</h2><hr><br>';
+                            for($i = -1; $i <= max(array_keys($nps)); $i++){
+                                if(isset($nps[$i])){
+                                    echo '<div class="newspaper">'.
+                                            '<img class=np-poster src="img/newspaper.png"/>'.
+                                            '<p class=np-discription>'.$nps[$i]['mark'].'</p>'.
+                                        '</div>';
+                                }
+                            }     
+                        }
+                    }           
+                ?>
             </div>
             <div class="document-view np-viewer">
                 <div class="lesya-pdf" style="width: 100%">

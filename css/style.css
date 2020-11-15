@@ -515,6 +515,21 @@ a.anchor {
     cursor: pointer;
 }
 
+.newspaper {
+    position: relative;
+    display: inline;
+    margin: 10px;
+}
+
+.np-poster {
+    transition: all .1s;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
 .m-page-album {
 
 }
@@ -580,6 +595,24 @@ a.anchor {
 }
 
 .m-page-poster:hover + .m-page-discription {
+    display: initial;
+}
+
+.np-discription {
+    display: none;
+    position: absolute;
+    top: -100px;
+    left: 50px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    user-select: none;
+}
+
+.np-poster:hover {
+    filter: invert(0.35);
+}
+
+.np-poster:hover + .np-discription {
     display: initial;
 }
 
