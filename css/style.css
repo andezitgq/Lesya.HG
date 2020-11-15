@@ -330,9 +330,28 @@ a.anchor {
 }
 
 /*==================ENGINE==================*/
-/*
- *
- */
+/**/
+ 
+.advices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.advice {
+    flex: 1 0 30%;
+    margin: 10px;
+    border: 1px solid #1b466f;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 15px;
+}
+
+.advice h2 {
+    font-size: 30px;
+}
+
+/**/
 /*==================MEDIA==================*/
 
 .media-engine {
@@ -610,11 +629,13 @@ a.anchor {
     display: none;
     position: absolute;
     top: -100px;
-    left: 50px;
+    left: 10px;
     color: white;
     text-shadow: 0 0 5px black;
     user-select: none;
     pointer-events: none;
+    word-wrap: break-word;
+    text-align: center;
 }
 
 .np-poster:hover {
