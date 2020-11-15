@@ -381,7 +381,7 @@
                             for($i = -1; $i <= max(array_keys($nps)); $i++){
                                 if(isset($nps[$i])){
                                     echo '<div class="newspaper">'.
-                                            '<img class=np-poster src="img/newspaper.png"/>'.
+                                            '<img class=np-poster src="img/newspaper.png" onclick=\'infoSetIFrame("'.$nps[$i]['link'].'");\'/>'.
                                             '<p class=np-discription>'.$nps[$i]['mark'].'</p>'.
                                         '</div>';
                                 }
@@ -401,7 +401,7 @@
                     </div>
                     <div id="viewport-container">
                         <div role="main" id="viewport2">
-                            <iframe class=canvas src="https://drive.google.com/file/d/1wWS2SV9O_6WjcnthrWnfuejteVf8DJqN/preview"></iframe>
+                            <iframe id=canvas class=canvas src="https://drive.google.com/file/d/1wWS2SV9O_6WjcnthrWnfuejteVf8DJqN/preview"></iframe>
                         </div>
                     </div>
                 </div>
@@ -430,7 +430,12 @@
 
 <?php 
 
-    $add_bottom = '<script>initPDFViewer("img/chervona_kalina.pdf");</script>';
+    $add_bottom  = '<script>'.
+                        'function infoSetIFrame(path){
+                            document.getElementById("canvas").src = path;
+                        }'.
+                        'initPDFViewer("img/chervona_kalina.pdf");'.
+                   '</script>';
     include 'tml/bottom.php';
 
 ?>

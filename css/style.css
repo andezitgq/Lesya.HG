@@ -515,6 +515,14 @@ a.anchor {
     cursor: pointer;
 }
 
+.lesiny-spadkoemci {
+    display: flex;
+}
+
+.newspapers {
+    width: 75%;
+}
+
 .newspaper {
     position: relative;
     display: inline;
@@ -606,6 +614,7 @@ a.anchor {
     color: white;
     text-shadow: 0 0 5px black;
     user-select: none;
+    pointer-events: none;
 }
 
 .np-poster:hover {
