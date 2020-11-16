@@ -163,8 +163,7 @@
                 <div class=profile>
                     <div class=profile-preview>
                         <form enctype="multipart/form-data" action=profile method=POST class=avatar id=avatar-form style="background: url('<?php echo $uinfo->avatar; ?>'); background-size: cover">
-                            <input type=file name=avatar-file class=avatar-file>
-                            <input type=submit name=avatar-submit style=display:none>
+                            
                         </form>
                         <div>
                             <h2 class=fullname title="Імʼя та прізвище"><?php echo $current_user->fullname; ?></h3>
