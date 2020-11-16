@@ -254,6 +254,11 @@
         $comment = R::findOne('comments', 'id = ?', array($_GET['remove-comment']));
         if($comment)
             R::trash($comment);
+        $userinfo = R::findOne('userinfo', 'id = ?', array(
+            R::findOne('users', 'id = ?', array($comment->authorid))->userinfo
+        ));
+        $userinfo->comments = intval($userinfo->comments) - 1;
+        R::store($userinfo);
     }
 
     if(isset($_GET['remove-answer']) && $_GET['remove-answer'] != '' && $_SESSION['logged-user']->login == 'root'){

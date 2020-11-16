@@ -54,7 +54,20 @@
         $udiscr->aboutme = $_POST['change-uinfo'];
         R::store($udiscr);
     }
+
+    if(isset($_POST['s-chname'])){
+        $user = $_SESSION['logged-user'];
+        $user->fullname = $_POST['chname'];
+        R::store($user);
+    }
     
+    if(isset($_POST['s-chlogin'])){
+        $user = $_SESSION['logged-user'];
+        $user->login = $_POST['chlogin'];
+        R::store($user);
+        $_SESSION['logged-user'] = $user;
+    }
+
     if(isset($_GET['unset-session'])){
         unset($_SESSION['logged-user']);
         echo '<script>window.location.href = "/";</script>';
@@ -114,29 +127,30 @@
                                      '<p>'.$author->fullname.'</p>'.
                                  '</div>'.
                                  '<p>'.$comments[$i]['content'].'</p>'.
-                                 '<label class=comid><a title="Відповісти" href="#comment-area" class="icon-reply comment-reply" onclick="commentReply('.$comments[$i]['id'].')"></a> #'.$comments[$i]['id'].'</label>'.
                              '</div>';
                              
-                        for($x = -1; $x <= count($answers); $x++){
+                        
+                    }
+                }
+
+                for($x = -1; $x <= max(array_keys($answers)); $x++){
                             
-                            if(isset($answers[$x])){
-                                $n_comdate = date_create($answers[$x]['date']);
-                                $n_author = R::findOne('users', 'id = ?', array($answers[$x]['authorid']));
-                                $n_authorinfo = R::findOne('userinfo', 'id = ?', array($n_author->userinfo));
-                                echo '<a class=anchor name=ans'.$answers[$x]['id'].'></a>'.
-                                     '<div class="comment-box">'.
-                                         '<div class=comment-user>'.
-                                             '<img src="'.$n_authorinfo->avatar.'">'.
-                                             '<p>'.$n_author->fullname.'</p>'.
-                                         '</div>'.
-                                         '<p>'.$answers[$x]['content'].'</p>'.
-                                     '</div>';
-                            }
-                        }
+                    if(isset($answers[$x])){
+                        $n_comdate = date_create($answers[$x]['date']);
+                        $n_author = R::findOne('users', 'id = ?', array($answers[$x]['authorid']));
+                        $n_authorinfo = R::findOne('userinfo', 'id = ?', array($n_author->userinfo));
+                        echo '<a class=anchor name=ans'.$answers[$x]['id'].'></a>'.
+                             '<div class="comment-box">'.
+                                 '<div class=comment-user>'.
+                                     '<img src="'.$n_authorinfo->avatar.'">'.
+                                     '<p>'.$n_author->fullname.'</p>'.
+                                 '</div>'.
+                                 '<p>'.$answers[$x]['content'].'</p>'.
+                             '</div>';
                     }
                 }
                 
-                if(count($comments) <= 0){
+                if(max(array_keys($comments)) <= 0 && max(array_keys($answers)) <= 0){
                     echo '<center><label>Коментарів не знайдено!</label></center>';
                 }
                 
@@ -145,6 +159,18 @@
               
             <div id="Account" class="tabcontent">
                 <h2>Управління аккаунтом</h2><hr><br>
+                <form action="profile" method="post">
+                    <label for="chname">Змінити імʼя</label>
+                    <input type="text" class=profile-input name="chname" id="chname" required>
+                    <button type="submit" class="profile-button icon-ok-circled" name="s-chname"></button>
+                </form>
+                <br>
+                <form action="profile" method="post">
+                    <label for="chlogin">Змінити логін</label>
+                    <input type="text" class=profile-input name="chlogin" id="chlogin" required>
+                    <button type="submit" class="profile-button icon-ok-circled" name="s-chlogin"></button>
+                </form>
+                <br>
                 <a href="?unset-session">Вийти з аккаунту</a>
             </div>
         </div>

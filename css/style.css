@@ -34,7 +34,7 @@ h2 {
     font-size: 24px; 
 }
 
-p, a, i {
+p, a, i, label {
     margin-bottom: 3px;
     font-size: 18px;
 }
@@ -641,7 +641,7 @@ a.anchor {
     text-shadow: 0 0 3px white;
 }
 
-.active {
+img.active {
     transform: scale(1.1);
     transition: all .1s;
 }
@@ -892,6 +892,8 @@ span[style="font-size:12.0pt;font-family:"] {
 
 .comment-user img {
     width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -928,6 +930,28 @@ span[style="font-size:12.0pt;font-family:"] {
 .profile {
     display: flex;
     flex-direction: row;
+}
+
+.profile-input {
+    border: none;
+    border-bottom: 2px solid #1b466f;
+    padding: 5px;
+}
+
+.profile-button {
+    border: none;
+    background: #1b466f;
+    padding: 5px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.profile-button:hover {
+    background: #13324f;
 }
 
 .profile-preview {
@@ -1093,6 +1117,19 @@ input {background: none}
     z-index:9;
 }
 
+#pager2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #1b466f;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-bottom: 20px solid #1b466f;
+    z-index:9;
+}
+
 #pager button{
     width: 35px;
     height: 30px;
@@ -1106,6 +1143,13 @@ input {background: none}
 }
 
 #pager p {
+    color: white;
+    margin-right: auto;
+    white-space: pre-wrap;
+    font-size: 18px;
+}
+
+#pager2 p {
     color: white;
     margin-right: auto;
     white-space: pre-wrap;

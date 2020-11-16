@@ -514,7 +514,7 @@
                             for($i = -1; $i <= max(array_keys($nps)); $i++){
                                 if(isset($nps[$i])){
                                     echo '<div class="newspaper">'.
-                                            '<img class=np-poster src="img/newspaper.png" onclick=\'infoSetIFrame("'.$nps[$i]['link'].'");\'/>'.
+                                            '<img class=np-poster src="img/newspaper.png" onclick=\'infoSetIFrame("'.$nps[$i]['link'].'", "'.$nps[$i]['mark'].'");\'/>'.
                                             '<p class=np-discription>'.$nps[$i]['mark'].'</p>'.
                                         '</div>';
                                 }
@@ -526,8 +526,8 @@
             <div class="document-view np-viewer">
                 <div class="lesya-pdf" style="width: 100%">
                     <div role="toolbar" id="toolbar">
-                        <center><div id="pager">
-                            <p style="margin: 5px; margin-right: auto"><?php if(isset($document_name)) echo $document_name; ?></p>
+                        <center><div id="pager2">
+                            <p style="margin: 5px; margin-right: auto" id=npname></p>
                         </div></center>
                         <div id="page-mode" style="display:none">
                         </div>
@@ -564,11 +564,12 @@
 <?php 
 
     $add_bottom  = '<script>'.
-                        'function infoSetIFrame(path){
+                        'function infoSetIFrame(path, name){
                             document.getElementById("canvas").src = path;
+                            document.getElementById("npname").innerHTML = name;
                         }'.
                         'initPDFViewer("img/chervona_kalina.pdf");'.
-                   '</script>';
+                    '</script>';
     include 'tml/bottom.php';
 
 ?>

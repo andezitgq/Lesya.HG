@@ -18,7 +18,7 @@ include 'tml/top.php';
                         echo '<li><span class="caret">'.$groups[$i]['name'].'</span><ul class="nested">';
                         for($d = -1; $d <= max(array_keys($docs)); $d++){
                             if(isset($docs[$d]) && $docs[$d]['groupid'] == $groups[$i]['id']){
-                                echo '<li onclick=\'infoSetIFrame("'.$docs[$d]['path'].'");\'>'.$docs[$d]['name'].'</li>';
+                                echo '<li onclick=\'infoSetIFrame("'.$docs[$d]['path'].'", "'.$docs[$d]['name'].'");\'>'.$docs[$d]['name'].'</li>';
                             }
                         } 
                         echo '</ul></li>';
@@ -32,7 +32,7 @@ include 'tml/top.php';
         <div class="lesya-pdf" style="width: 100%">
             <div role="toolbar" id="toolbar">
                 <center><div id="pager">
-                    <p style="margin: 5px; margin-right: auto"><?php if(isset($document_name)) echo $document_name; ?></p>
+                    <p style="margin: 5px; margin-right: auto" id=dname></p>
                 </div></center>
                 <div id="page-mode" style="display:none">
                 </div>
@@ -49,8 +49,9 @@ include 'tml/top.php';
 <?php 
 
 $add_bottom = '<script>'.
-                'function infoSetIFrame(path){
+                'function infoSetIFrame(path, name){
                     document.getElementById("canvas").src = path;
+                    document.getElementById("dname").innerHTML = name;
                 }'.
               '</script>';
 include 'tml/bottom.php';

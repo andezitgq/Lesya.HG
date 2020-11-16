@@ -96,7 +96,7 @@
                 echo '<a class=anchor name=com'.$comments[$i]['id'].'></a>'.
                      '<div class="comment-box">'.
                          '<div class=comment-user>'.
-                             '<img src="'.$authorinfo->avatar.'">'.
+                             '<a title="'.$author->fullname.'" href="profile?id='.$comments[$i]['authorid'].'"><img src="'.$authorinfo->avatar.'"></a>'.
                              '<p>'.$author->fullname.'</p>'.
                          '</div>'.
                          '<p>'.$comments[$i]['content'].'</p>'.
@@ -112,7 +112,7 @@
                         echo '<a class=anchor name=ans'.$answers[$x]['id'].'></a>'.
                              '<div class="comment-box answer">'.
                                  '<div class=comment-user>'.
-                                     '<img src="'.$n_authorinfo->avatar.'">'.
+                                     '<a title="'.$n_author->fullname.'" href="profile?id='.$answers[$x]['authorid'].'"><img src="'.$n_authorinfo->avatar.'"></a>'.
                                      '<p>'.$n_author->fullname.'</p>'.
                                  '</div>'.
                                  '<p>'.$answers[$x]['content'].'</p>'.
